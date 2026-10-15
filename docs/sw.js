@@ -4,7 +4,7 @@
    - index.html 每次启动后台更新，下次打开即最新（stale-while-revalidate）
    - 版本号变化时清掉旧缓存
 */
-const VERSION = 'ee0c57a95f';
+const VERSION = 'ba6c48fee0';
 const CACHE = 'majorapp-' + VERSION;
 
 const SHELL = [

@@ -104,6 +104,13 @@
   .btn:disabled{background:#ced4da}
   .btn.ghost{background:none;color:#6b7280;font-weight:700}
   .res{margin-top:12px;padding-top:12px;border-top:1px solid #e8ebef}
+  /* 公式：等宽 + 下标/上标 */
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Courier New",monospace;
+       background:#f1f4f8;border:1px solid #e3e8ee;border-radius:5px;
+       padding:1px 5px;font-size:.93em;color:#0b5cad;overflow-wrap:anywhere;line-height:1.9}
+  sub,sup{font-size:.7em;line-height:0;position:relative}
+  sub{bottom:-.28em}
+  sup{top:-.5em}
   /* 例题 */
   .exlabel{font-size:12px;font-weight:800;color:#e8590c;letter-spacing:.06em;margin:12px 0 5px}
   .exbox{background:#fafbfc;border:1px solid #eef1f4;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75}
@@ -163,8 +170,37 @@
 
   /* ---------- 工具 ---------- */
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
-  // 支持 **加粗**
-  function rich(s){ return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>'); }
+  // 公式排版：`代码`、**加粗**、_下标、^上标、Unicode 上下标 → 真正的 sub/sup
+  var SUPMAP = {'\u2070':'0','\u00b9':'1','\u00b2':'2','\u00b3':'3','\u2074':'4','\u2075':'5','\u2076':'6','\u2077':'7','\u2078':'8','\u2079':'9','\u207f':'n'};
+  var SUPCLS = '\\u2070\\u00b9\\u00b2\\u00b3\\u2074-\\u2079\\u207f';
+  var SUBCLS = '\\u2080-\\u2089';
+  function toSup(t){ return t.replace(new RegExp('['+SUPCLS+']','g'), function(c){ return SUPMAP[c]||c; }); }
+  function toSub(t){ return t.replace(new RegExp('['+SUBCLS+']','g'), function(c){ return String.fromCharCode(c.charCodeAt(0)-0x2080+48); }); }
+  // 一次扫描：^上标 | ^(上标) | _下标 | 上标字符 | 下标字符
+  var FMT = new RegExp(
+    '\\^\\(([^)]+)\\)' +                                     // ^(xx) 括号上标
+    '|\\^([A-Za-z0-9\\.\\+\\-\\/\\u2212]+)' +                // ^xx
+    '|_([A-Za-z0-9\\u0370-\\u03ff\\u2032-\\u2037,\\.\\u2212'+SUBCLS+']+)' +  // _xx（不含上标字符，避免 T_i⁴ 被并吞）
+    '|(['+SUPCLS+']+)' +                                      // 连续上标
+    '|(['+SUBCLS+']+)', 'g');                                 // 连续下标
+  function fmtInline(t){
+    return t.replace(FMT, function(m, pcaret, careted, subed, sup, sub){
+      if(pcaret)  return '<sup>'+fmtInline(pcaret)+'</sup>';
+      if(careted) return '<sup>'+careted+'</sup>';
+      if(subed)   return '<sub>'+toSub(toSup(subed))+'</sub>';
+      if(sup)     return '<sup>'+toSup(sup)+'</sup>';
+      if(sub)     return '<sub>'+toSub(sub)+'</sub>';
+      return m;
+    });
+  }
+  function rich(s){
+    // 顺序：转义 → 排公式（无标签时不会误伤）→ 先 `代码` → 再 **加粗**
+    // 先处理代码，可让「**加粗里含 `公式`**」这种嵌套也被正确包住
+    var x = fmtInline(esc(s));
+    x = x.replace(/`([^`]+)`/g, '<code>$1</code>');
+    x = x.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    return x;
+  }
   function el(tag, cls, html){ var d=document.createElement(tag); if(cls)d.className=cls; if(html!=null)d.innerHTML=html; return d; }
   function $(id){ return document.getElementById(id); }
   function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i];a[i]=a[j];a[j]=t; } return a; }
