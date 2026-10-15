@@ -114,14 +114,20 @@
   /* 课件配图 */
   .thumbs{display:flex;gap:8px;overflow-x:auto;margin-top:10px;padding-bottom:2px;-webkit-overflow-scrolling:touch}
   .thumb{flex:0 0 auto;position:relative;border:1px solid #dfe5ec;border-radius:8px;overflow:hidden;background:#fff}
+  .thumb picture{display:block}
   .thumb img{display:block;width:230px;height:auto;cursor:zoom-in}
   .thumb .pg{position:absolute;left:0;bottom:0;background:rgba(0,0,0,.62);color:#fff;
-             font-size:11px;font-weight:700;padding:2px 6px;border-top-right-radius:6px}
-  .lb{position:fixed;inset:0;background:rgba(12,16,22,.94);z-index:99;display:flex;
-      align-items:center;justify-content:center;padding:12px;flex-direction:column;gap:10px}
-  .lb img{max-width:100%;max-height:86vh;border-radius:8px;background:#fff}
-  .lb .cap{color:#e9eef5;font-size:13px;font-weight:700}
+             font-size:11px;font-weight:700;padding:2px 6px;border-top-right-radius:6px;z-index:1}
+  .lb{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;
+      background:rgba(12,16,22,.94);z-index:99;display:flex;display:-webkit-flex;
+      align-items:center;justify-content:center;padding:12px;flex-direction:column;gap:10px;
+      -webkit-overflow-scrolling:touch;overflow:auto}
+  .lb>div{flex:0 0 auto}
+  .lb img{max-width:100%;max-height:82vh;width:auto;height:auto;border-radius:8px;background:#fff;display:block}
+  .lb .cap{color:#e9eef5;font-size:13px;font-weight:700;text-align:center;padding:0 8px}
   .lb .hint{color:#9fb0c4;font-size:12px}
+  .lb .err{color:#ffd8a8;font-size:13px;text-align:center;padding:14px;line-height:1.7}
+  .lb .spin{color:#9fb0c4;font-size:13px}
   /* 例题 */
   .exlabel{font-size:12px;font-weight:800;color:#e8590c;letter-spacing:.06em;margin:12px 0 5px}
   .exbox{background:#fafbfc;border:1px solid #eef1f4;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75}
@@ -391,37 +397,67 @@
   // 图片基路径（构建时注入：PWA 版为 img/，单文件版为 ../docs/img/）
   var IMGBASE = '__IMGBASE__';
   function imgURL(p){ return IMGBASE + String(p).replace(/^img\//, ''); }
-  // 该章节有哪些图
+  // 该章节有哪些图（值形如 {w:'...webp', j:'...jpg'}，兼容旧的纯字符串）
   function imgOf(ch){ return (ch&&ch.images)||{}; }
+  function pickImg(v){
+    if(!v) return null;
+    if(typeof v === 'string') return { w: v, j: null };
+    return { w: v.w || null, j: v.j || null };
+  }
   // 生成配图条（只显示该卡 source 里点到、且确实有图的页）
   function thumbsHTML(ch, srcText, extraPages){
     var im=imgOf(ch); if(!im) return '';
     var pages=srcPages(srcText);
     (extraPages||[]).forEach(function(p){ if(pages.indexOf(p)<0) pages.push(p); });
     pages.sort(function(a,b){return a-b;});
-    var use=pages.filter(function(p){ return im[String(p)]; });
+    var use=pages.map(function(p){ return [p, pickImg(im[String(p)])]; })
+                 .filter(function(x){ return x[1] && (x[1].w||x[1].j); });
     if(!use.length) return '';
     var h='<div class="thumbs">';
-    use.forEach(function(p){
-      var u=imgURL(im[String(p)]);
-      h+='<div class="thumb"><img loading="lazy" src="'+esc(u)+'" alt="课件 p'+p+
-         '" data-pg="'+p+'" data-src="'+esc(u)+'"><div class="pg">p'+p+'</div></div>';
+    use.forEach(function(x){
+      var p=x[0], v=x[1];
+      var w=v.w?imgURL(v.w):null, j=v.j?imgURL(v.j):null;
+      // 用 <picture>：支持 WebP 的用 WebP，老的（如 iOS<14）自动回退 JPEG
+      var inner='<img loading="lazy" src="'+esc(j||w)+'" alt="课件 p'+p+'"'+
+                ' data-pg="'+p+'" data-src="'+esc(j||w)+'" data-webp="'+esc(w||'')+'" data-jpg="'+esc(j||'')+'">';
+      var media = (w && j)
+        ? '<picture><source srcset="'+esc(w)+'" type="image/webp">'+inner+'</picture>'
+        : inner;
+      h+='<div class="thumb">'+media+'<div class="pg">p'+p+'</div></div>';
     });
     return h+'</div>';
   }
   // 灯箱
-  function openLB(src, cap){
+  function openLB(webp, jpg, cap){
     var d=el('div','lb');
-    d.innerHTML='<img src="'+esc(src)+'" alt="'+esc(cap)+'"><div class="cap">'+esc(cap)+'</div>'+
+    // 优先 WebP，失败回退 JPEG（老设备不支持 WebP 时靠这个）
+    var order=[];
+    if(webp) order.push(webp);
+    if(jpg && jpg!==webp) order.push(jpg);
+    if(!order.length){ return; }
+    d.innerHTML='<img alt="'+esc(cap)+'"><div class="cap">'+esc(cap)+'</div>'+
       '<div class="hint">点击任意处关闭</div>';
-    d.onclick=function(){ d.remove(); };
     document.body.appendChild(d);
+    var img=d.querySelector('img'), i=0;
+    function tryNext(){
+      if(i>=order.length){
+        d.innerHTML='<div class="err">图片加载失败<br>可能是浏览器不支持 WebP 格式<br><span style="font-size:12px;opacity:.8">'+esc(order[0])+'</span></div>';
+        return;
+      }
+      img.src=order[i++];
+    }
+    img.onerror=tryNext;
+    tryNext();
+    d.onclick=function(){ d.remove(); };
   }
   // 事件委托：点缩略图开灯箱
   document.addEventListener('click', function(e){
     var t=e.target;
-    if(t && t.tagName==='IMG' && t.dataset && t.dataset.src){
-      openLB(t.dataset.src, '课件第 '+t.dataset.pg+' 页');
+    if(!t) return;
+    if(t.tagName==='SOURCE') t=t.parentNode;
+    if(t && t.tagName==='PICTURE') t=t.querySelector('img');
+    if(t && t.tagName==='IMG' && t.dataset && t.dataset.pg){
+      openLB(t.dataset.webp||'', t.dataset.jpg||t.dataset.src||'', '课件第 '+t.dataset.pg+' 页');
     }
   });
 

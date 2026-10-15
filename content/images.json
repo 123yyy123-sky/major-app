@@ -1,252 +1,948 @@
 {
  "boiler-intro": {
-  "6": "img/boiler-intro/p006.webp",
-  "8": "img/boiler-intro/p008.webp",
-  "9": "img/boiler-intro/p009.webp",
-  "21": "img/boiler-intro/p021.webp",
-  "27": "img/boiler-intro/p027.webp",
-  "28": "img/boiler-intro/p028.webp",
-  "29": "img/boiler-intro/p029.webp"
+  "6": {
+   "w": "img/boiler-intro/p006.webp",
+   "j": "img/boiler-intro/p006.jpg"
+  },
+  "8": {
+   "w": "img/boiler-intro/p008.webp",
+   "j": "img/boiler-intro/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-intro/p009.webp",
+   "j": "img/boiler-intro/p009.jpg"
+  },
+  "21": {
+   "w": "img/boiler-intro/p021.webp",
+   "j": "img/boiler-intro/p021.jpg"
+  },
+  "27": {
+   "w": "img/boiler-intro/p027.webp",
+   "j": "img/boiler-intro/p027.jpg"
+  },
+  "28": {
+   "w": "img/boiler-intro/p028.webp",
+   "j": "img/boiler-intro/p028.jpg"
+  },
+  "29": {
+   "w": "img/boiler-intro/p029.webp",
+   "j": "img/boiler-intro/p029.jpg"
+  }
  },
  "boiler-ch1": {
-  "2": "img/boiler-ch1/p002.webp",
-  "3": "img/boiler-ch1/p003.webp",
-  "4": "img/boiler-ch1/p004.webp",
-  "5": "img/boiler-ch1/p005.webp",
-  "6": "img/boiler-ch1/p006.webp",
-  "7": "img/boiler-ch1/p007.webp",
-  "8": "img/boiler-ch1/p008.webp",
-  "9": "img/boiler-ch1/p009.webp",
-  "10": "img/boiler-ch1/p010.webp",
-  "11": "img/boiler-ch1/p011.webp",
-  "12": "img/boiler-ch1/p012.webp",
-  "16": "img/boiler-ch1/p016.webp",
-  "17": "img/boiler-ch1/p017.webp",
-  "18": "img/boiler-ch1/p018.webp",
-  "19": "img/boiler-ch1/p019.webp",
-  "20": "img/boiler-ch1/p020.webp",
-  "23": "img/boiler-ch1/p023.webp",
-  "24": "img/boiler-ch1/p024.webp",
-  "26": "img/boiler-ch1/p026.webp",
-  "27": "img/boiler-ch1/p027.webp"
+  "2": {
+   "w": "img/boiler-ch1/p002.webp",
+   "j": "img/boiler-ch1/p002.jpg"
+  },
+  "3": {
+   "w": "img/boiler-ch1/p003.webp",
+   "j": "img/boiler-ch1/p003.jpg"
+  },
+  "4": {
+   "w": "img/boiler-ch1/p004.webp",
+   "j": "img/boiler-ch1/p004.jpg"
+  },
+  "5": {
+   "w": "img/boiler-ch1/p005.webp",
+   "j": "img/boiler-ch1/p005.jpg"
+  },
+  "6": {
+   "w": "img/boiler-ch1/p006.webp",
+   "j": "img/boiler-ch1/p006.jpg"
+  },
+  "7": {
+   "w": "img/boiler-ch1/p007.webp",
+   "j": "img/boiler-ch1/p007.jpg"
+  },
+  "8": {
+   "w": "img/boiler-ch1/p008.webp",
+   "j": "img/boiler-ch1/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-ch1/p009.webp",
+   "j": "img/boiler-ch1/p009.jpg"
+  },
+  "10": {
+   "w": "img/boiler-ch1/p010.webp",
+   "j": "img/boiler-ch1/p010.jpg"
+  },
+  "11": {
+   "w": "img/boiler-ch1/p011.webp",
+   "j": "img/boiler-ch1/p011.jpg"
+  },
+  "12": {
+   "w": "img/boiler-ch1/p012.webp",
+   "j": "img/boiler-ch1/p012.jpg"
+  },
+  "16": {
+   "w": "img/boiler-ch1/p016.webp",
+   "j": "img/boiler-ch1/p016.jpg"
+  },
+  "17": {
+   "w": "img/boiler-ch1/p017.webp",
+   "j": "img/boiler-ch1/p017.jpg"
+  },
+  "18": {
+   "w": "img/boiler-ch1/p018.webp",
+   "j": "img/boiler-ch1/p018.jpg"
+  },
+  "19": {
+   "w": "img/boiler-ch1/p019.webp",
+   "j": "img/boiler-ch1/p019.jpg"
+  },
+  "20": {
+   "w": "img/boiler-ch1/p020.webp",
+   "j": "img/boiler-ch1/p020.jpg"
+  },
+  "23": {
+   "w": "img/boiler-ch1/p023.webp",
+   "j": "img/boiler-ch1/p023.jpg"
+  },
+  "24": {
+   "w": "img/boiler-ch1/p024.webp",
+   "j": "img/boiler-ch1/p024.jpg"
+  },
+  "26": {
+   "w": "img/boiler-ch1/p026.webp",
+   "j": "img/boiler-ch1/p026.jpg"
+  },
+  "27": {
+   "w": "img/boiler-ch1/p027.webp",
+   "j": "img/boiler-ch1/p027.jpg"
+  }
  },
  "boiler-ch2": {
-  "2": "img/boiler-ch2/p002.webp",
-  "5": "img/boiler-ch2/p005.webp",
-  "6": "img/boiler-ch2/p006.webp",
-  "11": "img/boiler-ch2/p011.webp",
-  "12": "img/boiler-ch2/p012.webp",
-  "13": "img/boiler-ch2/p013.webp",
-  "14": "img/boiler-ch2/p014.webp",
-  "15": "img/boiler-ch2/p015.webp",
-  "22": "img/boiler-ch2/p022.webp",
-  "30": "img/boiler-ch2/p030.webp",
-  "34": "img/boiler-ch2/p034.webp",
-  "35": "img/boiler-ch2/p035.webp",
-  "45": "img/boiler-ch2/p045.webp",
-  "46": "img/boiler-ch2/p046.webp",
-  "47": "img/boiler-ch2/p047.webp"
+  "2": {
+   "w": "img/boiler-ch2/p002.webp",
+   "j": "img/boiler-ch2/p002.jpg"
+  },
+  "5": {
+   "w": "img/boiler-ch2/p005.webp",
+   "j": "img/boiler-ch2/p005.jpg"
+  },
+  "6": {
+   "w": "img/boiler-ch2/p006.webp",
+   "j": "img/boiler-ch2/p006.jpg"
+  },
+  "11": {
+   "w": "img/boiler-ch2/p011.webp",
+   "j": "img/boiler-ch2/p011.jpg"
+  },
+  "12": {
+   "w": "img/boiler-ch2/p012.webp",
+   "j": "img/boiler-ch2/p012.jpg"
+  },
+  "13": {
+   "w": "img/boiler-ch2/p013.webp",
+   "j": "img/boiler-ch2/p013.jpg"
+  },
+  "14": {
+   "w": "img/boiler-ch2/p014.webp",
+   "j": "img/boiler-ch2/p014.jpg"
+  },
+  "15": {
+   "w": "img/boiler-ch2/p015.webp",
+   "j": "img/boiler-ch2/p015.jpg"
+  },
+  "22": {
+   "w": "img/boiler-ch2/p022.webp",
+   "j": "img/boiler-ch2/p022.jpg"
+  },
+  "30": {
+   "w": "img/boiler-ch2/p030.webp",
+   "j": "img/boiler-ch2/p030.jpg"
+  },
+  "34": {
+   "w": "img/boiler-ch2/p034.webp",
+   "j": "img/boiler-ch2/p034.jpg"
+  },
+  "35": {
+   "w": "img/boiler-ch2/p035.webp",
+   "j": "img/boiler-ch2/p035.jpg"
+  },
+  "45": {
+   "w": "img/boiler-ch2/p045.webp",
+   "j": "img/boiler-ch2/p045.jpg"
+  },
+  "46": {
+   "w": "img/boiler-ch2/p046.webp",
+   "j": "img/boiler-ch2/p046.jpg"
+  },
+  "47": {
+   "w": "img/boiler-ch2/p047.webp",
+   "j": "img/boiler-ch2/p047.jpg"
+  }
  },
  "boiler-ch4": {
-  "2": "img/boiler-ch4/p002.webp",
-  "3": "img/boiler-ch4/p003.webp",
-  "4": "img/boiler-ch4/p004.webp",
-  "6": "img/boiler-ch4/p006.webp",
-  "7": "img/boiler-ch4/p007.webp",
-  "8": "img/boiler-ch4/p008.webp",
-  "9": "img/boiler-ch4/p009.webp",
-  "10": "img/boiler-ch4/p010.webp",
-  "11": "img/boiler-ch4/p011.webp",
-  "12": "img/boiler-ch4/p012.webp",
-  "13": "img/boiler-ch4/p013.webp",
-  "14": "img/boiler-ch4/p014.webp",
-  "15": "img/boiler-ch4/p015.webp",
-  "16": "img/boiler-ch4/p016.webp",
-  "18": "img/boiler-ch4/p018.webp",
-  "19": "img/boiler-ch4/p019.webp",
-  "20": "img/boiler-ch4/p020.webp",
-  "21": "img/boiler-ch4/p021.webp",
-  "22": "img/boiler-ch4/p022.webp",
-  "23": "img/boiler-ch4/p023.webp",
-  "24": "img/boiler-ch4/p024.webp",
-  "25": "img/boiler-ch4/p025.webp",
-  "26": "img/boiler-ch4/p026.webp",
-  "27": "img/boiler-ch4/p027.webp",
-  "28": "img/boiler-ch4/p028.webp",
-  "29": "img/boiler-ch4/p029.webp",
-  "30": "img/boiler-ch4/p030.webp",
-  "31": "img/boiler-ch4/p031.webp",
-  "32": "img/boiler-ch4/p032.webp",
-  "33": "img/boiler-ch4/p033.webp",
-  "34": "img/boiler-ch4/p034.webp",
-  "35": "img/boiler-ch4/p035.webp",
-  "37": "img/boiler-ch4/p037.webp",
-  "38": "img/boiler-ch4/p038.webp",
-  "41": "img/boiler-ch4/p041.webp",
-  "42": "img/boiler-ch4/p042.webp",
-  "43": "img/boiler-ch4/p043.webp",
-  "44": "img/boiler-ch4/p044.webp",
-  "48": "img/boiler-ch4/p048.webp",
-  "49": "img/boiler-ch4/p049.webp"
+  "2": {
+   "w": "img/boiler-ch4/p002.webp",
+   "j": "img/boiler-ch4/p002.jpg"
+  },
+  "3": {
+   "w": "img/boiler-ch4/p003.webp",
+   "j": "img/boiler-ch4/p003.jpg"
+  },
+  "4": {
+   "w": "img/boiler-ch4/p004.webp",
+   "j": "img/boiler-ch4/p004.jpg"
+  },
+  "6": {
+   "w": "img/boiler-ch4/p006.webp",
+   "j": "img/boiler-ch4/p006.jpg"
+  },
+  "7": {
+   "w": "img/boiler-ch4/p007.webp",
+   "j": "img/boiler-ch4/p007.jpg"
+  },
+  "8": {
+   "w": "img/boiler-ch4/p008.webp",
+   "j": "img/boiler-ch4/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-ch4/p009.webp",
+   "j": "img/boiler-ch4/p009.jpg"
+  },
+  "10": {
+   "w": "img/boiler-ch4/p010.webp",
+   "j": "img/boiler-ch4/p010.jpg"
+  },
+  "11": {
+   "w": "img/boiler-ch4/p011.webp",
+   "j": "img/boiler-ch4/p011.jpg"
+  },
+  "12": {
+   "w": "img/boiler-ch4/p012.webp",
+   "j": "img/boiler-ch4/p012.jpg"
+  },
+  "13": {
+   "w": "img/boiler-ch4/p013.webp",
+   "j": "img/boiler-ch4/p013.jpg"
+  },
+  "14": {
+   "w": "img/boiler-ch4/p014.webp",
+   "j": "img/boiler-ch4/p014.jpg"
+  },
+  "15": {
+   "w": "img/boiler-ch4/p015.webp",
+   "j": "img/boiler-ch4/p015.jpg"
+  },
+  "16": {
+   "w": "img/boiler-ch4/p016.webp",
+   "j": "img/boiler-ch4/p016.jpg"
+  },
+  "18": {
+   "w": "img/boiler-ch4/p018.webp",
+   "j": "img/boiler-ch4/p018.jpg"
+  },
+  "19": {
+   "w": "img/boiler-ch4/p019.webp",
+   "j": "img/boiler-ch4/p019.jpg"
+  },
+  "20": {
+   "w": "img/boiler-ch4/p020.webp",
+   "j": "img/boiler-ch4/p020.jpg"
+  },
+  "21": {
+   "w": "img/boiler-ch4/p021.webp",
+   "j": "img/boiler-ch4/p021.jpg"
+  },
+  "22": {
+   "w": "img/boiler-ch4/p022.webp",
+   "j": "img/boiler-ch4/p022.jpg"
+  },
+  "23": {
+   "w": "img/boiler-ch4/p023.webp",
+   "j": "img/boiler-ch4/p023.jpg"
+  },
+  "24": {
+   "w": "img/boiler-ch4/p024.webp",
+   "j": "img/boiler-ch4/p024.jpg"
+  },
+  "25": {
+   "w": "img/boiler-ch4/p025.webp",
+   "j": "img/boiler-ch4/p025.jpg"
+  },
+  "26": {
+   "w": "img/boiler-ch4/p026.webp",
+   "j": "img/boiler-ch4/p026.jpg"
+  },
+  "27": {
+   "w": "img/boiler-ch4/p027.webp",
+   "j": "img/boiler-ch4/p027.jpg"
+  },
+  "28": {
+   "w": "img/boiler-ch4/p028.webp",
+   "j": "img/boiler-ch4/p028.jpg"
+  },
+  "29": {
+   "w": "img/boiler-ch4/p029.webp",
+   "j": "img/boiler-ch4/p029.jpg"
+  },
+  "30": {
+   "w": "img/boiler-ch4/p030.webp",
+   "j": "img/boiler-ch4/p030.jpg"
+  },
+  "31": {
+   "w": "img/boiler-ch4/p031.webp",
+   "j": "img/boiler-ch4/p031.jpg"
+  },
+  "32": {
+   "w": "img/boiler-ch4/p032.webp",
+   "j": "img/boiler-ch4/p032.jpg"
+  },
+  "33": {
+   "w": "img/boiler-ch4/p033.webp",
+   "j": "img/boiler-ch4/p033.jpg"
+  },
+  "34": {
+   "w": "img/boiler-ch4/p034.webp",
+   "j": "img/boiler-ch4/p034.jpg"
+  },
+  "35": {
+   "w": "img/boiler-ch4/p035.webp",
+   "j": "img/boiler-ch4/p035.jpg"
+  },
+  "37": {
+   "w": "img/boiler-ch4/p037.webp",
+   "j": "img/boiler-ch4/p037.jpg"
+  },
+  "38": {
+   "w": "img/boiler-ch4/p038.webp",
+   "j": "img/boiler-ch4/p038.jpg"
+  },
+  "41": {
+   "w": "img/boiler-ch4/p041.webp",
+   "j": "img/boiler-ch4/p041.jpg"
+  },
+  "42": {
+   "w": "img/boiler-ch4/p042.webp",
+   "j": "img/boiler-ch4/p042.jpg"
+  },
+  "43": {
+   "w": "img/boiler-ch4/p043.webp",
+   "j": "img/boiler-ch4/p043.jpg"
+  },
+  "44": {
+   "w": "img/boiler-ch4/p044.webp",
+   "j": "img/boiler-ch4/p044.jpg"
+  },
+  "48": {
+   "w": "img/boiler-ch4/p048.webp",
+   "j": "img/boiler-ch4/p048.jpg"
+  },
+  "49": {
+   "w": "img/boiler-ch4/p049.webp",
+   "j": "img/boiler-ch4/p049.jpg"
+  }
  },
  "boiler-ch5": {
-  "2": "img/boiler-ch5/p002.webp",
-  "3": "img/boiler-ch5/p003.webp",
-  "4": "img/boiler-ch5/p004.webp",
-  "5": "img/boiler-ch5/p005.webp",
-  "6": "img/boiler-ch5/p006.webp",
-  "7": "img/boiler-ch5/p007.webp",
-  "8": "img/boiler-ch5/p008.webp",
-  "9": "img/boiler-ch5/p009.webp",
-  "10": "img/boiler-ch5/p010.webp",
-  "13": "img/boiler-ch5/p013.webp",
-  "14": "img/boiler-ch5/p014.webp",
-  "15": "img/boiler-ch5/p015.webp",
-  "16": "img/boiler-ch5/p016.webp",
-  "17": "img/boiler-ch5/p017.webp",
-  "20": "img/boiler-ch5/p020.webp",
-  "21": "img/boiler-ch5/p021.webp",
-  "22": "img/boiler-ch5/p022.webp",
-  "23": "img/boiler-ch5/p023.webp",
-  "25": "img/boiler-ch5/p025.webp",
-  "26": "img/boiler-ch5/p026.webp",
-  "28": "img/boiler-ch5/p028.webp",
-  "30": "img/boiler-ch5/p030.webp",
-  "31": "img/boiler-ch5/p031.webp",
-  "32": "img/boiler-ch5/p032.webp"
+  "2": {
+   "w": "img/boiler-ch5/p002.webp",
+   "j": "img/boiler-ch5/p002.jpg"
+  },
+  "3": {
+   "w": "img/boiler-ch5/p003.webp",
+   "j": "img/boiler-ch5/p003.jpg"
+  },
+  "4": {
+   "w": "img/boiler-ch5/p004.webp",
+   "j": "img/boiler-ch5/p004.jpg"
+  },
+  "5": {
+   "w": "img/boiler-ch5/p005.webp",
+   "j": "img/boiler-ch5/p005.jpg"
+  },
+  "6": {
+   "w": "img/boiler-ch5/p006.webp",
+   "j": "img/boiler-ch5/p006.jpg"
+  },
+  "7": {
+   "w": "img/boiler-ch5/p007.webp",
+   "j": "img/boiler-ch5/p007.jpg"
+  },
+  "8": {
+   "w": "img/boiler-ch5/p008.webp",
+   "j": "img/boiler-ch5/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-ch5/p009.webp",
+   "j": "img/boiler-ch5/p009.jpg"
+  },
+  "10": {
+   "w": "img/boiler-ch5/p010.webp",
+   "j": "img/boiler-ch5/p010.jpg"
+  },
+  "13": {
+   "w": "img/boiler-ch5/p013.webp",
+   "j": "img/boiler-ch5/p013.jpg"
+  },
+  "14": {
+   "w": "img/boiler-ch5/p014.webp",
+   "j": "img/boiler-ch5/p014.jpg"
+  },
+  "15": {
+   "w": "img/boiler-ch5/p015.webp",
+   "j": "img/boiler-ch5/p015.jpg"
+  },
+  "16": {
+   "w": "img/boiler-ch5/p016.webp",
+   "j": "img/boiler-ch5/p016.jpg"
+  },
+  "17": {
+   "w": "img/boiler-ch5/p017.webp",
+   "j": "img/boiler-ch5/p017.jpg"
+  },
+  "20": {
+   "w": "img/boiler-ch5/p020.webp",
+   "j": "img/boiler-ch5/p020.jpg"
+  },
+  "21": {
+   "w": "img/boiler-ch5/p021.webp",
+   "j": "img/boiler-ch5/p021.jpg"
+  },
+  "22": {
+   "w": "img/boiler-ch5/p022.webp",
+   "j": "img/boiler-ch5/p022.jpg"
+  },
+  "23": {
+   "w": "img/boiler-ch5/p023.webp",
+   "j": "img/boiler-ch5/p023.jpg"
+  },
+  "25": {
+   "w": "img/boiler-ch5/p025.webp",
+   "j": "img/boiler-ch5/p025.jpg"
+  },
+  "26": {
+   "w": "img/boiler-ch5/p026.webp",
+   "j": "img/boiler-ch5/p026.jpg"
+  },
+  "28": {
+   "w": "img/boiler-ch5/p028.webp",
+   "j": "img/boiler-ch5/p028.jpg"
+  },
+  "30": {
+   "w": "img/boiler-ch5/p030.webp",
+   "j": "img/boiler-ch5/p030.jpg"
+  },
+  "31": {
+   "w": "img/boiler-ch5/p031.webp",
+   "j": "img/boiler-ch5/p031.jpg"
+  },
+  "32": {
+   "w": "img/boiler-ch5/p032.webp",
+   "j": "img/boiler-ch5/p032.jpg"
+  }
  },
  "boiler-ch6": {
-  "7": "img/boiler-ch6/p007.webp",
-  "8": "img/boiler-ch6/p008.webp",
-  "9": "img/boiler-ch6/p009.webp",
-  "10": "img/boiler-ch6/p010.webp",
-  "11": "img/boiler-ch6/p011.webp",
-  "12": "img/boiler-ch6/p012.webp",
-  "13": "img/boiler-ch6/p013.webp",
-  "14": "img/boiler-ch6/p014.webp",
-  "16": "img/boiler-ch6/p016.webp",
-  "18": "img/boiler-ch6/p018.webp",
-  "20": "img/boiler-ch6/p020.webp",
-  "21": "img/boiler-ch6/p021.webp",
-  "22": "img/boiler-ch6/p022.webp",
-  "23": "img/boiler-ch6/p023.webp",
-  "25": "img/boiler-ch6/p025.webp",
-  "26": "img/boiler-ch6/p026.webp",
-  "27": "img/boiler-ch6/p027.webp",
-  "28": "img/boiler-ch6/p028.webp",
-  "29": "img/boiler-ch6/p029.webp",
-  "30": "img/boiler-ch6/p030.webp",
-  "31": "img/boiler-ch6/p031.webp",
-  "32": "img/boiler-ch6/p032.webp",
-  "33": "img/boiler-ch6/p033.webp",
-  "34": "img/boiler-ch6/p034.webp",
-  "35": "img/boiler-ch6/p035.webp",
-  "36": "img/boiler-ch6/p036.webp",
-  "37": "img/boiler-ch6/p037.webp",
-  "38": "img/boiler-ch6/p038.webp",
-  "39": "img/boiler-ch6/p039.webp",
-  "40": "img/boiler-ch6/p040.webp",
-  "41": "img/boiler-ch6/p041.webp",
-  "42": "img/boiler-ch6/p042.webp",
-  "43": "img/boiler-ch6/p043.webp",
-  "45": "img/boiler-ch6/p045.webp",
-  "46": "img/boiler-ch6/p046.webp",
-  "47": "img/boiler-ch6/p047.webp"
+  "7": {
+   "w": "img/boiler-ch6/p007.webp",
+   "j": "img/boiler-ch6/p007.jpg"
+  },
+  "8": {
+   "w": "img/boiler-ch6/p008.webp",
+   "j": "img/boiler-ch6/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-ch6/p009.webp",
+   "j": "img/boiler-ch6/p009.jpg"
+  },
+  "10": {
+   "w": "img/boiler-ch6/p010.webp",
+   "j": "img/boiler-ch6/p010.jpg"
+  },
+  "11": {
+   "w": "img/boiler-ch6/p011.webp",
+   "j": "img/boiler-ch6/p011.jpg"
+  },
+  "12": {
+   "w": "img/boiler-ch6/p012.webp",
+   "j": "img/boiler-ch6/p012.jpg"
+  },
+  "13": {
+   "w": "img/boiler-ch6/p013.webp",
+   "j": "img/boiler-ch6/p013.jpg"
+  },
+  "14": {
+   "w": "img/boiler-ch6/p014.webp",
+   "j": "img/boiler-ch6/p014.jpg"
+  },
+  "16": {
+   "w": "img/boiler-ch6/p016.webp",
+   "j": "img/boiler-ch6/p016.jpg"
+  },
+  "18": {
+   "w": "img/boiler-ch6/p018.webp",
+   "j": "img/boiler-ch6/p018.jpg"
+  },
+  "20": {
+   "w": "img/boiler-ch6/p020.webp",
+   "j": "img/boiler-ch6/p020.jpg"
+  },
+  "21": {
+   "w": "img/boiler-ch6/p021.webp",
+   "j": "img/boiler-ch6/p021.jpg"
+  },
+  "22": {
+   "w": "img/boiler-ch6/p022.webp",
+   "j": "img/boiler-ch6/p022.jpg"
+  },
+  "23": {
+   "w": "img/boiler-ch6/p023.webp",
+   "j": "img/boiler-ch6/p023.jpg"
+  },
+  "25": {
+   "w": "img/boiler-ch6/p025.webp",
+   "j": "img/boiler-ch6/p025.jpg"
+  },
+  "26": {
+   "w": "img/boiler-ch6/p026.webp",
+   "j": "img/boiler-ch6/p026.jpg"
+  },
+  "27": {
+   "w": "img/boiler-ch6/p027.webp",
+   "j": "img/boiler-ch6/p027.jpg"
+  },
+  "28": {
+   "w": "img/boiler-ch6/p028.webp",
+   "j": "img/boiler-ch6/p028.jpg"
+  },
+  "29": {
+   "w": "img/boiler-ch6/p029.webp",
+   "j": "img/boiler-ch6/p029.jpg"
+  },
+  "30": {
+   "w": "img/boiler-ch6/p030.webp",
+   "j": "img/boiler-ch6/p030.jpg"
+  },
+  "31": {
+   "w": "img/boiler-ch6/p031.webp",
+   "j": "img/boiler-ch6/p031.jpg"
+  },
+  "32": {
+   "w": "img/boiler-ch6/p032.webp",
+   "j": "img/boiler-ch6/p032.jpg"
+  },
+  "33": {
+   "w": "img/boiler-ch6/p033.webp",
+   "j": "img/boiler-ch6/p033.jpg"
+  },
+  "34": {
+   "w": "img/boiler-ch6/p034.webp",
+   "j": "img/boiler-ch6/p034.jpg"
+  },
+  "35": {
+   "w": "img/boiler-ch6/p035.webp",
+   "j": "img/boiler-ch6/p035.jpg"
+  },
+  "36": {
+   "w": "img/boiler-ch6/p036.webp",
+   "j": "img/boiler-ch6/p036.jpg"
+  },
+  "37": {
+   "w": "img/boiler-ch6/p037.webp",
+   "j": "img/boiler-ch6/p037.jpg"
+  },
+  "38": {
+   "w": "img/boiler-ch6/p038.webp",
+   "j": "img/boiler-ch6/p038.jpg"
+  },
+  "39": {
+   "w": "img/boiler-ch6/p039.webp",
+   "j": "img/boiler-ch6/p039.jpg"
+  },
+  "40": {
+   "w": "img/boiler-ch6/p040.webp",
+   "j": "img/boiler-ch6/p040.jpg"
+  },
+  "41": {
+   "w": "img/boiler-ch6/p041.webp",
+   "j": "img/boiler-ch6/p041.jpg"
+  },
+  "42": {
+   "w": "img/boiler-ch6/p042.webp",
+   "j": "img/boiler-ch6/p042.jpg"
+  },
+  "43": {
+   "w": "img/boiler-ch6/p043.webp",
+   "j": "img/boiler-ch6/p043.jpg"
+  },
+  "45": {
+   "w": "img/boiler-ch6/p045.webp",
+   "j": "img/boiler-ch6/p045.jpg"
+  },
+  "46": {
+   "w": "img/boiler-ch6/p046.webp",
+   "j": "img/boiler-ch6/p046.jpg"
+  },
+  "47": {
+   "w": "img/boiler-ch6/p047.webp",
+   "j": "img/boiler-ch6/p047.jpg"
+  }
  },
  "boiler-ch7": {
-  "2": "img/boiler-ch7/p002.webp",
-  "3": "img/boiler-ch7/p003.webp",
-  "4": "img/boiler-ch7/p004.webp",
-  "5": "img/boiler-ch7/p005.webp",
-  "8": "img/boiler-ch7/p008.webp",
-  "9": "img/boiler-ch7/p009.webp",
-  "10": "img/boiler-ch7/p010.webp",
-  "11": "img/boiler-ch7/p011.webp",
-  "12": "img/boiler-ch7/p012.webp",
-  "16": "img/boiler-ch7/p016.webp",
-  "17": "img/boiler-ch7/p017.webp",
-  "18": "img/boiler-ch7/p018.webp",
-  "19": "img/boiler-ch7/p019.webp",
-  "20": "img/boiler-ch7/p020.webp",
-  "21": "img/boiler-ch7/p021.webp",
-  "22": "img/boiler-ch7/p022.webp",
-  "23": "img/boiler-ch7/p023.webp",
-  "24": "img/boiler-ch7/p024.webp",
-  "25": "img/boiler-ch7/p025.webp",
-  "26": "img/boiler-ch7/p026.webp",
-  "27": "img/boiler-ch7/p027.webp",
-  "28": "img/boiler-ch7/p028.webp",
-  "29": "img/boiler-ch7/p029.webp",
-  "30": "img/boiler-ch7/p030.webp",
-  "31": "img/boiler-ch7/p031.webp",
-  "32": "img/boiler-ch7/p032.webp",
-  "33": "img/boiler-ch7/p033.webp",
-  "34": "img/boiler-ch7/p034.webp",
-  "35": "img/boiler-ch7/p035.webp"
+  "2": {
+   "w": "img/boiler-ch7/p002.webp",
+   "j": "img/boiler-ch7/p002.jpg"
+  },
+  "3": {
+   "w": "img/boiler-ch7/p003.webp",
+   "j": "img/boiler-ch7/p003.jpg"
+  },
+  "4": {
+   "w": "img/boiler-ch7/p004.webp",
+   "j": "img/boiler-ch7/p004.jpg"
+  },
+  "5": {
+   "w": "img/boiler-ch7/p005.webp",
+   "j": "img/boiler-ch7/p005.jpg"
+  },
+  "8": {
+   "w": "img/boiler-ch7/p008.webp",
+   "j": "img/boiler-ch7/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-ch7/p009.webp",
+   "j": "img/boiler-ch7/p009.jpg"
+  },
+  "10": {
+   "w": "img/boiler-ch7/p010.webp",
+   "j": "img/boiler-ch7/p010.jpg"
+  },
+  "11": {
+   "w": "img/boiler-ch7/p011.webp",
+   "j": "img/boiler-ch7/p011.jpg"
+  },
+  "12": {
+   "w": "img/boiler-ch7/p012.webp",
+   "j": "img/boiler-ch7/p012.jpg"
+  },
+  "16": {
+   "w": "img/boiler-ch7/p016.webp",
+   "j": "img/boiler-ch7/p016.jpg"
+  },
+  "17": {
+   "w": "img/boiler-ch7/p017.webp",
+   "j": "img/boiler-ch7/p017.jpg"
+  },
+  "18": {
+   "w": "img/boiler-ch7/p018.webp",
+   "j": "img/boiler-ch7/p018.jpg"
+  },
+  "19": {
+   "w": "img/boiler-ch7/p019.webp",
+   "j": "img/boiler-ch7/p019.jpg"
+  },
+  "20": {
+   "w": "img/boiler-ch7/p020.webp",
+   "j": "img/boiler-ch7/p020.jpg"
+  },
+  "21": {
+   "w": "img/boiler-ch7/p021.webp",
+   "j": "img/boiler-ch7/p021.jpg"
+  },
+  "22": {
+   "w": "img/boiler-ch7/p022.webp",
+   "j": "img/boiler-ch7/p022.jpg"
+  },
+  "23": {
+   "w": "img/boiler-ch7/p023.webp",
+   "j": "img/boiler-ch7/p023.jpg"
+  },
+  "24": {
+   "w": "img/boiler-ch7/p024.webp",
+   "j": "img/boiler-ch7/p024.jpg"
+  },
+  "25": {
+   "w": "img/boiler-ch7/p025.webp",
+   "j": "img/boiler-ch7/p025.jpg"
+  },
+  "26": {
+   "w": "img/boiler-ch7/p026.webp",
+   "j": "img/boiler-ch7/p026.jpg"
+  },
+  "27": {
+   "w": "img/boiler-ch7/p027.webp",
+   "j": "img/boiler-ch7/p027.jpg"
+  },
+  "28": {
+   "w": "img/boiler-ch7/p028.webp",
+   "j": "img/boiler-ch7/p028.jpg"
+  },
+  "29": {
+   "w": "img/boiler-ch7/p029.webp",
+   "j": "img/boiler-ch7/p029.jpg"
+  },
+  "30": {
+   "w": "img/boiler-ch7/p030.webp",
+   "j": "img/boiler-ch7/p030.jpg"
+  },
+  "31": {
+   "w": "img/boiler-ch7/p031.webp",
+   "j": "img/boiler-ch7/p031.jpg"
+  },
+  "32": {
+   "w": "img/boiler-ch7/p032.webp",
+   "j": "img/boiler-ch7/p032.jpg"
+  },
+  "33": {
+   "w": "img/boiler-ch7/p033.webp",
+   "j": "img/boiler-ch7/p033.jpg"
+  },
+  "34": {
+   "w": "img/boiler-ch7/p034.webp",
+   "j": "img/boiler-ch7/p034.jpg"
+  },
+  "35": {
+   "w": "img/boiler-ch7/p035.webp",
+   "j": "img/boiler-ch7/p035.jpg"
+  }
  },
  "boiler-ch8": {
-  "2": "img/boiler-ch8/p002.webp",
-  "3": "img/boiler-ch8/p003.webp",
-  "4": "img/boiler-ch8/p004.webp",
-  "5": "img/boiler-ch8/p005.webp",
-  "6": "img/boiler-ch8/p006.webp",
-  "7": "img/boiler-ch8/p007.webp",
-  "8": "img/boiler-ch8/p008.webp",
-  "9": "img/boiler-ch8/p009.webp",
-  "10": "img/boiler-ch8/p010.webp",
-  "11": "img/boiler-ch8/p011.webp",
-  "12": "img/boiler-ch8/p012.webp",
-  "13": "img/boiler-ch8/p013.webp",
-  "14": "img/boiler-ch8/p014.webp",
-  "15": "img/boiler-ch8/p015.webp",
-  "16": "img/boiler-ch8/p016.webp",
-  "17": "img/boiler-ch8/p017.webp",
-  "18": "img/boiler-ch8/p018.webp",
-  "19": "img/boiler-ch8/p019.webp",
-  "20": "img/boiler-ch8/p020.webp",
-  "21": "img/boiler-ch8/p021.webp",
-  "22": "img/boiler-ch8/p022.webp",
-  "23": "img/boiler-ch8/p023.webp",
-  "24": "img/boiler-ch8/p024.webp",
-  "25": "img/boiler-ch8/p025.webp"
+  "2": {
+   "w": "img/boiler-ch8/p002.webp",
+   "j": "img/boiler-ch8/p002.jpg"
+  },
+  "3": {
+   "w": "img/boiler-ch8/p003.webp",
+   "j": "img/boiler-ch8/p003.jpg"
+  },
+  "4": {
+   "w": "img/boiler-ch8/p004.webp",
+   "j": "img/boiler-ch8/p004.jpg"
+  },
+  "5": {
+   "w": "img/boiler-ch8/p005.webp",
+   "j": "img/boiler-ch8/p005.jpg"
+  },
+  "6": {
+   "w": "img/boiler-ch8/p006.webp",
+   "j": "img/boiler-ch8/p006.jpg"
+  },
+  "7": {
+   "w": "img/boiler-ch8/p007.webp",
+   "j": "img/boiler-ch8/p007.jpg"
+  },
+  "8": {
+   "w": "img/boiler-ch8/p008.webp",
+   "j": "img/boiler-ch8/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-ch8/p009.webp",
+   "j": "img/boiler-ch8/p009.jpg"
+  },
+  "10": {
+   "w": "img/boiler-ch8/p010.webp",
+   "j": "img/boiler-ch8/p010.jpg"
+  },
+  "11": {
+   "w": "img/boiler-ch8/p011.webp",
+   "j": "img/boiler-ch8/p011.jpg"
+  },
+  "12": {
+   "w": "img/boiler-ch8/p012.webp",
+   "j": "img/boiler-ch8/p012.jpg"
+  },
+  "13": {
+   "w": "img/boiler-ch8/p013.webp",
+   "j": "img/boiler-ch8/p013.jpg"
+  },
+  "14": {
+   "w": "img/boiler-ch8/p014.webp",
+   "j": "img/boiler-ch8/p014.jpg"
+  },
+  "15": {
+   "w": "img/boiler-ch8/p015.webp",
+   "j": "img/boiler-ch8/p015.jpg"
+  },
+  "16": {
+   "w": "img/boiler-ch8/p016.webp",
+   "j": "img/boiler-ch8/p016.jpg"
+  },
+  "17": {
+   "w": "img/boiler-ch8/p017.webp",
+   "j": "img/boiler-ch8/p017.jpg"
+  },
+  "18": {
+   "w": "img/boiler-ch8/p018.webp",
+   "j": "img/boiler-ch8/p018.jpg"
+  },
+  "19": {
+   "w": "img/boiler-ch8/p019.webp",
+   "j": "img/boiler-ch8/p019.jpg"
+  },
+  "20": {
+   "w": "img/boiler-ch8/p020.webp",
+   "j": "img/boiler-ch8/p020.jpg"
+  },
+  "21": {
+   "w": "img/boiler-ch8/p021.webp",
+   "j": "img/boiler-ch8/p021.jpg"
+  },
+  "22": {
+   "w": "img/boiler-ch8/p022.webp",
+   "j": "img/boiler-ch8/p022.jpg"
+  },
+  "23": {
+   "w": "img/boiler-ch8/p023.webp",
+   "j": "img/boiler-ch8/p023.jpg"
+  },
+  "24": {
+   "w": "img/boiler-ch8/p024.webp",
+   "j": "img/boiler-ch8/p024.jpg"
+  },
+  "25": {
+   "w": "img/boiler-ch8/p025.webp",
+   "j": "img/boiler-ch8/p025.jpg"
+  }
  },
  "boiler-ch9": {
-  "1": "img/boiler-ch9/p001.webp",
-  "2": "img/boiler-ch9/p002.webp",
-  "3": "img/boiler-ch9/p003.webp",
-  "4": "img/boiler-ch9/p004.webp",
-  "5": "img/boiler-ch9/p005.webp",
-  "6": "img/boiler-ch9/p006.webp",
-  "7": "img/boiler-ch9/p007.webp",
-  "8": "img/boiler-ch9/p008.webp",
-  "9": "img/boiler-ch9/p009.webp",
-  "10": "img/boiler-ch9/p010.webp",
-  "11": "img/boiler-ch9/p011.webp",
-  "12": "img/boiler-ch9/p012.webp",
-  "13": "img/boiler-ch9/p013.webp",
-  "14": "img/boiler-ch9/p014.webp",
-  "15": "img/boiler-ch9/p015.webp",
-  "16": "img/boiler-ch9/p016.webp",
-  "17": "img/boiler-ch9/p017.webp",
-  "18": "img/boiler-ch9/p018.webp",
-  "19": "img/boiler-ch9/p019.webp",
-  "20": "img/boiler-ch9/p020.webp",
-  "21": "img/boiler-ch9/p021.webp",
-  "22": "img/boiler-ch9/p022.webp",
-  "23": "img/boiler-ch9/p023.webp",
-  "24": "img/boiler-ch9/p024.webp",
-  "25": "img/boiler-ch9/p025.webp",
-  "26": "img/boiler-ch9/p026.webp",
-  "27": "img/boiler-ch9/p027.webp",
-  "28": "img/boiler-ch9/p028.webp",
-  "29": "img/boiler-ch9/p029.webp",
-  "30": "img/boiler-ch9/p030.webp",
-  "31": "img/boiler-ch9/p031.webp",
-  "32": "img/boiler-ch9/p032.webp",
-  "33": "img/boiler-ch9/p033.webp",
-  "34": "img/boiler-ch9/p034.webp",
-  "35": "img/boiler-ch9/p035.webp",
-  "36": "img/boiler-ch9/p036.webp",
-  "37": "img/boiler-ch9/p037.webp"
+  "1": {
+   "w": "img/boiler-ch9/p001.webp",
+   "j": "img/boiler-ch9/p001.jpg"
+  },
+  "2": {
+   "w": "img/boiler-ch9/p002.webp",
+   "j": "img/boiler-ch9/p002.jpg"
+  },
+  "3": {
+   "w": "img/boiler-ch9/p003.webp",
+   "j": "img/boiler-ch9/p003.jpg"
+  },
+  "4": {
+   "w": "img/boiler-ch9/p004.webp",
+   "j": "img/boiler-ch9/p004.jpg"
+  },
+  "5": {
+   "w": "img/boiler-ch9/p005.webp",
+   "j": "img/boiler-ch9/p005.jpg"
+  },
+  "6": {
+   "w": "img/boiler-ch9/p006.webp",
+   "j": "img/boiler-ch9/p006.jpg"
+  },
+  "7": {
+   "w": "img/boiler-ch9/p007.webp",
+   "j": "img/boiler-ch9/p007.jpg"
+  },
+  "8": {
+   "w": "img/boiler-ch9/p008.webp",
+   "j": "img/boiler-ch9/p008.jpg"
+  },
+  "9": {
+   "w": "img/boiler-ch9/p009.webp",
+   "j": "img/boiler-ch9/p009.jpg"
+  },
+  "10": {
+   "w": "img/boiler-ch9/p010.webp",
+   "j": "img/boiler-ch9/p010.jpg"
+  },
+  "11": {
+   "w": "img/boiler-ch9/p011.webp",
+   "j": "img/boiler-ch9/p011.jpg"
+  },
+  "12": {
+   "w": "img/boiler-ch9/p012.webp",
+   "j": "img/boiler-ch9/p012.jpg"
+  },
+  "13": {
+   "w": "img/boiler-ch9/p013.webp",
+   "j": "img/boiler-ch9/p013.jpg"
+  },
+  "14": {
+   "w": "img/boiler-ch9/p014.webp",
+   "j": "img/boiler-ch9/p014.jpg"
+  },
+  "15": {
+   "w": "img/boiler-ch9/p015.webp",
+   "j": "img/boiler-ch9/p015.jpg"
+  },
+  "16": {
+   "w": "img/boiler-ch9/p016.webp",
+   "j": "img/boiler-ch9/p016.jpg"
+  },
+  "17": {
+   "w": "img/boiler-ch9/p017.webp",
+   "j": "img/boiler-ch9/p017.jpg"
+  },
+  "18": {
+   "w": "img/boiler-ch9/p018.webp",
+   "j": "img/boiler-ch9/p018.jpg"
+  },
+  "19": {
+   "w": "img/boiler-ch9/p019.webp",
+   "j": "img/boiler-ch9/p019.jpg"
+  },
+  "20": {
+   "w": "img/boiler-ch9/p020.webp",
+   "j": "img/boiler-ch9/p020.jpg"
+  },
+  "21": {
+   "w": "img/boiler-ch9/p021.webp",
+   "j": "img/boiler-ch9/p021.jpg"
+  },
+  "22": {
+   "w": "img/boiler-ch9/p022.webp",
+   "j": "img/boiler-ch9/p022.jpg"
+  },
+  "23": {
+   "w": "img/boiler-ch9/p023.webp",
+   "j": "img/boiler-ch9/p023.jpg"
+  },
+  "24": {
+   "w": "img/boiler-ch9/p024.webp",
+   "j": "img/boiler-ch9/p024.jpg"
+  },
+  "25": {
+   "w": "img/boiler-ch9/p025.webp",
+   "j": "img/boiler-ch9/p025.jpg"
+  },
+  "26": {
+   "w": "img/boiler-ch9/p026.webp",
+   "j": "img/boiler-ch9/p026.jpg"
+  },
+  "27": {
+   "w": "img/boiler-ch9/p027.webp",
+   "j": "img/boiler-ch9/p027.jpg"
+  },
+  "28": {
+   "w": "img/boiler-ch9/p028.webp",
+   "j": "img/boiler-ch9/p028.jpg"
+  },
+  "29": {
+   "w": "img/boiler-ch9/p029.webp",
+   "j": "img/boiler-ch9/p029.jpg"
+  },
+  "30": {
+   "w": "img/boiler-ch9/p030.webp",
+   "j": "img/boiler-ch9/p030.jpg"
+  },
+  "31": {
+   "w": "img/boiler-ch9/p031.webp",
+   "j": "img/boiler-ch9/p031.jpg"
+  },
+  "32": {
+   "w": "img/boiler-ch9/p032.webp",
+   "j": "img/boiler-ch9/p032.jpg"
+  },
+  "33": {
+   "w": "img/boiler-ch9/p033.webp",
+   "j": "img/boiler-ch9/p033.jpg"
+  },
+  "34": {
+   "w": "img/boiler-ch9/p034.webp",
+   "j": "img/boiler-ch9/p034.jpg"
+  },
+  "35": {
+   "w": "img/boiler-ch9/p035.webp",
+   "j": "img/boiler-ch9/p035.jpg"
+  },
+  "36": {
+   "w": "img/boiler-ch9/p036.webp",
+   "j": "img/boiler-ch9/p036.jpg"
+  },
+  "37": {
+   "w": "img/boiler-ch9/p037.webp",
+   "j": "img/boiler-ch9/p037.jpg"
+  }
  }
 }
