@@ -16,6 +16,26 @@ function readText(f) { return fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, '');
 
 const tpl = readText(path.join(WEB, 'template.html'));
 const data = JSON.parse(readText(path.join(ROOT, 'content', 'subjects.json')));
+const { normalizeMindmap } = require('./mindmap.js');
+
+// 思维导图层级归一化：把「扁平追加」出来的导图按 第X节 归并成两层，
+// 否则一级节点全是叶子，折叠树的 +/- 点不动（手机上手感＝失效）
+let mmFixed = 0;
+for (const s of data.subjects) {
+  for (const c of s.chapters) {
+    if (!c.mindmap) continue;
+    const before = (c.mindmap.children || []).length;
+    const wasFlat = before > 0 && !(c.mindmap.children || []).some((k) => k.children && k.children.length);
+    c.mindmap = normalizeMindmap(c.mindmap, c.name, '其他要点');
+    const after = (c.mindmap.children || []).length;
+    const nested = (c.mindmap.children || []).filter((k) => k.children && k.children.length).length;
+    if (wasFlat) {
+      mmFixed++;
+      console.log(`导图    ${c.name}：${before} 个平铺节点 → ${after} 组（${nested} 组可展开）`);
+    }
+  }
+}
+if (mmFixed) console.log(`导图    共修正 ${mmFixed} 章`);
 
 // 图片清单（可选）：把课件页图挂到对应章节上
 const imgPath = path.join(ROOT, 'content', 'images.json');
