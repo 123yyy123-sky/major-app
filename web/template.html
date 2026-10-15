@@ -104,6 +104,13 @@
   .btn:disabled{background:#ced4da}
   .btn.ghost{background:none;color:#6b7280;font-weight:700}
   .res{margin-top:12px;padding-top:12px;border-top:1px solid #e8ebef}
+  /* 例题 */
+  .exlabel{font-size:12px;font-weight:800;color:#e8590c;letter-spacing:.06em;margin:12px 0 5px}
+  .exbox{background:#fafbfc;border:1px solid #eef1f4;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75}
+  .exbox .bul{margin-bottom:4px}
+  .exbox .bul:last-child{margin-bottom:0}
+  .exbox.steps .d{flex:0 0 20px;color:#1971c2;font-weight:800}
+  .exres{margin-top:12px;padding:10px 12px;background:#e8f6ec;border:1px solid #bfe3c9;border-radius:10px;font-size:14.5px;font-weight:700;color:#1b6b2f}
   .res h4{margin:0 0 10px;font-size:15px;font-weight:800}
   .kp{margin:10px 0;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
   .kp .lab{font-size:11.5px;color:#9aa5b1;font-weight:700}
@@ -162,7 +169,10 @@
   function $(id){ return document.getElementById(id); }
   function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i];a[i]=a[j];a[j]=t; } return a; }
 
-  function isKey(q){ return q.keyPoints && q.keyPoints.length; }
+  // 「重点题」= 带考点标签，或本身就是例题/计算题（例题永远入选，不受非重点限额）
+  function isKey(q){
+    return (q.keyPoints && q.keyPoints.length) || q.kind === '例题' || q.kind === '计算';
+  }
   function stats(ch){
     var qs=(ch&&ch.questions)||[], by={};
     qs.forEach(function(q){ by[q.priority]=(by[q.priority]||0)+1; });
@@ -385,7 +395,7 @@
       root.appendChild(c); return;
     }
     if(Q.i>=Q.list.length){ return quizDone(root,ch,s); }
-    var q=Q.list[Q.i], ps=PS[q.priority]||PS[4], isFill=q.kind==='填空';
+    var q=Q.list[Q.i], ps=PS[q.priority]||PS[4], isFill=q.kind==='填空', isExample=(q.kind==='例题'||q.kind==='计算');
     // 进度
     var pr=el('div','row'); pr.style.marginBottom='12px';
     pr.appendChild(el('div','small',''+(Q.i+1)+' / '+Q.list.length));
@@ -405,7 +415,36 @@
     }
     c.appendChild(el('div','stem', rich(q.stem)));
 
-    if(isFill){
+    if(isExample){
+      /* ---- 例题：已知 → 求解 →（点开）解答过程 → 结果 ---- */
+      if((q.given||[]).length){
+        c.appendChild(el('div','exlabel','已知'));
+        c.appendChild(el('div','exbox', q.given.map(function(g){
+          return '<div class="bul"><div class="d">·</div><div class="t">'+rich(g)+'</div></div>';
+        }).join('')));
+      }
+      if((q.ask||[]).length){
+        c.appendChild(el('div','exlabel','求解'));
+        c.appendChild(el('div','exbox', q.ask.map(function(g){
+          return '<div class="bul"><div class="d">·</div><div class="t">'+rich(g)+'</div></div>';
+        }).join('')));
+      }
+      var showSol = !!Q.done || !!Q.solOpen;
+      if(showSol){
+        if((q.steps||[]).length){
+          c.appendChild(el('div','exlabel','解答过程'));
+          c.appendChild(el('div','exbox steps', q.steps.map(function(s, i){
+            return '<div class="bul"><div class="d">'+(i+1)+'</div><div class="t">'+rich(s)+'</div></div>';
+          }).join('')));
+        }
+        if(q.result) c.appendChild(el('div','exres','结果：'+rich(q.result)));
+      }
+      var rb0=el('div','res');
+      (q.why||[]).forEach(function(w){ rb0.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
+      if(q.basis) rb0.appendChild(el('div','basis','依据：'+esc(q.basis)));
+      if(q.answerNote) rb0.appendChild(el('div','note','⚠️ '+esc(q.answerNote)));
+      if(rb0.innerHTML) c.appendChild(rb0);
+    } else if(isFill){
       var inp=el('input','fill'); inp.placeholder='输入答案'; inp.value=Q.text||'';
       inp.disabled=!!Q.done;
       inp.oninput=function(){ Q.text=inp.value; var b=$('qsubmit'); if(b) b.disabled=!inp.value.trim(); };
@@ -444,7 +483,18 @@
     }
 
     var act=el('div'); act.style.marginTop='12px';
-    if(!Q.done){
+    if(isExample){
+      /* 例题：先自己算，再点开看解答 */
+      if(!Q.done){
+        var sb=el('button','btn','看解答'); sb.style.background=s.color;
+        sb.onclick=function(){ Q.solOpen=true; Q.done=true; render(); };
+        act.appendChild(sb);
+      } else {
+        var nb2=el('button','btn', (Q.i+1>=Q.list.length?'看结果':'下一题')); nb2.style.background=s.color;
+        nb2.onclick=function(){ Q.i++; Q.pick=''; Q.text=''; Q.done=false; Q.solOpen=false; render(); };
+        act.appendChild(nb2);
+      }
+    } else if(!Q.done){
       var b=el('button','btn'+(isFill?'':'')+'','提交'); b.id='qsubmit'; b.style.background=s.color;
       if(isFill && !(Q.text||'').trim()) b.disabled=true;
       if(!isFill && !Q.pick) b.disabled=true;
@@ -549,11 +599,14 @@
     else if(R.sub){ R.sub=null; render(); }
   };
 
-  /* 记录本次练习错题（供结果页用） */
+  /* 记录本次练习错题（供结果页用）；例题不算错题 */
   var _oldRender = render;
   render = function(){
-    if(Q && Q.done && Q.list[Q.i] && Q.lastOk===false && Q.wrong.indexOf(Q.list[Q.i])<0){
-      Q.wrong.push(Q.list[Q.i]);
+    var cur = Q && Q.list[Q.i];
+    if(Q && Q.done && cur && Q.lastOk===false
+       && cur.kind!=='例题' && cur.kind!=='计算'
+       && Q.wrong.indexOf(cur)<0){
+      Q.wrong.push(cur);
     }
     _oldRender();
   };
