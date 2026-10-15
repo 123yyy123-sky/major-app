@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>图片显示诊断</title>
+<style>
+  body{margin:0;padding:14px;font:15px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+       background:#f5f7fa;color:#1f2937}
+  h2{margin:0 0 4px;font-size:19px}
+  .sub{color:#6b7280;font-size:13px;margin-bottom:14px}
+  .card{background:#fff;border:1px solid #e5e9ef;border-radius:12px;padding:12px;margin-bottom:12px}
+  .t{font-weight:800;font-size:15px;margin-bottom:8px}
+  .t .st{font-weight:700;font-size:12px;padding:2px 7px;border-radius:6px;margin-left:6px}
+  .ok{background:#e8f6ec;color:#1b6b2f}
+  .no{background:#fff0f0;color:#c92a2a}
+  .wait{background:#f1f4f8;color:#6b7280}
+  img{display:block;max-width:100%;width:260px;height:auto;border:1px solid #dfe5ec;border-radius:8px;background:#fff}
+  .meta{font:12px/1.6 ui-monospace,Menlo,monospace;color:#4b5563;margin-top:8px;word-break:break-all}
+  .big{font-size:13px;color:#374151;background:#f8fafc;border:1px solid #e8edf3;border-radius:8px;padding:10px;margin-bottom:12px;line-height:1.8}
+  a.btn{display:block;text-align:center;background:#1971c2;color:#fff;text-decoration:none;
+        padding:12px;border-radius:10px;font-weight:800;margin-bottom:12px}
+  button{width:100%;padding:12px;border:0;border-radius:10px;background:#1971c2;color:#fff;
+         font-weight:800;font-size:15px}
+</style>
+</head>
+<body>
+<h2>图片显示诊断</h2>
+<div class="sub">用于判断你手机上图片为什么不显示。把这个页面截图发我即可。</div>
+
+<div class="big" id="env">正在检测环境…</div>
+
+<div class="card">
+  <div class="t">① WebP 格式<span class="st wait" id="s1">检测中</span></div>
+  <img id="i1" alt="WebP 测试图">
+  <div class="meta" id="m1"></div>
+</div>
+
+<div class="card">
+  <div class="t">② JPEG 格式<span class="st wait" id="s2">检测中</span></div>
+  <img id="i2" alt="JPEG 测试图">
+  <div class="meta" id="m2"></div>
+</div>
+
+<div class="card">
+  <div class="t">③ picture 双格式回退<span class="st wait" id="s3">检测中</span></div>
+  <picture><source id="src3" type="image/webp"><img id="i3" alt="picture 测试"></picture>
+  <div class="meta" id="m3"></div>
+</div>
+
+<a class="btn" id="openJpg" href="#" target="_blank" rel="noopener">④ 点这里：新标签打开 JPEG 原图</a>
+<button id="scroll">⑤ 点这里：滚动到底部</button>
+
+<div class="card">
+  <div class="t">⑥ 结论</div>
+  <div class="meta" id="verdict">检测中…</div>
+</div>
+
+<script>
+var R = [];
+function log(s){ R.push(s); document.getElementById('verdict').textContent = R.join('\n'); }
+
+// 环境
+(function(){
+  var ua = navigator.userAgent;
+  var m = ua.match(/OS (\d+)_(\d+)/);
+  var ios = m ? (m[1] + '.' + m[2]) : 'n/a';
+  var el = document.getElementById('env');
+  el.innerHTML =
+    '<b>系统</b>：' + (m ? 'iOS/iPadOS ' + ios : '非 iOS') + '<br>' +
+    '<b>UA</b>：' + ua.replace(/</g,'&lt;') + '<br>' +
+    '<b>屏幕</b>：' + screen.width + '×' + screen.height + '（像素比 ' + (window.devicePixelRatio||1) + '）<br>' +
+    '<b>视口</b>：' + innerWidth + '×' + innerHeight;
+  log('系统: ' + (m ? 'iOS ' + ios : '非 iOS'));
+})();
+
+function test(id, sid, url, label){
+  var img = document.getElementById(id);
+  var st = document.getElementById(sid);
+  var meta = document.getElementById('m' + id.charAt(1));
+  var done = false;
+  img.onload = function(){
+    if(done) return; done = true;
+    var ok = img.naturalWidth > 0;
+    st.className = 'st ' + (ok ? 'ok' : 'no');
+    st.textContent = ok ? '✓ 能显示' : '✗ 失败';
+    meta.textContent = '尺寸 ' + img.naturalWidth + '×' + img.naturalHeight + '\n' + url;
+    log(label + ': ' + (ok ? '可以显示' : '失败'));
+  };
+  img.onerror = function(){
+    if(done) return; done = true;
+    st.className = 'st no';
+    st.textContent = '✗ 加载失败';
+    meta.textContent = '加载失败（onerror）\n' + url;
+    log(label + ': 加载失败 ✗');
+  };
+  // 3 秒超时
+  setTimeout(function(){
+    if(done) return; done = true;
+    st.className = 'st no';
+    st.textContent = '✗ 超时';
+    meta.textContent = '3 秒内无响应\n' + url;
+    log(label + ': 超时（网络或缓存问题）');
+  }, 3000);
+  img.src = url;
+  return url;
+}
+
+var JPG = 'img/boiler-ch1/p006.jpg';
+var WEBP = 'img/boiler-ch1/p006.webp';
+
+document.getElementById('src3').srcset = WEBP;
+test('i2', 's2', JPG, 'JPEG');
+test('i1', 's1', WEBP, 'WebP');
+test('i3', 's3', JPG, 'picture回退');
+
+document.getElementById('openJpg').href = JPG;
+
+document.getElementById('scroll').onclick = function(){
+  window.scrollTo(0, document.body.scrollHeight);
+};
+</script>
+</body>
+</html>
