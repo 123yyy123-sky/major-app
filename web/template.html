@@ -111,6 +111,17 @@
   sub,sup{font-size:.7em;line-height:0;position:relative}
   sub{bottom:-.28em}
   sup{top:-.5em}
+  /* 课件配图 */
+  .thumbs{display:flex;gap:8px;overflow-x:auto;margin-top:10px;padding-bottom:2px;-webkit-overflow-scrolling:touch}
+  .thumb{flex:0 0 auto;position:relative;border:1px solid #dfe5ec;border-radius:8px;overflow:hidden;background:#fff}
+  .thumb img{display:block;width:230px;height:auto;cursor:zoom-in}
+  .thumb .pg{position:absolute;left:0;bottom:0;background:rgba(0,0,0,.62);color:#fff;
+             font-size:11px;font-weight:700;padding:2px 6px;border-top-right-radius:6px}
+  .lb{position:fixed;inset:0;background:rgba(12,16,22,.94);z-index:99;display:flex;
+      align-items:center;justify-content:center;padding:12px;flex-direction:column;gap:10px}
+  .lb img{max-width:100%;max-height:86vh;border-radius:8px;background:#fff}
+  .lb .cap{color:#e9eef5;font-size:13px;font-weight:700}
+  .lb .hint{color:#9fb0c4;font-size:12px}
   /* 例题 */
   .exlabel{font-size:12px;font-weight:800;color:#e8590c;letter-spacing:.06em;margin:12px 0 5px}
   .exbox{background:#fafbfc;border:1px solid #eef1f4;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75}
@@ -368,14 +379,65 @@
     card.appendChild(tree); wrap.appendChild(card); root.appendChild(wrap);
   }
 
+  /* --- 课件配图 --- */
+  // 从 source 文本里抽出被引用的页码
+  function srcPages(txt){
+    var out=[];
+    String(txt||'').replace(/(?:课件\s*)?(?:p|slide\s*)(\d{1,3})/g,function(m,n){
+      var v=parseInt(n,10); if(v>=1&&v<=400&&out.indexOf(v)<0) out.push(v); return m;
+    });
+    return out.sort(function(a,b){return a-b;});
+  }
+  // 图片基路径（构建时注入：PWA 版为 img/，单文件版为 ../docs/img/）
+  var IMGBASE = '__IMGBASE__';
+  function imgURL(p){ return IMGBASE + String(p).replace(/^img\//, ''); }
+  // 该章节有哪些图
+  function imgOf(ch){ return (ch&&ch.images)||{}; }
+  // 生成配图条（只显示该卡 source 里点到、且确实有图的页）
+  function thumbsHTML(ch, srcText, extraPages){
+    var im=imgOf(ch); if(!im) return '';
+    var pages=srcPages(srcText);
+    (extraPages||[]).forEach(function(p){ if(pages.indexOf(p)<0) pages.push(p); });
+    pages.sort(function(a,b){return a-b;});
+    var use=pages.filter(function(p){ return im[String(p)]; });
+    if(!use.length) return '';
+    var h='<div class="thumbs">';
+    use.forEach(function(p){
+      var u=imgURL(im[String(p)]);
+      h+='<div class="thumb"><img loading="lazy" src="'+esc(u)+'" alt="课件 p'+p+
+         '" data-pg="'+p+'" data-src="'+esc(u)+'"><div class="pg">p'+p+'</div></div>';
+    });
+    return h+'</div>';
+  }
+  // 灯箱
+  function openLB(src, cap){
+    var d=el('div','lb');
+    d.innerHTML='<img src="'+esc(src)+'" alt="'+esc(cap)+'"><div class="cap">'+esc(cap)+'</div>'+
+      '<div class="hint">点击任意处关闭</div>';
+    d.onclick=function(){ d.remove(); };
+    document.body.appendChild(d);
+  }
+  // 事件委托：点缩略图开灯箱
+  document.addEventListener('click', function(e){
+    var t=e.target;
+    if(t && t.tagName==='IMG' && t.dataset && t.dataset.src){
+      openLB(t.dataset.src, '课件第 '+t.dataset.pg+' 页');
+    }
+  });
+
   /* --- 重点 --- */
   function panePoints(root,ch,s){
+    var im=imgOf(ch);
+    if(im && Object.keys(im).length){
+      root.appendChild(el('div','small muted','本章可查看 '+Object.keys(im).length+' 张课件原图（点图片放大）'));
+    }
     (ch.points||[]).forEach(function(p){
       var c=el('div','card');
       c.innerHTML='<div class="between"><div class="ptitle">'+esc(p.title)+'</div>'+
         (p.key?'<span class="chip" style="background:#fff0e6;color:#e8590c">★ 重点</span>':'')+'</div>'+
         '<div class="psrc">'+esc(p.source||'')+'</div><hr>'+
-        (p.items||[]).map(function(it){ return '<div class="bul"><div class="d">·</div><div class="t">'+rich(it)+'</div></div>'; }).join('');
+        (p.items||[]).map(function(it){ return '<div class="bul"><div class="d">·</div><div class="t">'+rich(it)+'</div></div>'; }).join('')+
+        thumbsHTML(ch, p.source);
       root.appendChild(c);
     });
   }
@@ -515,6 +577,10 @@
       (q.why||[]).forEach(function(w){ rb.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
       if(q.basis) rb.appendChild(el('div','basis','依据：'+esc(q.basis)));
       if(q.answerNote) rb.appendChild(el('div','note','⚠️ '+esc(q.answerNote)));
+      // 答完给出课件原页，便于核对
+      var th=thumbsHTML(ch, (q.sourceDetail||'')+' '+(q.basis||''));
+      if(th) rb.appendChild(el('div','small muted','课件原页：'));
+      if(th) rb.insertAdjacentHTML('beforeend', th);
       c.appendChild(rb);
     }
 
