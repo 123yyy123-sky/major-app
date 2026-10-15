@@ -111,23 +111,15 @@
   sub,sup{font-size:.7em;line-height:0;position:relative}
   sub{bottom:-.28em}
   sup{top:-.5em}
-  /* 课件配图 */
+  /* 课件配图：用原生 <a> 打开，不依赖任何 JS/CSS 覆盖层 */
   .thumbs{display:flex;gap:8px;overflow-x:auto;margin-top:10px;padding-bottom:2px;-webkit-overflow-scrolling:touch}
-  .thumb{flex:0 0 auto;position:relative;border:1px solid #dfe5ec;border-radius:8px;overflow:hidden;background:#fff}
-  .thumb picture{display:block}
-  .thumb img{display:block;width:230px;height:auto;cursor:zoom-in}
+  .thumb{flex:0 0 auto;display:block;position:relative;border:1px solid #dfe5ec;
+         border-radius:8px;overflow:hidden;background:#fff;text-decoration:none;color:inherit}
+  .thumb img{display:block;width:230px;height:auto}
   .thumb .pg{position:absolute;left:0;bottom:0;background:rgba(0,0,0,.62);color:#fff;
-             font-size:11px;font-weight:700;padding:2px 6px;border-top-right-radius:6px;z-index:1}
-  .lb{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;
-      background:rgba(12,16,22,.94);z-index:99;display:flex;display:-webkit-flex;
-      align-items:center;justify-content:center;padding:12px;flex-direction:column;gap:10px;
-      -webkit-overflow-scrolling:touch;overflow:auto}
-  .lb>div{flex:0 0 auto}
-  .lb img{max-width:100%;max-height:82vh;width:auto;height:auto;border-radius:8px;background:#fff;display:block}
-  .lb .cap{color:#e9eef5;font-size:13px;font-weight:700;text-align:center;padding:0 8px}
-  .lb .hint{color:#9fb0c4;font-size:12px}
-  .lb .err{color:#ffd8a8;font-size:13px;text-align:center;padding:14px;line-height:1.7}
-  .lb .spin{color:#9fb0c4;font-size:13px}
+             font-size:11px;font-weight:700;padding:2px 6px;border-top-right-radius:6px}
+  .thumb .zoom{position:absolute;right:0;top:0;background:rgba(0,0,0,.55);color:#fff;
+               font-size:11px;font-weight:700;padding:2px 6px;border-bottom-left-radius:6px}
   /* 例题 */
   .exlabel{font-size:12px;font-weight:800;color:#e8590c;letter-spacing:.06em;margin:12px 0 5px}
   .exbox{background:#fafbfc;border:1px solid #eef1f4;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75}
@@ -404,7 +396,7 @@
     if(typeof v === 'string') return { w: v, j: null };
     return { w: v.w || null, j: v.j || null };
   }
-  // 生成配图条（只显示该卡 source 里点到、且确实有图的页）
+  // 生成配图条：用 <a href> 原生打开图片（新标签/系统看图器），不依赖覆盖层
   function thumbsHTML(ch, srcText, extraPages){
     var im=imgOf(ch); if(!im) return '';
     var pages=srcPages(srcText);
@@ -417,49 +409,16 @@
     use.forEach(function(x){
       var p=x[0], v=x[1];
       var w=v.w?imgURL(v.w):null, j=v.j?imgURL(v.j):null;
-      // 用 <picture>：支持 WebP 的用 WebP，老的（如 iOS<14）自动回退 JPEG
-      var inner='<img loading="lazy" src="'+esc(j||w)+'" alt="课件 p'+p+'"'+
-                ' data-pg="'+p+'" data-src="'+esc(j||w)+'" data-webp="'+esc(w||'')+'" data-jpg="'+esc(j||'')+'">';
-      var media = (w && j)
+      var inner='<img loading="lazy" src="'+esc(j||w)+'" alt="课件 p'+p+'">';
+      var media=(w && j)
         ? '<picture><source srcset="'+esc(w)+'" type="image/webp">'+inner+'</picture>'
         : inner;
-      h+='<div class="thumb">'+media+'<div class="pg">p'+p+'</div></div>';
+      h+='<a class="thumb" href="'+esc(j||w)+'" target="_blank" rel="noopener" title="点击查看原图 p'+p+'">'+
+         media+'<div class="pg">p'+p+'</div><div class="zoom">查看</div></a>';
     });
     return h+'</div>';
   }
-  // 灯箱
-  function openLB(webp, jpg, cap){
-    var d=el('div','lb');
-    // 优先 WebP，失败回退 JPEG（老设备不支持 WebP 时靠这个）
-    var order=[];
-    if(webp) order.push(webp);
-    if(jpg && jpg!==webp) order.push(jpg);
-    if(!order.length){ return; }
-    d.innerHTML='<img alt="'+esc(cap)+'"><div class="cap">'+esc(cap)+'</div>'+
-      '<div class="hint">点击任意处关闭</div>';
-    document.body.appendChild(d);
-    var img=d.querySelector('img'), i=0;
-    function tryNext(){
-      if(i>=order.length){
-        d.innerHTML='<div class="err">图片加载失败<br>可能是浏览器不支持 WebP 格式<br><span style="font-size:12px;opacity:.8">'+esc(order[0])+'</span></div>';
-        return;
-      }
-      img.src=order[i++];
-    }
-    img.onerror=tryNext;
-    tryNext();
-    d.onclick=function(){ d.remove(); };
-  }
-  // 事件委托：点缩略图开灯箱
-  document.addEventListener('click', function(e){
-    var t=e.target;
-    if(!t) return;
-    if(t.tagName==='SOURCE') t=t.parentNode;
-    if(t && t.tagName==='PICTURE') t=t.querySelector('img');
-    if(t && t.tagName==='IMG' && t.dataset && t.dataset.pg){
-      openLB(t.dataset.webp||'', t.dataset.jpg||t.dataset.src||'', '课件第 '+t.dataset.pg+' 页');
-    }
-  });
+  // 图片用 <a target="_blank"> 原生打开，无需灯箱 JS
 
   /* --- 重点 --- */
   function panePoints(root,ch,s){
