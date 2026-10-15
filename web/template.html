@@ -159,7 +159,7 @@
 (function () {
   "use strict";
   var DATA = JSON.parse(document.getElementById('payload').textContent);
-  var PS = { 1:{l:'课件题目',c:'#e8590c',b:'#fff0e6'}, 2:{l:'视频考点',c:'#1971c2',b:'#e7f1fb'},
+  var PS = { 1:{l:'课件题目',c:'#e8590c',b:'#fff0e6'}, 2:{l:'课件考点',c:'#1971c2',b:'#e7f1fb'},
              3:{l:'教材考点',c:'#2f9e44',b:'#e8f6ec'}, 4:{l:'补充练习',c:'#868e96',b:'#f1f3f5'} };
   var MAX_NONKEY = 0.25;
 
@@ -275,7 +275,7 @@
   function renderHome(){
     var m=$('main'); m.innerHTML='';
     m.appendChild(el('div','h1','专业课'));
-    m.appendChild(el('div','sub','课件 ＞ 视频 ＞ 课本 · 课件题优先 · 考点标清'));
+    m.appendChild(el('div','sub','课件 ＞ 课本 · 课件题优先 · 考点标清'));
     DATA.subjects.forEach(function(s){
       var n=(s.chapters||[]).length;
       var qn=(s.chapters||[]).reduce(function(a,c){return a+(c.questions||[]).length;},0);
@@ -291,7 +291,7 @@
       if(n) btn.onclick=function(){ R.sub=s.id; R.ch=null; R.tab='mind'; render(); };
       m.appendChild(btn);
     });
-    m.appendChild(el('div','sub center','来源优先级：雨课堂课件 ▸ 视频 ▸ 课本'));
+    m.appendChild(el('div','sub center','来源优先级：雨课堂课件 ▸ 课本（视频仅参考）'));
   }
 
   /* ---------- 渲染：章节列表 ---------- */
