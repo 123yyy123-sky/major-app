@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1285 1260" width="1285" height="1260">
+<title>机械工程控制基础 · 第四章 系统频域响应 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#7048e8" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#7048e8">机械工程控制基础 · 第四章 系统频域响应</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 34 个节点 · 与 App 内折叠树同源</text>
+<path d="M269.206,623.1725000000001 C296.206,623.1725000000001 296.206,134.135 323.206,134.135" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,623.1725000000001 C296.206,623.1725000000001 296.206,322.495 323.206,322.495" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,623.1725000000001 C296.206,623.1725000000001 296.206,555.2650000000001 323.206,555.2650000000001" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,623.1725000000001 C296.206,623.1725000000001 296.206,752.0475000000001 323.206,752.0475000000001" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,623.1725000000001 C296.206,623.1725000000001 296.206,903.0800000000002 323.206,903.0800000000002" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,623.1725000000001 C296.206,623.1725000000001 296.206,975.0550000000002 323.206,975.0550000000002" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,623.1725000000001 C296.206,623.1725000000001 296.206,1112.2100000000003 323.206,1112.2100000000003" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M637.7860000000001,134.135 C664.7860000000001,134.135 664.7860000000001,87.045 691.7860000000001,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.7860000000001,134.135 C664.7860000000001,134.135 664.7860000000001,134.135 691.7860000000001,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.7860000000001,134.135 C664.7860000000001,134.135 664.7860000000001,181.22500000000002 691.7860000000001,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.68600000000004,322.495 C585.7360000000001,322.495 585.7360000000001,228.315 691.7860000000001,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.68600000000004,322.495 C585.7360000000001,322.495 585.7360000000001,275.40500000000003 691.7860000000001,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.68600000000004,322.495 C585.7360000000001,322.495 585.7360000000001,322.495 691.7860000000001,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.68600000000004,322.495 C585.7360000000001,322.495 585.7360000000001,369.58500000000004 691.7860000000001,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.68600000000004,322.495 C585.7360000000001,322.495 585.7360000000001,416.675 691.7860000000001,416.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.8653999999999,555.2650000000001 C654.8257,555.2650000000001 654.8257,485.97 691.7860000000001,485.97" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.8653999999999,555.2650000000001 C654.8257,555.2650000000001 654.8257,555.2650000000001 691.7860000000001,555.2650000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.8653999999999,555.2650000000001 C654.8257,555.2650000000001 654.8257,624.5600000000001 691.7860000000001,624.5600000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M873.8068000000001,485.97 C948.7264,485.97 948.7264,463.095 1023.6460000000001,463.095" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M873.8068000000001,485.97 C948.7264,485.97 948.7264,508.845 1023.6460000000001,508.845" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M877.1116000000001,624.5600000000001 C950.3788000000001,624.5600000000001 950.3788000000001,601.6850000000001 1023.6460000000001,601.6850000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M877.1116000000001,624.5600000000001 C950.3788000000001,624.5600000000001 950.3788000000001,647.4350000000001 1023.6460000000001,647.4350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M631.462,752.0475000000001 C661.624,752.0475000000001 661.624,693.855 691.7860000000001,693.855" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M631.462,752.0475000000001 C661.624,752.0475000000001 661.624,740.945 691.7860000000001,740.945" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M631.462,752.0475000000001 C661.624,752.0475000000001 661.624,810.2400000000001 691.7860000000001,810.2400000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M858.109,810.2400000000001 C940.8775,810.2400000000001 940.8775,787.3650000000001 1023.6460000000001,787.3650000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M858.109,810.2400000000001 C940.8775,810.2400000000001 940.8775,833.1150000000001 1023.6460000000001,833.1150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M574.546,903.0800000000002 C633.166,903.0800000000002 633.166,879.5350000000001 691.7860000000001,879.5350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.546,903.0800000000002 C633.166,903.0800000000002 633.166,926.6250000000001 691.7860000000001,926.6250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.546,1112.2100000000003 C633.166,1112.2100000000003 633.166,1023.4850000000001 691.7860000000001,1023.4850000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.546,1112.2100000000003 C633.166,1112.2100000000003 633.166,1079.6200000000003 691.7860000000001,1079.6200000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.546,1112.2100000000003 C633.166,1112.2100000000003 633.166,1144.8000000000002 691.7860000000001,1144.8000000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.546,1112.2100000000003 C633.166,1112.2100000000003 633.166,1200.9350000000004 691.7860000000001,1200.9350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="599.1" width="229.2" height="48.1" rx="11" fill="#7048e8" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="626.3" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第四章 系统频域响应</text>
+<rect x="323.2" y="103.4" width="314.6" height="61.5" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="126.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">引言：时域分析法的缺点与研究频率特性</text>
+<text x="338.2" y="146.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">的意义</text>
+<rect x="691.8" y="68.0" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">时域分析法的缺点</text>
+<rect x="691.8" y="115.1" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">研究频率特性的意义</text>
+<rect x="691.8" y="162.2" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">频率特性法的优点</text>
+<rect x="323.2" y="302.1" width="156.5" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="324.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">一、频率特性概述</text>
+<rect x="691.8" y="209.3" width="168.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1. 频率响应与频率特性</text>
+<rect x="691.8" y="256.4" width="213.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2. 频率特性与传递函数的关系</text>
+<rect x="691.8" y="303.4" width="144.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3. 频率特性的求法</text>
+<rect x="691.8" y="350.5" width="158.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">4. 频率特性的表示法</text>
+<rect x="691.8" y="397.6" width="144.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">5. 频率特性的特点</text>
+<rect x="323.2" y="534.9" width="294.7" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="557.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">二、频率特性的极坐标图(Nyquist图)</text>
+<rect x="691.8" y="466.9" width="182.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="488.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1. 典型环节的Nyquist图</text>
+<rect x="1023.6" y="444.7" width="81.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1038.6" y="465.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">延时环节</text>
+<rect x="1023.6" y="490.5" width="221.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1038.6" y="510.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">延时环节在低频区近似于惯性环节</text>
+<rect x="691.8" y="536.2" width="212.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="557.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2. 绘制Nyquist图的一般方法</text>
+<rect x="691.8" y="605.5" width="185.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="626.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3. Nyquist图的一般形状</text>
+<rect x="1023.6" y="583.3" width="182.7" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1038.6" y="603.6" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">三个不同系统的Nyquist图</text>
+<rect x="1023.6" y="629.1" width="157.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1038.6" y="649.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">起点、终点与弯曲规律</text>
+<rect x="323.2" y="731.7" width="308.3" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="754.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">三、频率特性的对数坐标图（Bode图）</text>
+<rect x="691.8" y="674.8" width="94.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="695.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1. Bode图</text>
+<rect x="691.8" y="721.9" width="166.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="743.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2. 典型环节的Bode图</text>
+<rect x="691.8" y="791.2" width="166.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="812.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3. 系统Bode图的绘制</text>
+<rect x="1023.6" y="769.0" width="144.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1038.6" y="789.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">一、环节曲线叠加法</text>
+<rect x="1023.6" y="814.7" width="119.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1038.6" y="835.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">二、顺序斜率法</text>
+<rect x="323.2" y="882.7" width="251.3" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="905.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">四、闭环频率特性与频域特征量</text>
+<rect x="691.8" y="860.5" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="881.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、闭环频率特性</text>
+<rect x="691.8" y="907.6" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="928.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、系统频域特征量（频域性能指标）</text>
+<rect x="323.2" y="954.7" width="283.0" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="977.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">五、最小相位系统与非最小相位系统</text>
+<rect x="323.2" y="1091.8" width="251.3" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="1114.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">六、系统传递函数的实验确定法</text>
+<rect x="691.8" y="1004.4" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1025.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、频率特性实验测试</text>
+<rect x="691.8" y="1051.5" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1072.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、频率特性实验曲线→对数幅频特性渐</text>
+<text x="706.8" y="1090.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">近线</text>
+<rect x="691.8" y="1116.7" width="250.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1137.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三、对数幅频特性渐近线→传递函数</text>
+<text x="706.8" y="1155.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（初步估计）</text>
+<rect x="691.8" y="1181.9" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1203.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">四、非最小相位修正</text>
+</g>
+</svg>

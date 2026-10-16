@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 922 2519" width="922" height="2519">
+<title>机械工程控制基础 · 第一章 绪论 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#7048e8" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#7048e8">机械工程控制基础 · 第一章 绪论</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 56 个节点 · 与 App 内折叠树同源</text>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,213.81500000000003 237.526,213.81500000000003" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,579.6250000000001 237.526,579.6250000000001" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,917.3675000000002 237.526,917.3675000000002" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,1142.8400000000001 237.526,1142.8400000000001" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,1424.4474999999998 237.526,1424.4474999999998" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,1789.3249999999998 237.526,1789.3249999999998" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,2093.545 237.526,2093.545" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,2276.45 237.526,2276.45" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M183.526,1313.04 C210.526,1313.04 210.526,2412.265 237.526,2412.265" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M473.05600000000004,213.81500000000003 C531.676,213.81500000000003 531.676,87.045 590.296,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M473.05600000000004,213.81500000000003 C531.676,213.81500000000003 531.676,143.18 590.296,143.18" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M473.05600000000004,213.81500000000003 C531.676,213.81500000000003 531.676,199.315 590.296,199.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M473.05600000000004,213.81500000000003 C531.676,213.81500000000003 531.676,246.40500000000003 590.296,246.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M473.05600000000004,213.81500000000003 C531.676,213.81500000000003 531.676,293.495 590.296,293.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M473.05600000000004,213.81500000000003 C531.676,213.81500000000003 531.676,340.58500000000004 590.296,340.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,396.71999999999997 590.296,396.71999999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,461.9 590.296,461.9" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,518.0350000000001 590.296,518.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,565.125 590.296,565.125" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,612.215 590.296,612.215" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,659.3050000000001 590.296,659.3050000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,706.3950000000001 590.296,706.3950000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,579.6250000000001 C460.53100000000006,579.6250000000001 460.53100000000006,762.5300000000002 590.296,762.5300000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M520.4860000000001,917.3675000000002 C555.3910000000001,917.3675000000002 555.3910000000001,818.6650000000001 590.296,818.6650000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M520.4860000000001,917.3675000000002 C555.3910000000001,917.3675000000002 555.3910000000001,865.7550000000001 590.296,865.7550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M520.4860000000001,917.3675000000002 C555.3910000000001,917.3675000000002 555.3910000000001,912.8450000000001 590.296,912.8450000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M520.4860000000001,917.3675000000002 C555.3910000000001,917.3675000000002 555.3910000000001,959.9350000000002 590.296,959.9350000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M520.4860000000001,917.3675000000002 C555.3910000000001,917.3675000000002 555.3910000000001,1016.0700000000003 590.296,1016.0700000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,1142.8400000000001 C460.53100000000006,1142.8400000000001 460.53100000000006,1072.2050000000004 590.296,1072.2050000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,1142.8400000000001 C460.53100000000006,1142.8400000000001 460.53100000000006,1119.2950000000003 590.296,1119.2950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,1142.8400000000001 C460.53100000000006,1142.8400000000001 460.53100000000006,1166.3850000000002 590.296,1166.3850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M330.766,1142.8400000000001 C460.53100000000006,1142.8400000000001 460.53100000000006,1213.4750000000001 590.296,1213.4750000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M441.43600000000004,1424.4474999999998 C515.866,1424.4474999999998 515.866,1269.61 590.296,1269.61" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M441.43600000000004,1424.4474999999998 C515.866,1424.4474999999998 515.866,1334.79 590.296,1334.79" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M441.43600000000004,1424.4474999999998 C515.866,1424.4474999999998 515.866,1390.9250000000002 590.296,1390.9250000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M441.43600000000004,1424.4474999999998 C515.866,1424.4474999999998 515.866,1438.015 590.296,1438.015" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M441.43600000000004,1424.4474999999998 C515.866,1424.4474999999998 515.866,1485.105 590.296,1485.105" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M441.43600000000004,1424.4474999999998 C515.866,1424.4474999999998 515.866,1532.195 590.296,1532.195" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M441.43600000000004,1424.4474999999998 C515.866,1424.4474999999998 515.866,1579.2849999999999 590.296,1579.2849999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M409.81600000000003,1789.3249999999998 C500.05600000000004,1789.3249999999998 500.05600000000004,1635.4199999999996 590.296,1635.4199999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M409.81600000000003,1789.3249999999998 C500.05600000000004,1789.3249999999998 500.05600000000004,1700.5999999999997 590.296,1700.5999999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M409.81600000000003,1789.3249999999998 C500.05600000000004,1789.3249999999998 500.05600000000004,1765.7799999999997 590.296,1765.7799999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M409.81600000000003,1789.3249999999998 C500.05600000000004,1789.3249999999998 500.05600000000004,1830.9599999999998 590.296,1830.9599999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M409.81600000000003,1789.3249999999998 C500.05600000000004,1789.3249999999998 500.05600000000004,1887.095 590.296,1887.095" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M409.81600000000003,1789.3249999999998 C500.05600000000004,1789.3249999999998 500.05600000000004,1943.2299999999998 590.296,1943.2299999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M536.296,2093.545 C563.296,2093.545 563.296,1999.365 590.296,1999.365" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M536.296,2093.545 C563.296,2093.545 563.296,2046.455 590.296,2046.455" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M536.296,2093.545 C563.296,2093.545 563.296,2093.545 590.296,2093.545" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M536.296,2093.545 C563.296,2093.545 563.296,2140.6349999999998 590.296,2140.6349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M536.296,2093.545 C563.296,2093.545 563.296,2187.725 590.296,2187.725" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M473.05600000000004,2276.45 C531.676,2276.45 531.676,2243.86 590.296,2243.86" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M473.05600000000004,2276.45 C531.676,2276.45 531.676,2309.04 590.296,2309.04" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M457.246,2412.265 C523.771,2412.265 523.771,2365.1749999999997 590.296,2365.1749999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M457.246,2412.265 C523.771,2412.265 523.771,2412.265 590.296,2412.265" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M457.246,2412.265 C523.771,2412.265 523.771,2459.355 590.296,2459.355" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="1289.0" width="143.5" height="48.1" rx="11" fill="#7048e8" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="1316.2" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第一章 绪论</text>
+<rect x="237.5" y="193.4" width="235.5" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="216.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">绪论引入：为什么要学控制论</text>
+<rect x="590.3" y="68.0" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机电一体化产品的出现与逐渐普及</text>
+<rect x="590.3" y="115.1" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机械系统朝高速、高负载、超精密、超大</text>
+<text x="605.3" y="154.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">型或超微型方向发展</text>
+<rect x="590.3" y="180.3" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="201.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">动态测试、信号处理（信号与系统）</text>
+<rect x="590.3" y="227.4" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="248.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">生产组织管理（过程的优化）</text>
+<rect x="590.3" y="274.4" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="295.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">其他工程应用与个人日常生活</text>
+<rect x="590.3" y="321.5" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="342.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">方法论：“反馈控制的思想”</text>
+<rect x="237.5" y="559.2" width="93.2" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="582.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">一、概述</text>
+<rect x="590.3" y="368.6" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="389.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">控制的定义（施加操作于对象，使其产生</text>
+<text x="605.3" y="407.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">所期望的行为）</text>
+<rect x="590.3" y="433.8" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="454.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">自动控制的定义（由控制装置自动完成，</text>
+<text x="605.3" y="473.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">无需人的参与）</text>
+<rect x="590.3" y="499.0" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="520.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">人工控制与自动控制的区别：控制器</text>
+<rect x="590.3" y="546.1" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="567.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">自动控制相比人工控制的优势</text>
+<rect x="590.3" y="593.2" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="614.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">控制的三要素、可控性与能控性</text>
+<rect x="590.3" y="640.3" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="661.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">控制论的方法论</text>
+<rect x="590.3" y="687.4" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="708.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">控制论与其它学科结合形成的分支学科</text>
+<rect x="590.3" y="734.4" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="755.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">控制论的中心思想：信息的传递、交互与</text>
+<text x="605.3" y="773.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">反馈</text>
+<rect x="237.5" y="897.0" width="283.0" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="919.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">二、机械工程控制论研究对象与任务</text>
+<rect x="590.3" y="799.6" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="820.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统的定义与要素</text>
+<rect x="590.3" y="846.7" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="867.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统的层次性与相对性、广义系统</text>
+<rect x="590.3" y="893.8" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="914.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统的动力学问题</text>
+<rect x="590.3" y="940.9" width="243.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="962.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例：弹簧-质量-阻尼单自由度系统</text>
+<rect x="590.3" y="988.0" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1009.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">研究任务：系统分析、最优控制、最优设</text>
+<text x="605.3" y="1027.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">计、滤波与预测、系统辨识</text>
+<rect x="237.5" y="1122.5" width="93.2" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="1145.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">三、反馈</text>
+<rect x="590.3" y="1053.2" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1074.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">信息（三种定义）</text>
+<rect x="590.3" y="1100.3" width="98.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1121.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">反馈的定义</text>
+<rect x="590.3" y="1147.3" width="186.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1168.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例1：离心调速器控制原理</text>
+<rect x="590.3" y="1194.4" width="231.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1215.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例2：静压轴承薄膜反馈控制系统</text>
+<rect x="237.5" y="1404.1" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="1426.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">四、反馈控制系统的组成</text>
+<rect x="590.3" y="1241.5" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1262.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">实例：发动机离心调速系统（被控对象、</text>
+<text x="605.3" y="1280.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">被控量、目标值设定）</text>
+<rect x="590.3" y="1306.7" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1327.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">基本物理量：被控量、给定量、控制量、</text>
+<text x="605.3" y="1345.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">扰动量</text>
+<rect x="590.3" y="1371.9" width="85.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1393.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">给定环节</text>
+<rect x="590.3" y="1419.0" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1440.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测量环节（反馈环节）</text>
+<rect x="590.3" y="1466.1" width="246.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1487.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">比较环节（偏差 ε = x_i − x_b）</text>
+<rect x="590.3" y="1513.1" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1534.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">放大及运算环节</text>
+<rect x="590.3" y="1560.2" width="85.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1581.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">执行环节</text>
+<rect x="237.5" y="1768.9" width="172.3" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="1791.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">五、控制系统的分类</text>
+<rect x="590.3" y="1607.3" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1628.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按反馈情况：开环控制系统、闭环控制系</text>
+<text x="605.3" y="1646.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">统</text>
+<rect x="590.3" y="1672.5" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1693.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按输出量的变化规律：自动调节系统</text>
+<text x="605.3" y="1711.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（恒值系统）、随动系统、程序控制系统</text>
+<rect x="590.3" y="1737.7" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1758.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按信号类型：连续控制系统、离散控制系</text>
+<text x="605.3" y="1776.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">统</text>
+<rect x="590.3" y="1802.9" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1823.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按线性性质：线性控制系统、非线性控制</text>
+<text x="605.3" y="1842.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统</text>
+<rect x="590.3" y="1868.0" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1889.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按时变情况：定常系统、时变系统</text>
+<rect x="590.3" y="1915.1" width="291.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="1936.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按被控量：位移控制系统、温度控制系统、</text>
+<text x="605.3" y="1954.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">速度控制系统等</text>
+<rect x="237.5" y="2073.2" width="298.8" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="2095.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">六、机械制造的发展与控制理论的应用</text>
+<rect x="590.3" y="1980.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2001.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">原始制造工艺过程的类似闭环系统</text>
+<rect x="590.3" y="2027.4" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2048.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">人操作机器加工的类似闭环系统</text>
+<rect x="590.3" y="2074.5" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2095.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">检测加入后的类似闭环系统</text>
+<rect x="590.3" y="2121.6" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2142.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">自动化装置加入后的类似闭环系统</text>
+<rect x="590.3" y="2168.7" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2189.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">计算机控制的闭环系统</text>
+<rect x="237.5" y="2256.1" width="235.5" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="2278.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">七、机械工程控制未来的发展</text>
+<rect x="590.3" y="2215.8" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2236.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">发展方向：人工智能、传感器集成、计算</text>
+<text x="605.3" y="2254.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机视觉、CAD/CAM编程、PLC</text>
+<rect x="590.3" y="2280.9" width="251.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2302.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">控制理论发展史（Watt、Maxwell、</text>
+<text x="605.3" y="2320.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Routh、Wiener、钱学森）</text>
+<rect x="237.5" y="2391.9" width="219.7" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="252.5" y="2414.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">六、对控制系统的基本要求</text>
+<rect x="590.3" y="2346.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2367.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">稳定性（正常工作的首要条件）</text>
+<rect x="590.3" y="2393.2" width="71.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2414.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">快速性</text>
+<rect x="590.3" y="2440.3" width="71.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="605.3" y="2461.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">准确性</text>
+</g>
+</svg>

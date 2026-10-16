@@ -230,6 +230,8 @@
     return x;
   }
   function el(tag, cls, html){ var d=document.createElement(tag); if(cls)d.className=cls; if(html!=null)d.innerHTML=html; return d; }
+  // 字段容错：字符串按单元素数组处理（子代理可能给字符串而非数组）
+  function asList(v){ return v==null ? [] : (Array.isArray(v) ? v : [v]); }
   /* 主题色：按当前科目注入 CSS 变量（未选科目时回落锅炉橙） */
   var DEFAULT_ACCENT = '#e8590c';
   function setAccent(color){
@@ -480,7 +482,7 @@
   function paneKP(root,ch,s){
     var map={};
     (ch.questions||[]).forEach(function(q){
-      (q.keyPoints||[]).forEach(function(k){
+      asList(q.keyPoints).forEach(function(k){
         map[k]=map[k]||{n:0,src:{},wrong:0};
         map[k].n++;
         var src=(q.sourceDetail||q.basis||q.source||'');
@@ -516,16 +518,16 @@
     var isEx=(q.kind==='例题'||q.kind==='计算'||q.kind==='简答');
     var h='';
     if(isEx){
-      if((q.steps||[]).length){
+      if(asList(q.steps).length){
         h+='<div class="exlabel">'+(q.kind==='简答'?'参考答案':'解答过程')+'</div>'+
-           '<div class="exbox steps">'+q.steps.map(function(x,i){
+           '<div class="exbox steps">'+asList(q.steps).map(function(x,i){
              return '<div class="bul"><div class="d">'+(q.kind==='简答'?'·':(i+1))+'</div><div class="t">'+rich(x)+'</div></div>';
            }).join('')+'</div>';
       }
       if(q.result) h+='<div class="exres">'+(q.kind==='简答'?'要点：':'结果：')+rich(q.result)+'</div>';
     }
     if(!h && q.answer) h+='<div class="basis">正确答案：<b>'+esc(q.answer)+'</b></div>';
-    (q.why||[]).forEach(function(w){ h+='<div class="bul"><div class="d">›</div><div class="t">'+rich(w)+'</div></div>'; });
+    asList(q.why).forEach(function(w){ h+='<div class="bul"><div class="d">›</div><div class="t">'+rich(w)+'</div></div>'; });
     if(q.basis) h+='<div class="basis">依据：'+esc(q.basis)+'</div>';
     if(q.answerNote) h+='<div class="note">⚠️ '+esc(q.answerNote)+'</div>';
     return h;
@@ -545,7 +547,7 @@
     });
     var shown=qs.filter(function(q){
       if(QA.kind && q.kind!==QA.kind) return false;
-      if(QA.kp && (q.keyPoints||[]).indexOf(QA.kp)<0) return false;
+      if(QA.kp && asList(q.keyPoints).indexOf(QA.kp)<0) return false;
       return true;
     });
 
@@ -595,13 +597,13 @@
         (q.sourceDetail?'<span class="small muted">'+esc(q.sourceDetail)+'</span>':'')));
       if(isKey(q)){
         var kp=el('div','kp'); kp.appendChild(el('span','lab','考点'));
-        (q.keyPoints||[]).forEach(function(k){ kp.appendChild(el('span','k',esc(k))); });
+        asList(q.keyPoints).forEach(function(k){ kp.appendChild(el('span','k',esc(k))); });
         c.appendChild(kp);
       }
       c.appendChild(el('div','stem', rich(q.stem)));
-      if((q.given||[]).length){ c.appendChild(el('div','exlabel','已知')); c.appendChild(el('div','exbox', q.given.map(bul).join(''))); }
-      if((q.ask||[]).length){ c.appendChild(el('div','exlabel','求解')); c.appendChild(el('div','exbox', q.ask.map(bul).join(''))); }
-      (q.options||[]).forEach(function(op){
+      if(asList(q.given).length){ c.appendChild(el('div','exlabel','已知')); c.appendChild(el('div','exbox', asList(q.given).map(bul).join(''))); }
+      if(asList(q.ask).length){ c.appendChild(el('div','exlabel','求解')); c.appendChild(el('div','exbox', asList(q.ask).map(bul).join(''))); }
+      asList(q.options).forEach(function(op){
         var isAns=String(q.answer||'').indexOf(op.k)>=0;
         var d=el('div','opt ro'+(open&&isAns?' ok':''));
         d.innerHTML='<div class="k">'+esc(op.k)+'</div><div class="t">'+rich(op.t)+'</div>'+
@@ -675,30 +677,30 @@
 
     if(isExample){
       /* ---- 例题：已知 → 求解 →（点开）解答过程 → 结果 ---- */
-      if((q.given||[]).length){
+      if(asList(q.given).length){
         c.appendChild(el('div','exlabel','已知'));
-        c.appendChild(el('div','exbox', q.given.map(function(g){
+        c.appendChild(el('div','exbox', asList(q.given).map(function(g){
           return '<div class="bul"><div class="d">·</div><div class="t">'+rich(g)+'</div></div>';
         }).join('')));
       }
-      if((q.ask||[]).length){
+      if(asList(q.ask).length){
         c.appendChild(el('div','exlabel','求解'));
-        c.appendChild(el('div','exbox', q.ask.map(function(g){
+        c.appendChild(el('div','exbox', asList(q.ask).map(function(g){
           return '<div class="bul"><div class="d">·</div><div class="t">'+rich(g)+'</div></div>';
         }).join('')));
       }
       var showSol = !!Q.done || !!Q.solOpen;
       if(showSol){
-        if((q.steps||[]).length){
+        if(asList(q.steps).length){
           c.appendChild(el('div','exlabel', isSimple?'参考答案':'解答过程'));
-          c.appendChild(el('div','exbox steps', q.steps.map(function(s, i){
+          c.appendChild(el('div','exbox steps', asList(q.steps).map(function(s, i){
             return '<div class="bul"><div class="d">'+(isSimple?'·':(i+1))+'</div><div class="t">'+rich(s)+'</div></div>';
           }).join('')));
         }
         if(q.result) c.appendChild(el('div','exres',(isSimple?'要点：':'结果：')+rich(q.result)));
       }
       var rb0=el('div','res');
-      (q.why||[]).forEach(function(w){ rb0.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
+      asList(q.why).forEach(function(w){ rb0.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
       if(q.basis) rb0.appendChild(el('div','basis','依据：'+esc(q.basis)));
       if(q.answerNote) rb0.appendChild(el('div','note','⚠️ '+esc(q.answerNote)));
       if(rb0.innerHTML) c.appendChild(rb0);
@@ -709,7 +711,7 @@
       if(Q.done) inp.style.background = (Q.lastOk===null) ? '#f1f3f5' : (Q.lastOk ? '#e8f6ec' : '#fff0f0');
       c.appendChild(inp);
     } else {
-      (q.options||[]).forEach(function(op){
+      asList(q.options).forEach(function(op){
         var sel = q.kind==='多选' ? String(Q.pick||'').indexOf(op.k)>=0 : Q.pick===op.k;
         var isAns = String(q.answer).indexOf(op.k)>=0;
         var cls='opt', mark='';
@@ -740,7 +742,7 @@
       } else {
         rb.appendChild(el('h4',null,'<span style="color:'+(ok?'#2f9e44':'#e03131')+'">'+(ok?'✓ 回答正确':'✗ 回答错误　正确答案：'+esc(q.answer))+'</span>'));
       }
-      (q.why||[]).forEach(function(w){ rb.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
+      asList(q.why).forEach(function(w){ rb.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
       if(q.basis) rb.appendChild(el('div','basis','依据：'+esc(q.basis)));
       if(q.answerNote) rb.appendChild(el('div','note','⚠️ '+esc(q.answerNote)));
       // 答完给出课件原页，便于核对
@@ -794,7 +796,7 @@
   function quizDone(root,ch,s){
     var right=Q.list.length-Q.wrong.length;
     var n=Q.list.length||1;                 // 防 0 题时正确率算出 NaN
-    var kps={}; Q.wrong.forEach(function(q){ (q.keyPoints||[]).forEach(function(k){ kps[k]=1; }); });
+    var kps={}; Q.wrong.forEach(function(q){ asList(q.keyPoints).forEach(function(k){ kps[k]=1; }); });
     var c=el('div','card center');
     c.innerHTML='<div style="font-size:18px;font-weight:800">完成</div>'+
       '<div class="big">'+right+' / '+Q.list.length+'</div>'+
@@ -840,7 +842,7 @@
     list.forEach(function(it){
       var q=it.q, ps=PS[q.priority]||PSD;
       var c=el('div','card');
-      var kp=(q.keyPoints||[]).map(function(k){ return '<span class="k">'+esc(k)+'</span>'; }).join('');
+      var kp=asList(q.keyPoints).map(function(k){ return '<span class="k">'+esc(k)+'</span>'; }).join('');
       c.innerHTML='<div class="row"><span class="tag" style="background:'+ps.b+';color:'+ps.c+'">'+ps.l+'</span>'+
         '<span class="chip" style="background:#fff0f0;color:#e03131">错 '+(state.wrong[q.id]||0)+' 次</span>'+
         '<span class="small muted">'+esc(it.sub.name+' · '+it.ch.name)+'</span></div>'+

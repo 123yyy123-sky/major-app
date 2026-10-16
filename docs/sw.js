@@ -4,7 +4,7 @@
    - index.html 每次启动后台更新，下次打开即最新（stale-while-revalidate）
    - 版本号变化时清掉旧缓存
 */
-const VERSION = 'a3a5e06dda';
+const VERSION = '4a4049bd9f';
 const CACHE = 'majorapp-' + VERSION;
 
 const SHELL = [
@@ -18,7 +18,7 @@ const SHELL = [
   './icons/apple-touch-icon.png',
   './icons/favicon.png',
   // 思维导图 SVG 由 build.js 按实际产物注入（离线也能看全图）
-].concat(["./mindmap/boiler-intro.svg","./mindmap/boiler-ch1.svg","./mindmap/boiler-ch2.svg","./mindmap/boiler-ch4.svg","./mindmap/boiler-ch5.svg","./mindmap/boiler-ch6.svg","./mindmap/boiler-ch7.svg","./mindmap/boiler-ch8.svg","./mindmap/boiler-ch9.svg","./mindmap/boiler-ch10.svg","./mindmap/boiler-ch11.svg"]);
+].concat(["./mindmap/boiler-intro.svg","./mindmap/boiler-ch1.svg","./mindmap/boiler-ch2.svg","./mindmap/boiler-ch4.svg","./mindmap/boiler-ch5.svg","./mindmap/boiler-ch6.svg","./mindmap/boiler-ch7.svg","./mindmap/boiler-ch8.svg","./mindmap/boiler-ch9.svg","./mindmap/boiler-ch10.svg","./mindmap/boiler-ch11.svg","./mindmap/control-lap.svg","./mindmap/control-ch1.svg","./mindmap/control-ch2.svg","./mindmap/control-ch3.svg","./mindmap/control-ch4.svg"]);
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

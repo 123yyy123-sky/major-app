@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1014 2031" width="1014" height="2031">
+<title>机械工程控制基础 · 第三章 系统时域响应 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#7048e8" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#7048e8">机械工程控制基础 · 第三章 系统时域响应</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 46 个节点 · 与 App 内折叠树同源</text>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,134.135 323.206,134.135" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,229.655 323.206,229.655" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,372.2650000000001 323.206,372.2650000000001" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,537.0800000000002 323.206,537.0800000000002" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,654.8050000000002 323.206,654.8050000000002" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,866.7100000000003 323.206,866.7100000000003" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,1055.0700000000004 323.206,1055.0700000000004" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,1314.0650000000003 323.206,1314.0650000000003" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,1561.2399999999998 323.206,1561.2399999999998" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M269.206,964.8874999999998 C296.206,964.8874999999998 296.206,1795.6399999999996 323.206,1795.6399999999996" fill="none" stroke="#7048e8" stroke-width="2" stroke-linecap="round"/>
+<path d="M511.30600000000004,134.135 C601.546,134.135 601.546,87.045 691.7860000000001,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.30600000000004,134.135 C601.546,134.135 601.546,134.135 691.7860000000001,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.30600000000004,134.135 C601.546,134.135 601.546,181.22500000000002 691.7860000000001,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,372.2650000000001 C609.451,372.2650000000001 609.451,278.08500000000004 691.7860000000001,278.08500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,372.2650000000001 C609.451,372.2650000000001 609.451,325.175 691.7860000000001,325.175" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,372.2650000000001 C609.451,372.2650000000001 609.451,372.26500000000004 691.7860000000001,372.26500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,372.2650000000001 C609.451,372.2650000000001 609.451,419.3550000000001 691.7860000000001,419.3550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,372.2650000000001 C609.451,372.2650000000001 609.451,466.4450000000001 691.7860000000001,466.4450000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,537.0800000000002 C609.451,537.0800000000002 609.451,513.5350000000001 691.7860000000001,513.5350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,537.0800000000002 C609.451,537.0800000000002 609.451,560.6250000000002 691.7860000000001,560.6250000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,654.8050000000002 C609.451,654.8050000000002 609.451,607.7150000000001 691.7860000000001,607.7150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,654.8050000000002 C609.451,654.8050000000002 609.451,654.8050000000002 691.7860000000001,654.8050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,654.8050000000002 C609.451,654.8050000000002 609.451,701.8950000000002 691.7860000000001,701.8950000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.736,866.7100000000003 C625.261,866.7100000000003 625.261,748.9850000000002 691.7860000000001,748.9850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.736,866.7100000000003 C625.261,866.7100000000003 625.261,796.0750000000003 691.7860000000001,796.0750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.736,866.7100000000003 C625.261,866.7100000000003 625.261,843.1650000000003 691.7860000000001,843.1650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.736,866.7100000000003 C625.261,866.7100000000003 625.261,890.2550000000003 691.7860000000001,890.2550000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.736,866.7100000000003 C625.261,866.7100000000003 625.261,937.3450000000004 691.7860000000001,937.3450000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.736,866.7100000000003 C625.261,866.7100000000003 625.261,984.4350000000004 691.7860000000001,984.4350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1055.0700000000004 C609.451,1055.0700000000004 609.451,1031.5250000000005 691.7860000000001,1031.5250000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1055.0700000000004 C609.451,1055.0700000000004 609.451,1078.6150000000005 691.7860000000001,1078.6150000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1125.7050000000006 691.7860000000001,1125.7050000000006" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1172.7950000000005 691.7860000000001,1172.7950000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1219.8850000000004 691.7860000000001,1219.8850000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1266.9750000000004 691.7860000000001,1266.9750000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1314.0650000000003 691.7860000000001,1314.0650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1361.1550000000002 691.7860000000001,1361.1550000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1408.2450000000001 691.7860000000001,1408.2450000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1455.335 691.7860000000001,1455.335" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M527.116,1314.0650000000003 C609.451,1314.0650000000003 609.451,1502.425 691.7860000000001,1502.425" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M448.06600000000003,1795.6399999999996 C569.926,1795.6399999999996 569.926,1629.0999999999997 691.7860000000001,1629.0999999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M448.06600000000003,1795.6399999999996 C569.926,1795.6399999999996 569.926,1703.3249999999998 691.7860000000001,1703.3249999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M448.06600000000003,1795.6399999999996 C569.926,1795.6399999999996 569.926,1795.6399999999999 691.7860000000001,1795.6399999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M448.06600000000003,1795.6399999999996 C569.926,1795.6399999999996 569.926,1887.9549999999997 691.7860000000001,1887.9549999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M448.06600000000003,1795.6399999999996 C569.926,1795.6399999999996 569.926,1962.1799999999996 691.7860000000001,1962.1799999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="940.8" width="229.2" height="48.1" rx="11" fill="#7048e8" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="968.0" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第三章 系统时域响应</text>
+<rect x="323.2" y="113.8" width="188.1" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="136.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">一、时间响应及其组成</text>
+<rect x="691.8" y="68.0" width="95.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1.时间响应</text>
+<rect x="691.8" y="115.1" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2.时间响应的组成</text>
+<rect x="691.8" y="162.2" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3.系统特征根与自由响应的关系</text>
+<rect x="323.2" y="209.3" width="172.3" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="232.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">二、典型的输入信号</text>
+<rect x="323.2" y="351.9" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="374.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">三、一阶系统的时间响应</text>
+<rect x="691.8" y="259.0" width="178.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="280.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1.一阶系统单位脉冲响应</text>
+<rect x="691.8" y="306.1" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="327.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2.一阶系统单位阶跃响应</text>
+<rect x="691.8" y="353.2" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="374.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3.一阶系统单位斜坡响应</text>
+<rect x="691.8" y="400.3" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="421.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">4.时间常数对时间响应的影响</text>
+<rect x="691.8" y="447.4" width="260.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="468.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">5.一阶系统性能指标——调整时间t_s</text>
+<rect x="323.2" y="516.7" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="539.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">四、二阶系统的时间响应</text>
+<rect x="691.8" y="494.5" width="191.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="515.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1.二阶系统的单位脉冲响应</text>
+<rect x="691.8" y="541.6" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="562.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2.二阶系统的单位阶跃响应</text>
+<rect x="323.2" y="634.4" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="657.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">五、二阶系统的性能指标</text>
+<rect x="691.8" y="588.7" width="119.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="609.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1.上升时间t_r</text>
+<rect x="691.8" y="635.8" width="122.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="656.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2.峰值时间t_p</text>
+<rect x="691.8" y="682.9" width="141.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="703.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3.最大超调量M_p</text>
+<rect x="323.2" y="846.3" width="235.5" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="869.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">二阶系统瞬态性能指标与例题</text>
+<rect x="691.8" y="729.9" width="103.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="751.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">调整时间 ts</text>
+<rect x="691.8" y="777.0" width="99.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="798.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">振荡次数 N</text>
+<rect x="691.8" y="824.1" width="186.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="845.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Mp、ts 与 ξ、ωn 的关系</text>
+<rect x="691.8" y="871.2" width="149.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="892.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例1 求瞬态性能指标</text>
+<rect x="691.8" y="918.3" width="166.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="939.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例2 机械系统参数辨识</text>
+<rect x="691.8" y="965.4" width="207.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="986.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例3 位置随动系统微分负反馈</text>
+<rect x="323.2" y="1034.7" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="1057.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">六、高阶系统的时间响应</text>
+<rect x="691.8" y="1012.5" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1033.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">传递函数分解与响应叠加</text>
+<rect x="691.8" y="1059.6" width="85.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1080.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">主导极点</text>
+<rect x="323.2" y="1293.7" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="1316.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">七、系统误差分析与计算</text>
+<rect x="691.8" y="1106.7" width="98.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1127.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">误差与偏差</text>
+<rect x="691.8" y="1153.8" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1174.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">稳态误差与稳态偏差</text>
+<rect x="691.8" y="1200.8" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1221.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">与输入有关的稳态偏差</text>
+<rect x="691.8" y="1247.9" width="189.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1269.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统的型次（0/I/II 型）</text>
+<rect x="691.8" y="1295.0" width="196.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1316.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">0、I、II 型系统稳态偏差表</text>
+<rect x="691.8" y="1342.1" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1363.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">干扰作用下的偏差和误差</text>
+<rect x="691.8" y="1389.2" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1410.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">稳态偏差分析结论</text>
+<rect x="691.8" y="1436.3" width="149.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1457.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例1 两系统稳态误差</text>
+<rect x="691.8" y="1483.4" width="139.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1504.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">例2 速度控制系统</text>
+<rect x="323.2" y="1530.5" width="314.6" height="61.5" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="1553.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">八、单位脉冲响应函数在时间响应中的作</text>
+<text x="338.2" y="1573.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">用</text>
+<rect x="323.2" y="1775.3" width="124.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
+<text x="338.2" y="1798.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">本章英文术语</text>
+<rect x="691.8" y="1601.0" width="233.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1622.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Canonical form / Diagonal /</text>
+<text x="706.8" y="1640.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Jordan canonical form</text>
+<rect x="691.8" y="1666.2" width="281.3" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1687.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Input feedforward canonical form /</text>
+<text x="706.8" y="1705.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Matrix exponential function /</text>
+<text x="706.8" y="1723.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Output equation</text>
+<rect x="691.8" y="1749.5" width="264.0" height="92.4" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1770.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Phase variable canonical form /</text>
+<text x="706.8" y="1788.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Phase variables / Physical</text>
+<text x="706.8" y="1806.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">variables / State differential</text>
+<text x="706.8" y="1824.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">equation</text>
+<rect x="691.8" y="1850.8" width="270.3" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1871.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">State of a system / State-space</text>
+<text x="706.8" y="1890.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">representation / State variables</text>
+<text x="706.8" y="1908.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">/ State vector / Time domain</text>
+<rect x="691.8" y="1934.1" width="277.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1955.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Time-varying system / Transition</text>
+<text x="706.8" y="1973.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">matrix φ(t)</text>
+</g>
+</svg>
