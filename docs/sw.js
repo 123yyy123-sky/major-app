@@ -4,7 +4,7 @@
    - index.html 每次启动后台更新，下次打开即最新（stale-while-revalidate）
    - 版本号变化时清掉旧缓存
 */
-const VERSION = 'c0d1bf3e4a';
+const VERSION = 'fef99eb07e';
 const CACHE = 'majorapp-' + VERSION;
 
 const SHELL = [
@@ -40,9 +40,11 @@ self.addEventListener('fetch', (e) => {
   if (url.origin !== self.location.origin) return;
 
   // 页面导航：网络优先，失败回落缓存（离线可用）
+  //   ⚠️ 必须 no-store：GitHub Pages 对 index.html 强制 max-age=600，
+  //   走 HTTP 缓存会让用户最多 10 分钟看不到更新（踩过）。
   if (req.mode === 'navigate') {
     e.respondWith(
-      fetch(req)
+      fetch(req, { cache: 'no-store' })
         .then((res) => {
           const copy = res.clone();
           caches.open(CACHE).then((c) => c.put('./index.html', copy));

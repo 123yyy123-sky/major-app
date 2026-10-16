@@ -56,17 +56,22 @@ const json = JSON.stringify(data).replace(/<\//g, '<\\/');
 // 单文件版在 web/ 下，图片在 docs/img/（相对 ../docs/img/）
 const htmlWeb = tpl.replace('__DATA__', json).replace(/__IMGBASE__/g, '../docs/img/');
 // PWA 版与图片同在 docs/（相对 img/）
-const html = tpl.replace('__DATA__', json).replace(/__IMGBASE__/g, 'img/');
+let html = tpl.replace('__DATA__', json).replace(/__IMGBASE__/g, 'img/');
+
+// 构建版本号（内容哈希，用于 SW 换缓存 + 界面显示）
+const ver = crypto.createHash('sha1').update(html).digest('hex').slice(0, 10);
+html = html.replace(/__BUILDVER__/g, ver);
+const htmlWebV = htmlWeb.replace(/__BUILDVER__/g, ver);
 
 // 单文件版
-fs.writeFileSync(OUT_SINGLE, htmlWeb, 'utf8');
+fs.writeFileSync(OUT_SINGLE, htmlWebV, 'utf8');
 
 // PWA 版
 fs.mkdirSync(DOCS, { recursive: true });
 fs.writeFileSync(OUT_INDEX, html, 'utf8');
 
 // Service Worker（版本号 = 内容哈希）
-const ver = crypto.createHash('sha1').update(html).digest('hex').slice(0, 10);const sw = readText(path.join(WEB, 'sw.js')).replace(/__VERSION__/g, ver);
+const sw = readText(path.join(WEB, 'sw.js')).replace(/__VERSION__/g, ver);
 fs.writeFileSync(path.join(DOCS, 'sw.js'), sw, 'utf8');
 
 // manifest 若不在 docs 则从 web 复制过来
