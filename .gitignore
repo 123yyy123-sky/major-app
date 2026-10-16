@@ -8,3 +8,6 @@ _*.png
 *.backup*.json
 *.bak
 content/*.backup*
+
+# 出图脚本的临时目录（build_images.py 用，正常跑完会自动清掉）
+docs/.img_tmp/

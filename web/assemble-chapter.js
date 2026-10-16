@@ -22,6 +22,8 @@ const chapter = {
   points: [],
   questions: [],
 };
+// 可选：显式章序（无「第X章」字样的章节用它定序，如「拉普拉斯变换」）
+if (typeof meta.order === 'number') chapter.order = meta.order;
 
 const pIds = new Set(), qIds = new Set();
 const mmLabels = new Set();

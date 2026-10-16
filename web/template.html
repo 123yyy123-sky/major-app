@@ -14,6 +14,8 @@
 <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
 <title>专业课</title>
 <style>
+  /* 主题色：按科目切换（JS 在 render 时按 s.color 注入 --accent），默认锅炉橙 */
+  :root{--accent:#e8590c;--accent-bg:var(--accent-bg);--accent-soft:var(--accent-soft);--accent-line:var(--accent-line)}
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden}
   body{
@@ -70,38 +72,38 @@
   .ccard .nm{font-size:17px;font-weight:800}
   /* ---------- 折叠树 ---------- */
   .tree{font-size:14px}
-  .tnode{padding-left:14px;border-left:1.5px solid #ffe0cc;margin-left:4px}
+  .tnode{padding-left:14px;border-left:1.5px solid var(--accent-line);margin-left:4px}
   .trow{display:flex;align-items:flex-start;gap:8px;padding:4px 0;cursor:pointer}
   .trow .dot{
-    flex:0 0 18px;width:18px;height:18px;border-radius:9px;border:1.5px solid #e8590c;background:#fff;
-    display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;color:#e8590c;margin-top:2px;
+    flex:0 0 18px;width:18px;height:18px;border-radius:9px;border:1.5px solid var(--accent);background:#fff;
+    display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;color:var(--accent);margin-top:2px;
   }
-  .trow .dot.open{background:#e8590c;color:#fff}
-  .trow .dot.leaf{width:6px;height:6px;border:0;background:#e8590c;border-radius:3px;flex:0 0 6px;margin:8px 6px 0 6px}
+  .trow .dot.open{background:var(--accent);color:#fff}
+  .trow .dot.leaf{width:6px;height:6px;border:0;background:var(--accent);border-radius:3px;flex:0 0 6px;margin:8px 6px 0 6px}
   .trow .lb{flex:1;min-width:0;word-break:break-word}
-  .trow .lb.lv1{font-size:14.5px;font-weight:800;padding-left:6px;border-left:3px solid #e8590c;margin:3px 0}
+  .trow .lb.lv1{font-size:14.5px;font-weight:800;padding-left:6px;border-left:3px solid var(--accent);margin:3px 0}
   .trow .lb.lv2{font-size:13.5px;color:#4b5563}
-  .troot{display:inline-block;background:#e8590c;color:#fff;font-weight:800;font-size:15px;padding:6px 14px;border-radius:999px;margin-bottom:6px}
+  .troot{display:inline-block;background:var(--accent);color:#fff;font-weight:800;font-size:15px;padding:6px 14px;border-radius:999px;margin-bottom:6px}
   .tbtn{border:0;background:#f1f3f5;color:#6b7280;font-weight:700;font-size:12px;padding:5px 10px;border-radius:999px;cursor:pointer}
   /* ---------- 重点 ---------- */
   .ptitle{font-size:16px;font-weight:800;margin:0 0 2px}
   .psrc{font-size:11.5px;color:#9aa5b1;margin-bottom:10px}
   .bul{display:flex;gap:8px;margin-bottom:6px}
-  .bul .d{color:#e8590c;font-weight:800;flex:0 0 14px}
+  .bul .d{color:var(--accent);font-weight:800;flex:0 0 14px}
   .bul .t{flex:1;min-width:0;word-break:break-word}
   hr{border:0;border-top:1px solid #e8ebef;margin:12px 0}
   /* ---------- 练习 ---------- */
   .bar2{height:5px;background:#e8ebef;border-radius:3px;overflow:hidden;flex:1}
-  .bar2 i{display:block;height:100%;background:#e8590c}
+  .bar2 i{display:block;height:100%;background:var(--accent)}
   .stem{font-size:16px;font-weight:600;line-height:1.6;margin:12px 0 14px;word-break:break-word}
   .opt{display:flex;gap:10px;align-items:flex-start;border:1.5px solid #e8ebef;border-radius:12px;padding:12px;margin-bottom:10px;cursor:pointer;background:#fff}
-  .opt.sel{border-color:#e8590c;background:#fff8f3}
+  .opt.sel{border-color:var(--accent);background:var(--accent-soft)}
   .opt.ok{border-color:#2f9e44;background:#e8f6ec}
   .opt.no{border-color:#e03131;background:#fff0f0}
   .opt .k{font-weight:800;flex:0 0 18px}
   .opt .t{flex:1;min-width:0;word-break:break-word}
   .opt .m{font-weight:800}
-  .btn{display:block;width:100%;border:0;border-radius:12px;padding:14px;font-size:15.5px;font-weight:800;color:#fff;background:#e8590c;cursor:pointer;margin-bottom:10px}
+  .btn{display:block;width:100%;border:0;border-radius:12px;padding:14px;font-size:15.5px;font-weight:800;color:#fff;background:var(--accent);cursor:pointer;margin-bottom:10px}
   .btn:disabled{background:#ced4da}
   .btn.ghost{background:none;color:#6b7280;font-weight:700}
   .res{margin-top:12px;padding-top:12px;border-top:1px solid #e8ebef}
@@ -122,7 +124,7 @@
   .thumb .zoom{position:absolute;right:0;top:0;background:rgba(0,0,0,.55);color:#fff;
                font-size:11px;font-weight:700;padding:2px 6px;border-bottom-left-radius:6px}
   /* 例题 */
-  .exlabel{font-size:12px;font-weight:800;color:#e8590c;letter-spacing:.06em;margin:12px 0 5px}
+  .exlabel{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:.06em;margin:12px 0 5px}
   .exbox{background:#fafbfc;border:1px solid #eef1f4;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.75}
   .exbox .bul{margin-bottom:4px}
   .exbox .bul:last-child{margin-bottom:0}
@@ -135,7 +137,7 @@
   .basis{font-size:12px;color:#6b7280;margin-top:8px}
   .note{font-size:11.5px;color:#b45309;margin-top:6px;line-height:1.5}
   input.fill{width:100%;border:1.5px solid #e8ebef;border-radius:12px;padding:12px;font-size:15px;font-family:inherit}
-  input.fill:focus{outline:none;border-color:#e8590c}
+  input.fill:focus{outline:none;border-color:var(--accent)}
   .center{text-align:center}
   .big{font-size:38px;font-weight:800;margin:8px 0}
   .tag{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:800}
@@ -160,8 +162,9 @@
 (function () {
   "use strict";
   var DATA = JSON.parse(document.getElementById('payload').textContent);
-  var PS = { 1:{l:'课件题目',c:'#e8590c',b:'#fff0e6'}, 2:{l:'课件考点',c:'#1971c2',b:'#e7f1fb'},
-             3:{l:'教材考点',c:'#2f9e44',b:'#e8f6ec'}, 4:{l:'补充练习',c:'#868e96',b:'#f1f3f5'} };
+  // 题源标签：内容层只有课件一个源（教材/视频 2026-10-16 起不进内容层）
+  var PS = { 1:{l:'课件题目',c:'var(--accent)',b:'var(--accent-bg)'}, 2:{l:'课件考点',c:'#1971c2',b:'#e7f1fb'} };
+  var PSD = {l:'其他',c:'#868e96',b:'#f1f3f5'};
   var MAX_NONKEY = 0.25;
 
   /* ---------- 进度/错题本（localStorage） ---------- */
@@ -212,6 +215,16 @@
     return x;
   }
   function el(tag, cls, html){ var d=document.createElement(tag); if(cls)d.className=cls; if(html!=null)d.innerHTML=html; return d; }
+  /* 主题色：按当前科目注入 CSS 变量（未选科目时回落锅炉橙） */
+  var DEFAULT_ACCENT = '#e8590c';
+  function setAccent(color){
+    var c = (color && /^#[0-9a-fA-F]{6}$/.test(color)) ? color : DEFAULT_ACCENT;
+    var st = document.documentElement.style;
+    st.setProperty('--accent', c);
+    st.setProperty('--accent-bg', c + '1f');
+    st.setProperty('--accent-soft', c + '14');
+    st.setProperty('--accent-line', c + '40');
+  }
   function $(id){ return document.getElementById(id); }
   function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i];a[i]=a[j];a[j]=t; } return a; }
 
@@ -276,7 +289,7 @@
   function renderHome(){
     var m=$('main'); m.innerHTML='';
     m.appendChild(el('div','h1','专业课'));
-    m.appendChild(el('div','sub','课件 ＞ 课本 · 课件题优先 · 考点标清'));
+    m.appendChild(el('div','sub','内容源：雨课堂课件（唯一）· 课件题优先 · 考点标清'));
     DATA.subjects.forEach(function(s){
       var n=(s.chapters||[]).length;
       var qn=(s.chapters||[]).reduce(function(a,c){return a+(c.questions||[]).length;},0);
@@ -292,7 +305,7 @@
       if(n) btn.onclick=function(){ R.sub=s.id; R.ch=null; R.tab='mind'; render(); };
       m.appendChild(btn);
     });
-    m.appendChild(el('div','sub center','来源优先级：雨课堂课件 ▸ 课本（视频仅参考）'));
+    m.appendChild(el('div','sub center','内容来源：雨课堂课件（唯一内容源）'));
     m.appendChild(el('div','buildver','构建 __BUILDVER__'));
   }
 
@@ -308,7 +321,7 @@
         '<div class="chips row" style="margin-top:10px">'+
           '<span class="chip" style="background:'+s.color+'1a;color:'+s.color+'">'+esc(c.status||'未学')+'</span>'+
           '<span class="chip">重点 '+st.key+'</span><span class="chip">题 '+st.total+'</span>'+
-          (st.by[1]?'<span class="chip" style="background:#fff0e6;color:#e8590c">课件题 '+st.by[1]+'</span>':'')+
+          (st.by[1]?'<span class="chip" style="background:var(--accent-bg);color:var(--accent)">课件题 '+st.by[1]+'</span>':'')+
         '</div>';
       b.onclick=function(){ R.ch=c.id; R.tab='mind'; render(); };
       m.appendChild(b);
@@ -431,7 +444,7 @@
     (ch.points||[]).forEach(function(p){
       var c=el('div','card');
       c.innerHTML='<div class="between"><div class="ptitle">'+esc(p.title)+'</div>'+
-        (p.key?'<span class="chip" style="background:#fff0e6;color:#e8590c">★ 重点</span>':'')+'</div>'+
+        (p.key?'<span class="chip" style="background:var(--accent-bg);color:var(--accent)">★ 重点</span>':'')+'</div>'+
         '<div class="psrc">'+esc(p.source||'')+'</div><hr>'+
         (p.items||[]).map(function(it){ return '<div class="bul"><div class="d">·</div><div class="t">'+rich(it)+'</div></div>'; }).join('')+
         thumbsHTML(ch, p.source);
@@ -490,7 +503,7 @@
       root.appendChild(c); return;
     }
     if(Q.i>=Q.list.length){ return quizDone(root,ch,s); }
-    var q=Q.list[Q.i], ps=PS[q.priority]||PS[4], isFill=q.kind==='填空', isSimple=q.kind==='简答', isExample=(q.kind==='例题'||q.kind==='计算'||isSimple);
+    var q=Q.list[Q.i], ps=PS[q.priority]||PSD, isFill=q.kind==='填空', isSimple=q.kind==='简答', isExample=(q.kind==='例题'||q.kind==='计算'||isSimple);
     // 进度
     var pr=el('div','row'); pr.style.marginBottom='12px';
     pr.appendChild(el('div','small',''+(Q.i+1)+' / '+Q.list.length));
@@ -620,11 +633,12 @@
   }
   function quizDone(root,ch,s){
     var right=Q.list.length-Q.wrong.length;
+    var n=Q.list.length||1;                 // 防 0 题时正确率算出 NaN
     var kps={}; Q.wrong.forEach(function(q){ (q.keyPoints||[]).forEach(function(k){ kps[k]=1; }); });
     var c=el('div','card center');
     c.innerHTML='<div style="font-size:18px;font-weight:800">完成</div>'+
       '<div class="big">'+right+' / '+Q.list.length+'</div>'+
-      '<div class="small muted">正确率 '+Math.round(right/Q.list.length*100)+'%</div>'+
+      '<div class="small muted">正确率 '+Math.round(right/n*100)+'%</div>'+
       (Q.wrong.length
         ? '<div class="small" style="margin-top:10px">错题考点：'+esc(Object.keys(kps).join(' · ')||'（无考点标签）')+'</div>'
         : '<div class="small" style="margin-top:10px">全对，很棒</div>')+'<hr>';
@@ -664,7 +678,7 @@
     root.appendChild(stat);
 
     list.forEach(function(it){
-      var q=it.q, ps=PS[q.priority]||PS[4];
+      var q=it.q, ps=PS[q.priority]||PSD;
       var c=el('div','card');
       var kp=(q.keyPoints||[]).map(function(k){ return '<span class="k">'+esc(k)+'</span>'; }).join('');
       c.innerHTML='<div class="row"><span class="tag" style="background:'+ps.b+';color:'+ps.c+'">'+ps.l+'</span>'+
@@ -688,10 +702,20 @@
   function render(){
     renderSubjects();
     var t=$('ttl'), back=$('back');
-    if(!R.sub){ t.textContent='专业课'; back.style.display='none'; renderHome(); return; }
+    if(!R.sub){
+      t.textContent='专业课'; back.style.display='none';
+      setAccent(DEFAULT_ACCENT); renderHome(); return;
+    }
     var s=curSub();
+    if(!s){ R.sub=null; t.textContent='专业课'; back.style.display='none';
+      setAccent(DEFAULT_ACCENT); renderHome(); return; }
+    setAccent(s.color);
     if(!R.ch){ t.textContent=s.name; back.style.display='block'; renderChapters(); return; }
-    t.textContent=curCh().name; back.style.display='block'; renderDetail();
+    // 深链可能带来「科目的章节 id 不匹配」（如 ?subject=heat&chapter=boiler-ch1）
+    //   旧代码直接 curCh().name 会 TypeError 白屏，这里回落章节列表
+    var c=curCh();
+    if(!c){ R.ch=null; t.textContent=s.name; back.style.display='block'; renderChapters(); return; }
+    t.textContent=c.name; back.style.display='block'; renderDetail();
   }
   $('back').onclick=function(){
     if(R.ch){ R.ch=null; Q=null; render(); }
