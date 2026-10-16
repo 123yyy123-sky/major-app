@@ -57,12 +57,15 @@ for (const fp of fragPaths) {
   console.log(`  并入 ${path.basename(fp)}：+${(frag.points||[]).length} 卡 / +${(frag.questions||[]).length} 题`);
 }
 
-// 校验：例题必须有 steps；单选/多选必须有 options 和 answer
+// 校验：例题/计算/简答 必须有 steps；单选/多选 必须有 options 和 answer
 const problems = [];
+const SLOT_KINDS = ['例题', '计算', '简答'];
 for (const q of chapter.questions) {
-  if (q.kind === '例题' || q.kind === '计算') {
-    if (!q.given || !q.ask || !q.steps || !q.steps.length) problems.push(`${q.id}: 例题缺 given/ask/steps`);
-    if (q.options) problems.push(`${q.id}: 例题不应有 options`);
+  if (SLOT_KINDS.indexOf(q.kind) >= 0) {
+    if (!q.steps || !q.steps.length) problems.push(`${q.id}: ${q.kind} 缺 steps`);
+    if (q.options && q.options.length) problems.push(`${q.id}: ${q.kind} 不应有 options`);
+  } else if (q.kind === '填空') {
+    if (!q.answer) problems.push(`${q.id}: 填空缺 answer`);
   } else {
     if (!q.options || !q.options.length) problems.push(`${q.id}: 缺 options`);
     if (!q.answer) problems.push(`${q.id}: 缺 answer`);

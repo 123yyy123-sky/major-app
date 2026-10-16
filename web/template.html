@@ -216,7 +216,7 @@
 
   // 「重点题」= 带考点标签，或本身就是例题/计算题（例题永远入选，不受非重点限额）
   function isKey(q){
-    return (q.keyPoints && q.keyPoints.length) || q.kind === '例题' || q.kind === '计算';
+    return (q.keyPoints && q.keyPoints.length) || q.kind === '例题' || q.kind === '计算' || q.kind === '简答';
   }
   function stats(ch){
     var qs=(ch&&ch.questions)||[], by={};
@@ -488,7 +488,7 @@
       root.appendChild(c); return;
     }
     if(Q.i>=Q.list.length){ return quizDone(root,ch,s); }
-    var q=Q.list[Q.i], ps=PS[q.priority]||PS[4], isFill=q.kind==='填空', isExample=(q.kind==='例题'||q.kind==='计算');
+    var q=Q.list[Q.i], ps=PS[q.priority]||PS[4], isFill=q.kind==='填空', isSimple=q.kind==='简答', isExample=(q.kind==='例题'||q.kind==='计算'||isSimple);
     // 进度
     var pr=el('div','row'); pr.style.marginBottom='12px';
     pr.appendChild(el('div','small',''+(Q.i+1)+' / '+Q.list.length));
@@ -525,12 +525,12 @@
       var showSol = !!Q.done || !!Q.solOpen;
       if(showSol){
         if((q.steps||[]).length){
-          c.appendChild(el('div','exlabel','解答过程'));
+          c.appendChild(el('div','exlabel', isSimple?'参考答案':'解答过程'));
           c.appendChild(el('div','exbox steps', q.steps.map(function(s, i){
-            return '<div class="bul"><div class="d">'+(i+1)+'</div><div class="t">'+rich(s)+'</div></div>';
+            return '<div class="bul"><div class="d">'+(isSimple?'·':(i+1))+'</div><div class="t">'+rich(s)+'</div></div>';
           }).join('')));
         }
-        if(q.result) c.appendChild(el('div','exres','结果：'+rich(q.result)));
+        if(q.result) c.appendChild(el('div','exres',(isSimple?'要点：':'结果：')+rich(q.result)));
       }
       var rb0=el('div','res');
       (q.why||[]).forEach(function(w){ rb0.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
@@ -581,9 +581,9 @@
 
     var act=el('div'); act.style.marginTop='12px';
     if(isExample){
-      /* 例题：先自己算，再点开看解答 */
+      /* 例题 / 简答：先自己做，再点开看答案 */
       if(!Q.done){
-        var sb=el('button','btn','看解答'); sb.style.background=s.color;
+        var sb=el('button','btn', isSimple?'看参考答案':'看解答'); sb.style.background=s.color;
         sb.onclick=function(){ Q.solOpen=true; Q.done=true; render(); };
         act.appendChild(sb);
       } else {
