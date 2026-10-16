@@ -14,6 +14,9 @@ const WEB = path.join(ROOT, 'web');
 const DOCS = path.join(ROOT, 'docs');          // GitHub Pages 发布目录
 const OUT_SINGLE = path.join(WEB, '专业课.html');
 const OUT_INDEX = path.join(DOCS, 'index.html');
+// 思维导图 SVG：由 build-mindmap.js 生成，知识库留同一份（后者不存在则跳过）
+const MM_DIR = path.join(DOCS, 'mindmap');
+const KB_MM_DIR = 'F:\\知识库\\我的知识库\\07-复盘笔记\\专业课\\导图';
 
 function readText(f) { return fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, ''); }
 
@@ -87,6 +90,17 @@ function build() {
     console.log(`图片    已挂载 ${n} 张课件图`);
   }
 
+  // 思维导图 SVG：与折叠树同源生成（一处生成、App 与知识库两处用）
+  const { buildMindmaps } = require('./build-mindmap.js');
+  let mmFiles = [];
+  try {
+    const kbDir = fs.existsSync(path.dirname(path.dirname(KB_MM_DIR)))
+      && fs.existsSync(path.dirname(KB_MM_DIR)) ? KB_MM_DIR : null;
+    mmFiles = buildMindmaps({ outDir: MM_DIR, kbDir }).files;
+  } catch (e) {
+    console.log('导图    ⚠ 生成失败：' + e.message);
+  }
+
   // 一致性校验（只警告，不阻断构建）
   const problems = validate(data);
   if (problems.length) {
@@ -98,9 +112,13 @@ function build() {
   const json = JSON.stringify(data).replace(/<\//g, '<\\/');
 
   // 单文件版在 web/ 下，图片在 docs/img/（相对 ../docs/img/）
-  const htmlWeb = tpl.replace('__DATA__', json).replace(/__IMGBASE__/g, '../docs/img/');
+  const htmlWeb = tpl.replace('__DATA__', json)
+    .replace(/__IMGBASE__/g, '../docs/img/')
+    .replace(/__MMBASE__/g, '../docs/mindmap/');
   // PWA 版与图片同在 docs/（相对 img/）
-  let html = tpl.replace('__DATA__', json).replace(/__IMGBASE__/g, 'img/');
+  let html = tpl.replace('__DATA__', json)
+    .replace(/__IMGBASE__/g, 'img/')
+    .replace(/__MMBASE__/g, 'mindmap/');
 
   // 构建版本号（内容哈希，用于 SW 换缓存 + 界面显示）
   const ver = crypto.createHash('sha1').update(html).digest('hex').slice(0, 10);
@@ -115,7 +133,9 @@ function build() {
   fs.writeFileSync(OUT_INDEX, html, 'utf8');
 
   // Service Worker（版本号 = 内容哈希）
-  const sw = readText(path.join(WEB, 'sw.js')).replace(/__VERSION__/g, ver);
+  const sw = readText(path.join(WEB, 'sw.js')).replace(/__VERSION__/g, ver)
+    .replace(/__MINDMAP_SHELL__/g,
+      JSON.stringify(mmFiles.map((f) => './mindmap/' + f)));
   fs.writeFileSync(path.join(DOCS, 'sw.js'), sw, 'utf8');
 
   // manifest 若不在 docs 则从 web 复制过来

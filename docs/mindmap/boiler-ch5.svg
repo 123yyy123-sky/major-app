@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1245 1280" width="1245" height="1280">
+<title>锅炉原理 · 第五章 蒸发受热面 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#e8590c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#e8590c">锅炉原理 · 第五章 蒸发受热面</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 33 个节点 · 与 App 内折叠树同源</text>
+<path d="M247.786,677.345 C274.786,677.345 274.786,181.22500000000002 301.786,181.22500000000002" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M247.786,677.345 C274.786,677.345 274.786,425.72 301.786,425.72" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M247.786,677.345 C274.786,677.345 274.786,644.995 301.786,644.995" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M247.786,677.345 C274.786,677.345 274.786,965.58 301.786,965.58" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M247.786,677.345 C274.786,677.345 274.786,1173.465 301.786,1173.465" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M477.55420000000004,181.22500000000002 C544.7116,181.22500000000002 544.7116,87.045 611.8689999999999,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M477.55420000000004,181.22500000000002 C544.7116,181.22500000000002 544.7116,134.135 611.8689999999999,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M477.55420000000004,181.22500000000002 C544.7116,181.22500000000002 544.7116,181.22500000000002 611.8689999999999,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M477.55420000000004,181.22500000000002 C544.7116,181.22500000000002 544.7116,228.315 611.8689999999999,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M477.55420000000004,181.22500000000002 C544.7116,181.22500000000002 544.7116,275.40500000000003 611.8689999999999,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M399.769,425.72 C505.81899999999996,425.72 505.81899999999996,322.495 611.8689999999999,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M399.769,425.72 C505.81899999999996,425.72 505.81899999999996,369.58500000000004 611.8689999999999,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M399.769,425.72 C505.81899999999996,425.72 505.81899999999996,425.71999999999997 611.8689999999999,425.71999999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M399.769,425.72 C505.81899999999996,425.72 505.81899999999996,481.855 611.8689999999999,481.855" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M399.769,425.72 C505.81899999999996,425.72 505.81899999999996,528.9449999999999 611.8689999999999,528.9449999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M557.8689999999999,644.995 C584.8689999999999,644.995 584.8689999999999,576.0350000000001 611.8689999999999,576.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M557.8689999999999,644.995 C584.8689999999999,644.995 584.8689999999999,713.955 611.8689999999999,713.955" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M765.799,713.955 C854.7639999999999,713.955 854.7639999999999,622.455 943.7289999999999,622.455" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,713.955 C854.7639999999999,713.955 854.7639999999999,668.205 943.7289999999999,668.205" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,713.955 C854.7639999999999,713.955 854.7639999999999,713.955 943.7289999999999,713.955" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,713.955 C854.7639999999999,713.955 854.7639999999999,759.705 943.7289999999999,759.705" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,713.955 C854.7639999999999,713.955 854.7639999999999,805.455 943.7289999999999,805.455" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M415.579,965.58 C513.7239999999999,965.58 513.7239999999999,965.58 611.8689999999999,965.58" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M765.799,965.58 C854.7639999999999,965.58 854.7639999999999,851.205 943.7289999999999,851.205" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,965.58 C854.7639999999999,965.58 854.7639999999999,896.955 943.7289999999999,896.955" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,965.58 C854.7639999999999,965.58 854.7639999999999,942.705 943.7289999999999,942.705" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,965.58 C854.7639999999999,965.58 854.7639999999999,988.455 943.7289999999999,988.455" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,965.58 C854.7639999999999,965.58 854.7639999999999,1034.205 943.7289999999999,1034.205" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M765.799,965.58 C854.7639999999999,965.58 854.7639999999999,1079.955 943.7289999999999,1079.955" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M423.1678,1173.465 C517.5183999999999,1173.465 517.5183999999999,1126.375 611.8689999999999,1126.375" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M423.1678,1173.465 C517.5183999999999,1173.465 517.5183999999999,1173.465 611.8689999999999,1173.465" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M423.1678,1173.465 C517.5183999999999,1173.465 517.5183999999999,1220.5549999999998 611.8689999999999,1220.5549999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="653.3" width="207.8" height="48.1" rx="11" fill="#e8590c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="680.5" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第五章 蒸发受热面</text>
+<rect x="301.8" y="160.8" width="175.8" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="316.8" y="183.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">本章小节（共 5 节）</text>
+<rect x="611.9" y="68.0" width="240.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">第一节 锅炉汽水工质吸热量的分配</text>
+<rect x="611.9" y="115.1" width="226.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">第二节 汽包锅炉蒸发受热面系统</text>
+<rect x="611.9" y="162.2" width="171.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">第三节 汽包锅炉水冷壁</text>
+<rect x="611.9" y="209.3" width="103.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">第四节 汽包</text>
+<rect x="611.9" y="256.4" width="116.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">第五节 循环泵</text>
+<rect x="301.8" y="405.3" width="98.0" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="316.8" y="428.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">要点 1–5</text>
+<rect x="611.9" y="303.4" width="112.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三个加热过程</text>
+<rect x="611.9" y="350.5" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">自然循环与控制循环</text>
+<rect x="611.9" y="397.6" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">水冷壁四种结构：光管／膜式／销钉式／</text>
+<text x="626.9" y="436.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">内螺纹管</text>
+<rect x="611.9" y="462.8" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="483.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">卫燃带与折焰角</text>
+<rect x="611.9" y="509.9" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="531.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">汽包内部汽水分离装置</text>
+<rect x="301.8" y="624.6" width="256.1" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="316.8" y="647.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第六节 直流锅炉蒸发受热面系统</text>
+<rect x="611.9" y="557.0" width="226.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="578.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">第六节 直流锅炉蒸发受热面系统</text>
+<rect x="611.9" y="694.9" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="716.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、蒸发受热面系统</text>
+<rect x="943.7" y="604.1" width="208.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="624.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">系统组成（超临界或超超临界）</text>
+<rect x="943.7" y="649.8" width="238.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="670.1" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">系统流程：降压运行时 / 正常运行时</text>
+<rect x="943.7" y="695.6" width="261.2" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="715.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">1、启动分离器（作用、内置式/外置式）</text>
+<rect x="943.7" y="741.3" width="101.7" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="761.6" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">2、再循环泵</text>
+<rect x="943.7" y="787.1" width="152.7" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="807.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">3、储水器（蓄水器）</text>
+<rect x="301.8" y="945.2" width="113.8" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="316.8" y="967.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">要点 13–19</text>
+<rect x="611.9" y="946.5" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="967.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、水冷壁（型式）</text>
+<rect x="943.7" y="832.8" width="259.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="853.1" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">螺旋管圈型（下部螺旋管、上部垂直管）</text>
+<rect x="943.7" y="878.6" width="132.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="898.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">分叉管、过渡联箱</text>
+<rect x="943.7" y="924.3" width="183.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="944.6" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">直流锅炉水冷壁过渡段结构</text>
+<rect x="943.7" y="970.1" width="170.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="990.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">直流锅炉受热面结构简图</text>
+<rect x="943.7" y="1015.8" width="208.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="1036.1" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">螺旋管和垂直管水冷壁特点比较</text>
+<rect x="943.7" y="1061.6" width="170.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="958.7" y="1081.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">（一）垂直管水冷壁特点</text>
+<rect x="301.8" y="1153.1" width="121.4" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="316.8" y="1175.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">要点 20–22</text>
+<rect x="611.9" y="1107.3" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="1128.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（二）螺旋管水冷壁特点</text>
+<rect x="611.9" y="1154.4" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="1175.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">节流圈与热偏差</text>
+<rect x="611.9" y="1201.5" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="626.9" y="1222.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">变压运行适应性</text>
+</g>
+</svg>

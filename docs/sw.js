@@ -4,7 +4,7 @@
    - index.html 每次启动后台更新，下次打开即最新（stale-while-revalidate）
    - 版本号变化时清掉旧缓存
 */
-const VERSION = '8437491c8f';
+const VERSION = 'a3a5e06dda';
 const CACHE = 'majorapp-' + VERSION;
 
 const SHELL = [
@@ -17,7 +17,8 @@ const SHELL = [
   './icons/maskable-512.png',
   './icons/apple-touch-icon.png',
   './icons/favicon.png',
-];
+  // 思维导图 SVG 由 build.js 按实际产物注入（离线也能看全图）
+].concat(["./mindmap/boiler-intro.svg","./mindmap/boiler-ch1.svg","./mindmap/boiler-ch2.svg","./mindmap/boiler-ch4.svg","./mindmap/boiler-ch5.svg","./mindmap/boiler-ch6.svg","./mindmap/boiler-ch7.svg","./mindmap/boiler-ch8.svg","./mindmap/boiler-ch9.svg","./mindmap/boiler-ch10.svg","./mindmap/boiler-ch11.svg"]);
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

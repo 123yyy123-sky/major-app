@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1394 2303" width="1394" height="2303">
+<title>锅炉原理 · 第十章 对流受热面传热计算 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#e8590c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#e8590c">锅炉原理 · 第十章 对流受热面传热计算</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 50 个节点 · 与 App 内折叠树同源</text>
+<path d="M333.466,1074.25375 C360.466,1074.25375 360.466,96.09 387.466,96.09" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1074.25375 C360.466,1074.25375 360.466,297.085 387.466,297.085" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1074.25375 C360.466,1074.25375 360.466,554.215 387.466,554.215" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1074.25375 C360.466,1074.25375 360.466,792.7525 387.466,792.7525" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1074.25375 C360.466,1074.25375 360.466,1175.1450000000002 387.466,1175.1450000000002" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1074.25375 C360.466,1074.25375 360.466,1716.5400000000004 387.466,1716.5400000000004" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1074.25375 C360.466,1074.25375 360.466,2052.4175000000005 387.466,2052.4175000000005" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M480.706,96.09 C620.7475,96.09 620.7475,96.09 760.789,96.09" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.549,297.085 C702.169,297.085 702.169,161.27 760.789,161.27" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.549,297.085 C702.169,297.085 702.169,217.40500000000003 760.789,217.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.549,297.085 C702.169,297.085 702.169,264.495 760.789,264.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.549,297.085 C702.169,297.085 702.169,311.58500000000004 760.789,311.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.549,297.085 C702.169,297.085 702.169,367.71999999999997 760.789,367.71999999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.549,297.085 C702.169,297.085 702.169,432.9 760.789,432.9" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,554.215 C646.8340000000001,554.215 646.8340000000001,498.08 760.789,498.08" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,554.215 C646.8340000000001,554.215 646.8340000000001,554.215 760.789,554.215" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,554.215 C646.8340000000001,554.215 646.8340000000001,610.35 760.789,610.35" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,792.7525 C646.8340000000001,792.7525 646.8340000000001,719.94 760.789,719.94" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,792.7525 C646.8340000000001,792.7525 646.8340000000001,819.815 760.789,819.815" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,792.7525 C646.8340000000001,792.7525 646.8340000000001,865.565 760.789,865.565" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M929.0398,719.94 C1012.9099,719.94 1012.9099,665.815 1096.78,665.815" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M929.0398,719.94 C1012.9099,719.94 1012.9099,719.94 1096.78,719.94" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M929.0398,719.94 C1012.9099,719.94 1012.9099,774.065 1096.78,774.065" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M1039.0621,819.815 C1067.92105,819.815 1067.92105,819.815 1096.78,819.815" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M1039.0621,865.565 C1067.92105,865.565 1067.92105,865.565 1096.78,865.565" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,911.985 760.789,911.985" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,959.075 760.789,959.075" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,1015.2100000000002 760.789,1015.2100000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,1080.3900000000003 760.789,1080.3900000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,1145.5700000000002 760.789,1145.5700000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,1210.7500000000002 760.789,1210.7500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,1266.8850000000004 760.789,1266.8850000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M532.879,1175.1450000000002 C646.8340000000001,1175.1450000000002 646.8340000000001,1438.3050000000003 760.789,1438.3050000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M900.949,1438.3050000000003 C998.8644999999999,1438.3050000000003 998.8644999999999,1321.6800000000003 1096.78,1321.6800000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M900.949,1438.3050000000003 C998.8644999999999,1438.3050000000003 998.8644999999999,1375.8050000000003 1096.78,1375.8050000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M900.949,1438.3050000000003 C998.8644999999999,1438.3050000000003 998.8644999999999,1429.9300000000003 1096.78,1429.9300000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M900.949,1438.3050000000003 C998.8644999999999,1438.3050000000003 998.8644999999999,1492.4300000000003 1096.78,1492.4300000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M900.949,1438.3050000000003 C998.8644999999999,1438.3050000000003 998.8644999999999,1554.9300000000003 1096.78,1554.9300000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M706.789,1716.5400000000004 C733.789,1716.5400000000004 733.789,1627.8150000000003 760.789,1627.8150000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,1716.5400000000004 C733.789,1716.5400000000004 733.789,1692.9950000000003 760.789,1692.9950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,1716.5400000000004 C733.789,1716.5400000000004 733.789,1749.13 760.789,1749.13" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,1716.5400000000004 C733.789,1716.5400000000004 733.789,1805.2650000000003 760.789,1805.2650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,2052.4175000000005 C733.789,2052.4175000000005 733.789,1861.4 760.789,1861.4" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,2052.4175000000005 C733.789,2052.4175000000005 733.789,1926.5800000000002 760.789,1926.5800000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,2052.4175000000005 C733.789,2052.4175000000005 733.789,1991.7600000000002 760.789,1991.7600000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,2052.4175000000005 C733.789,2052.4175000000005 733.789,2047.8950000000004 760.789,2047.8950000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,2052.4175000000005 C733.789,2052.4175000000005 733.789,2113.0750000000003 760.789,2113.0750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,2052.4175000000005 C733.789,2052.4175000000005 733.789,2187.3000000000006 760.789,2187.3000000000006" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.789,2052.4175000000005 C733.789,2052.4175000000005 733.789,2243.4350000000004 760.789,2243.4350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="1050.2" width="293.5" height="48.1" rx="11" fill="#e8590c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="1077.4" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第十章 对流受热面传热计算</text>
+<rect x="387.5" y="75.7" width="93.2" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="98.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">本章概览</text>
+<rect x="760.8" y="68.0" width="272.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">本章核心内容：3个基本方程＋各项变量</text>
+<text x="775.8" y="107.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">计算</text>
+<rect x="387.5" y="276.7" width="256.1" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="299.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第一节 对流传热计算的基本公式</text>
+<rect x="760.8" y="133.2" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="154.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">对流传热的特点（温度、气流速度、管间</text>
+<text x="775.8" y="172.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">烟气辐射、炉内辐射）</text>
+<rect x="760.8" y="198.4" width="227.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="219.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">基本任务：设计计算 / 校核计算</text>
+<rect x="760.8" y="245.4" width="247.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="266.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">烟气对流放热量 Q_c^re（10-2）</text>
+<rect x="760.8" y="292.5" width="247.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="313.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">工质对流吸热量 Q_c^ab（10-4）</text>
+<rect x="760.8" y="339.6" width="246.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="360.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">对流传热基本公式 Q_c^tr = KHΔ</text>
+<text x="775.8" y="378.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">t/B_cal（10-1）</text>
+<rect x="760.8" y="404.8" width="274.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="425.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热平衡：Q_c^re = Q_c^ab = Q_c^</text>
+<text x="775.8" y="444.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">tr</text>
+<rect x="387.5" y="533.8" width="145.4" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="556.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第二节 传热温压</text>
+<rect x="760.8" y="470.0" width="274.4" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="491.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">对数平均温差（10-12）与算术平均温差</text>
+<text x="775.8" y="509.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（10-13，端差比≤1.7）</text>
+<rect x="760.8" y="535.2" width="257.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="556.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">混合流/交叉流修正系数 ψ（10-14）</text>
+<rect x="760.8" y="582.3" width="239.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="603.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">顺流温压≥0.92逆流温压时取平均</text>
+<text x="775.8" y="621.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（10-17）</text>
+<rect x="387.5" y="772.4" width="145.4" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="795.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第三节 传热系数</text>
+<rect x="760.8" y="691.9" width="168.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="712.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、管式承压受热面 K</text>
+<text x="775.8" y="731.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（10-18、10-19）</text>
+<rect x="1096.8" y="647.4" width="206.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="667.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">污染系数 ε = δ_ash/λ_ash</text>
+<rect x="1096.8" y="693.2" width="184.8" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="713.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">热有效系数 ψ 与清洁管 K₀</text>
+<text x="1111.8" y="730.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">（10-22、10-20）</text>
+<rect x="1096.8" y="755.7" width="220.2" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="775.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">1/α₂ 可忽略的简化式（10-23）</text>
+<rect x="760.8" y="791.7" width="278.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="812.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、扩展表面式承压受热面 K（10-25、</text>
+<text x="775.8" y="830.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">10-26、10-27）</text>
+<rect x="1096.8" y="801.4" width="227.9" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="821.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">鳍片效率 η_f 与受热面效率 η_hs</text>
+<rect x="760.8" y="837.5" width="278.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="858.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三、空气预热器 K（管式10-28、回转式</text>
+<text x="775.8" y="876.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">10-29）</text>
+<rect x="1096.8" y="847.2" width="213.6" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="867.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">利用系数 ξ 与不稳定修正系数 π</text>
+<rect x="387.5" y="1154.8" width="145.4" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="1177.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第四节 放热系数</text>
+<rect x="760.8" y="892.9" width="235.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="914.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">α₁ = ξ(α_c + α_r)（10-30）</text>
+<rect x="760.8" y="940.0" width="203.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="961.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">影响对流放热系数的6项因素</text>
+<rect x="760.8" y="987.1" width="261.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1008.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">相似理论准则式 Nu = C Re^m Pr^n</text>
+<text x="775.8" y="1026.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（10-31）</text>
+<rect x="760.8" y="1052.3" width="255.1" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1073.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">横向冲刷：顺列（Re^0.65）、错列</text>
+<text x="775.8" y="1091.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（10-38）</text>
+<rect x="760.8" y="1117.5" width="250.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1138.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">纵向冲刷（10-40）与超临界水蒸汽</text>
+<text x="775.8" y="1156.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（10-41、10-42）</text>
+<rect x="760.8" y="1182.7" width="277.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1203.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">扩展受热面对流放热系数（10-43~45、</text>
+<text x="775.8" y="1221.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">10-46、10-48）</text>
+<rect x="760.8" y="1247.8" width="250.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1268.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">回转式空气预热器准则式（10-49）</text>
+<rect x="760.8" y="1419.3" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1440.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">四、辐射放热系数</text>
+<rect x="1096.8" y="1294.9" width="212.6" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="1315.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">q_R = 0.9ε₁σ₀(T₁⁴−T₂⁴)</text>
+<text x="1111.8" y="1331.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">（10-50）</text>
+<rect x="1096.8" y="1357.4" width="159.7" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="1377.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">α_r 计算式（10-51）</text>
+<rect x="1096.8" y="1403.2" width="256.8" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="1423.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">烟气黑度 ε₁（10-53）与吸收减弱系数</text>
+<text x="1111.8" y="1440.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">k_a（10-54）</text>
+<rect x="1096.8" y="1465.7" width="247.0" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="1485.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">辐射层有效厚度 S（10-55、10-56、</text>
+<text x="1111.8" y="1502.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">10-57）</text>
+<rect x="1096.8" y="1528.2" width="256.6" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1111.8" y="1548.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">灰污表面温度 T₂（10-58、10-59）与</text>
+<text x="1111.8" y="1565.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">ΔT 取 60℃/不低于25℃</text>
+<rect x="387.5" y="1685.8" width="319.3" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="1708.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第五节 污染系数、热有效系数、利用系数</text>
+<text x="402.5" y="1729.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">和鳍（肋）片效率</text>
+<rect x="760.8" y="1590.7" width="279.9" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1611.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">污染系数 ε（灰污系数）：灰层热阻 ε =</text>
+<text x="775.8" y="1629.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">δ_h/λ_h = 1/K − 1/K₀</text>
+<text x="775.8" y="1647.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（式10-19、10-60）</text>
+<rect x="760.8" y="1674.0" width="252.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1695.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热有效系数 ψ = K/K₀（式10-21）</text>
+<rect x="760.8" y="1721.0" width="266.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1742.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">利用系数 ξ：大容量锅炉横向冲刷 ξ =</text>
+<text x="775.8" y="1760.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1.0（式10-30），空预器查表10-6</text>
+<rect x="760.8" y="1786.2" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1807.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">鳍（肋）片效率（扩展表面效率）</text>
+<rect x="387.5" y="2021.6" width="319.3" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="2044.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第六节 对流受热面的面积、介质流速、流</text>
+<text x="402.5" y="2065.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">通截面积和附加受热面</text>
+<rect x="760.8" y="1833.3" width="268.8" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1854.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">受热面积 H 的选取：放热系数悬殊取小</text>
+<text x="775.8" y="1872.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">侧表面积，相近取平均直径面积</text>
+<rect x="760.8" y="1898.5" width="277.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1919.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">介质流速公式（10-66~68）与流通截面</text>
+<text x="775.8" y="1937.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">积公式（10-69~70a）</text>
+<rect x="760.8" y="1963.7" width="257.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="1984.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">附加受热面：超 5% 单独计算</text>
+<text x="775.8" y="2002.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（误差 &lt;±10%），不超 5% 合并计算</text>
+<rect x="760.8" y="2028.9" width="282.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="2049.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">对流受热面传热计算的基本步骤（15 步）</text>
+<rect x="760.8" y="2075.9" width="211.5" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="2097.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Q_c^tr = K·H·Δt/B_cal</text>
+<text x="775.8" y="2115.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（式10-1）与校核 ΔQ ≤ 2%</text>
+<text x="775.8" y="2133.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（凝渣管 ΔQ ≤ 5%）</text>
+<rect x="760.8" y="2159.2" width="276.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="2180.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">烟气对流放热量 Q_c^re = φ</text>
+<text x="775.8" y="2198.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(I′ − I″ + Δα·I₁⁰) 及各受热面形式</text>
+<rect x="760.8" y="2224.4" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.8" y="2245.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">本章小结与作业</text>
+</g>
+</svg>

@@ -17,7 +17,8 @@ const SHELL = [
   './icons/maskable-512.png',
   './icons/apple-touch-icon.png',
   './icons/favicon.png',
-];
+  // 思维导图 SVG 由 build.js 按实际产物注入（离线也能看全图）
+].concat(__MINDMAP_SHELL__);
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

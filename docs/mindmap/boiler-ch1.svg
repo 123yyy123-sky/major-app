@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 976 1189" width="976" height="1189">
+<title>锅炉原理 · 第一章 燃料及燃烧计算 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#e8590c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#e8590c">锅炉原理 · 第一章 燃料及燃烧计算</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 27 个节点 · 与 App 内折叠树同源</text>
+<path d="M290.626,646.8037500000003 C317.626,646.8037500000003 317.626,165.79250000000002 344.626,165.79250000000002" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,646.8037500000003 C317.626,646.8037500000003 317.626,353.22 344.626,353.22" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,646.8037500000003 C317.626,646.8037500000003 317.626,527.0800000000002 344.626,527.0800000000002" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,646.8037500000003 C317.626,646.8037500000003 317.626,690.9625000000001 344.626,690.9625000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,646.8037500000003 C317.626,646.8037500000003 317.626,844.8675000000003 344.626,844.8675000000003" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,646.8037500000003 C317.626,646.8037500000003 317.626,999.7050000000004 344.626,999.7050000000004" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,646.8037500000003 C317.626,646.8037500000003 317.626,1127.8150000000005 344.626,1127.8150000000005" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M505.849,165.79250000000002 C580.279,165.79250000000002 580.279,105.135 654.709,105.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M505.849,165.79250000000002 C580.279,165.79250000000002 580.279,170.315 654.709,170.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M505.849,165.79250000000002 C580.279,165.79250000000002 580.279,226.45000000000002 654.709,226.45000000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M490.039,353.22 C572.374,353.22 572.374,282.58500000000004 654.709,282.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M490.039,353.22 C572.374,353.22 572.374,329.675 654.709,329.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M490.039,353.22 C572.374,353.22 572.374,376.76500000000004 654.709,376.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M490.039,353.22 C572.374,353.22 572.374,423.8550000000001 654.709,423.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,527.0800000000002 C596.0889999999999,527.0800000000002 596.0889999999999,470.9450000000001 654.709,470.9450000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,527.0800000000002 C596.0889999999999,527.0800000000002 596.0889999999999,527.0800000000002 654.709,527.0800000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,527.0800000000002 C596.0889999999999,527.0800000000002 596.0889999999999,583.2150000000001 654.709,583.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M490.039,690.9625000000001 C572.374,690.9625000000001 572.374,630.3050000000001 654.709,630.3050000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M490.039,690.9625000000001 C572.374,690.9625000000001 572.374,686.4400000000002 654.709,686.4400000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M490.039,690.9625000000001 C572.374,690.9625000000001 572.374,751.6200000000002 654.709,751.6200000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,844.8675000000003 C596.0889999999999,844.8675000000003 596.0889999999999,816.8000000000003 654.709,816.8000000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,844.8675000000003 C596.0889999999999,844.8675000000003 596.0889999999999,872.9350000000003 654.709,872.9350000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M573.832,999.7050000000004 C614.2705,999.7050000000004 614.2705,920.0250000000003 654.709,920.0250000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M573.832,999.7050000000004 C614.2705,999.7050000000004 614.2705,976.1600000000004 654.709,976.1600000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M573.832,999.7050000000004 C614.2705,999.7050000000004 614.2705,1032.2950000000005 654.709,1032.2950000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M573.832,999.7050000000004 C614.2705,999.7050000000004 614.2705,1079.3850000000004 654.709,1079.3850000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="622.7" width="250.6" height="48.1" rx="11" fill="#e8590c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="650.0" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第一章 燃料及燃烧计算</text>
+<rect x="344.6" y="145.4" width="161.2" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="168.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第一节 锅炉用燃料</text>
+<rect x="654.7" y="68.0" width="257.9" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按状态：固体（煤·炭·木材）· 液体</text>
+<text x="669.7" y="107.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（汽油·煤油·石油）· 气体</text>
+<text x="669.7" y="125.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（天然气·煤气·沼气）</text>
+<rect x="654.7" y="151.3" width="273.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="172.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按类型：化石燃料 · 生物燃料 · 核燃料</text>
+<rect x="654.7" y="198.4" width="236.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="219.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">注意：部分气体燃料可压缩为液体</text>
+<text x="669.7" y="237.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（如液化石油气）</text>
+<rect x="344.6" y="332.8" width="145.4" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="355.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第二节 煤的成分</text>
+<rect x="654.7" y="263.5" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="284.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、元素分析与工业分析</text>
+<rect x="654.7" y="310.6" width="212.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="331.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、煤的成分 C H O N S M A</text>
+<rect x="654.7" y="357.7" width="240.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="378.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三、煤中成分对锅炉工作的影响 ★</text>
+<rect x="654.7" y="404.8" width="199.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="425.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">四、成分基准及其换算 ★★</text>
+<rect x="344.6" y="506.7" width="192.8" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="529.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第三节 燃料的某些特性</text>
+<rect x="654.7" y="451.9" width="219.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="473.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、发热量 Q_gr / Q_net ★</text>
+<rect x="654.7" y="499.0" width="170.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="520.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、燃料的折算成分</text>
+<text x="669.7" y="538.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（基准 4187 kJ/kg）</text>
+<rect x="654.7" y="564.2" width="233.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="585.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三、灰的性质 DT / ST / FT ★</text>
+<rect x="344.6" y="670.6" width="145.4" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="693.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第四节 煤的分类</text>
+<rect x="654.7" y="611.3" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="632.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、分类方法（按煤化程度三大类）</text>
+<rect x="654.7" y="658.4" width="278.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="679.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、动力煤：无烟煤 · 贫煤 · 烟煤 · 褐</text>
+<text x="669.7" y="697.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">煤</text>
+<rect x="654.7" y="723.5" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="744.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">成煤（煤化）过程：泥炭→褐煤→亚烟煤</text>
+<text x="669.7" y="762.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">→烟煤→无烟煤</text>
+<rect x="344.6" y="824.5" width="192.8" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="847.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第五节 液体和气体燃料</text>
+<rect x="654.7" y="788.7" width="278.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="809.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">液体燃料：粘度 · 凝固点 · 闪点 · 含硫</text>
+<text x="669.7" y="827.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">量 · 灰分</text>
+<rect x="654.7" y="853.9" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="875.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">气体燃料：成分、种类与优点</text>
+<rect x="344.6" y="979.3" width="229.2" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="1002.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第六节 燃料的燃烧计算 ★★</text>
+<rect x="654.7" y="901.0" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="922.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、所需空气量与过量空气系数</text>
+<rect x="654.7" y="948.1" width="280.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="969.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">理论氧气量 V⁰_O₂ · 理论空气量 V⁰ ·</text>
+<text x="669.7" y="987.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">过量空气系数 α · 漏风系数</text>
+<rect x="654.7" y="1013.3" width="241.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="1034.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、燃烧产物计算（理论 / 实际）</text>
+<rect x="654.7" y="1060.3" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="669.7" y="1081.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三、空气与燃烧产物的焓计算</text>
+<rect x="344.6" y="1107.4" width="256.1" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="1130.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">（课件未覆盖）第七节 烟气分析</text>
+</g>
+</svg>

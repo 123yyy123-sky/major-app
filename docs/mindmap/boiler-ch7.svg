@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1375 1475" width="1375" height="1475">
+<title>锅炉原理 · 第七章 省煤器和空气预热器 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#e8590c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#e8590c">锅炉原理 · 第七章 省煤器和空气预热器</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 30 个节点 · 与 App 内折叠树同源</text>
+<path d="M333.466,646.6362500000002 C360.466,646.6362500000002 360.466,190.27 387.466,190.27" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,646.6362500000002 C360.466,646.6362500000002 360.466,547.3225 387.466,547.3225" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,646.6362500000002 C360.466,646.6362500000002 360.466,725.4900000000001 387.466,725.4900000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,646.6362500000002 C360.466,646.6362500000002 360.466,1103.0025000000005 387.466,1103.0025000000005" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M675.1690000000001,190.27 C702.1690000000001,190.27 702.1690000000001,87.045 729.1690000000001,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M675.1690000000001,190.27 C702.1690000000001,190.27 702.1690000000001,134.135 729.1690000000001,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M675.1690000000001,190.27 C702.1690000000001,190.27 702.1690000000001,181.22500000000002 729.1690000000001,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M675.1690000000001,190.27 C702.1690000000001,190.27 702.1690000000001,237.36 729.1690000000001,237.36" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M675.1690000000001,190.27 C702.1690000000001,190.27 702.1690000000001,293.495 729.1690000000001,293.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M517.069,547.3225 C623.119,547.3225 623.119,425.29 729.1690000000001,425.29" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M517.069,547.3225 C623.119,547.3225 623.119,566.13 729.1690000000001,566.13" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M517.069,547.3225 C623.119,547.3225 623.119,622.265 729.1690000000001,622.265" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M517.069,547.3225 C623.119,547.3225 623.119,669.355 729.1690000000001,669.355" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M938.1790000000001,425.29 C1006.489,425.29 1006.489,339.915 1074.799,339.915" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M938.1790000000001,425.29 C1006.489,425.29 1006.489,394.04 1074.799,394.04" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M938.1790000000001,425.29 C1006.489,425.29 1006.489,456.54 1074.799,456.54" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M938.1790000000001,425.29 C1006.489,425.29 1006.489,510.665 1074.799,510.665" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M580.309,725.4900000000001 C654.739,725.4900000000001 654.739,725.4900000000001 729.1690000000001,725.4900000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,790.6700000000002 729.1690000000001,790.6700000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,855.8500000000003 729.1690000000001,855.8500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,911.9850000000002 729.1690000000001,911.9850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,968.1200000000003 729.1690000000001,968.1200000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,1033.3000000000002 729.1690000000001,1033.3000000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,1098.4800000000002 729.1690000000001,1098.4800000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,1163.6600000000003 729.1690000000001,1163.6600000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,1228.8400000000004 729.1690000000001,1228.8400000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,1294.0200000000004 729.1690000000001,1294.0200000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,1359.2000000000005 729.1690000000001,1359.2000000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M596.119,1103.0025000000005 C662.644,1103.0025000000005 662.644,1415.3350000000007 729.1690000000001,1415.3350000000007" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="622.6" width="293.5" height="48.1" rx="11" fill="#e8590c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="649.8" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第七章 省煤器和空气预热器</text>
+<rect x="387.5" y="169.9" width="287.7" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="192.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第一节 尾部受热面的作用和工作特点</text>
+<rect x="729.2" y="68.0" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">尾部受热面定义（省煤器＋空气预热器）</text>
+<rect x="729.2" y="115.1" width="194.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">省煤器的主要作用（3 条）</text>
+<rect x="729.2" y="162.2" width="221.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">空气预热器的主要作用（2 条）</text>
+<rect x="729.2" y="209.3" width="278.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">空气预热器分类：传热式（管式）/ 蓄热</text>
+<text x="744.2" y="248.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">式（再生式、回转式）</text>
+<rect x="729.2" y="274.4" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="295.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">低温受热面三大问题：腐蚀、积灰、磨损</text>
+<rect x="387.5" y="526.9" width="129.6" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="549.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第二节 省煤器</text>
+<rect x="729.2" y="406.2" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="427.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、省煤器的类型及结构特点</text>
+<rect x="1074.8" y="321.5" width="162.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1089.8" y="341.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">钢管省煤器优点 / 缺点</text>
+<rect x="1074.8" y="367.3" width="260.1" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1089.8" y="387.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">按出口参数：沸腾式（中压）/ 非沸腾式</text>
+<text x="1089.8" y="404.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">（高压）</text>
+<rect x="1074.8" y="429.8" width="255.7" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1089.8" y="450.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">按结构形式：光管式 / 鳍片式 / 膜片式</text>
+<text x="1089.8" y="466.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">/ 螺旋肋片管式</text>
+<rect x="1074.8" y="492.3" width="200.2" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1089.8" y="512.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">按管子排列方式：错列 / 顺列</text>
+<rect x="729.2" y="538.0" width="291.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="559.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、省煤器的布置方式（卧式逆流；垂直、</text>
+<text x="744.2" y="577.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">平行前墙 3 种）</text>
+<rect x="729.2" y="603.2" width="268.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="624.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三、省煤器的支吊方式（支承 / 悬吊）</text>
+<rect x="729.2" y="650.3" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="671.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">四、省煤器的启动防护（两种再循环管）</text>
+<rect x="387.5" y="705.1" width="192.8" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="727.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第三节 管式空气预热器</text>
+<rect x="729.2" y="697.4" width="226.8" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="718.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">图7-9 管式空气预热器布置方式</text>
+<text x="744.2" y="736.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（a–e）</text>
+<rect x="387.5" y="1082.6" width="208.7" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="402.5" y="1105.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第四节 回转式空气预热器</text>
+<rect x="729.2" y="762.6" width="274.4" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="783.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">工作原理：蓄热式（烟气/空气交替流过</text>
+<text x="744.2" y="801.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">受热面）</text>
+<rect x="729.2" y="827.8" width="281.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="848.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">受热面回转式＝容克式 Ljungström；风</text>
+<text x="744.2" y="866.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">罩回转式＝罗特米勒式 Rothemühle</text>
+<rect x="729.2" y="892.9" width="158.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="914.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二分仓式 / 三分仓式</text>
+<rect x="729.2" y="940.0" width="277.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="961.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">结构与工作过程（转子约50%烟气区、约</text>
+<text x="744.2" y="979.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">30%空气区；1~4 周/分）</text>
+<rect x="729.2" y="1005.2" width="271.4" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="1026.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三分仓圆周角 165°/50°/100°，密封</text>
+<text x="744.2" y="1044.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">区各 15°</text>
+<rect x="729.2" y="1070.4" width="271.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="1091.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机壳（上梁/下梁/侧梁、扇形板、推力</text>
+<text x="744.2" y="1109.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">轴承与导向轴承）</text>
+<rect x="729.2" y="1135.6" width="274.4" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="1156.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">转子（空心转轴/中心筒、模数仓格、每</text>
+<text x="744.2" y="1174.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">扇形块四个仓格）</text>
+<rect x="729.2" y="1200.8" width="271.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="1221.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">传热元件（波纹板+定位板；热段/中间</text>
+<text x="744.2" y="1239.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">段/冷段；DU/CU/NF）</text>
+<rect x="729.2" y="1265.9" width="178.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="1287.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">★漏风率与漏风影响</text>
+<text x="744.2" y="1305.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（间隙漏风+携带漏风）</text>
+<rect x="729.2" y="1331.1" width="273.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="1352.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">★密封系统：径向密封 / 轴向密封 / 环</text>
+<text x="744.2" y="1370.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">向密封（旁路密封+中心筒密封）</text>
+<rect x="729.2" y="1396.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="744.2" y="1417.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">蘑菇状变形和径向密封间隙的调整</text>
+</g>
+</svg>

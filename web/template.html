@@ -88,6 +88,7 @@
   .trow .lb.lv2{font-size:13.5px;color:#4b5563}
   .troot{display:inline-block;background:var(--accent);color:#fff;font-weight:800;font-size:15px;padding:6px 14px;border-radius:999px;margin-bottom:6px}
   .tbtn{border:0;background:#f1f3f5;color:#6b7280;font-weight:700;font-size:12px;padding:5px 10px;border-radius:999px;cursor:pointer}
+  a.tbtn{text-decoration:none;display:inline-block;line-height:1.5;background:var(--accent-bg);color:var(--accent)}
   /* ---------- 重点 ---------- */
   .ptitle{font-size:16px;font-weight:800;margin:0 0 2px}
   .psrc{font-size:11.5px;color:#9aa5b1;margin-bottom:10px}
@@ -177,7 +178,8 @@
   var DATA = JSON.parse(document.getElementById('payload').textContent);
   // 题源标签：内容层只有课件一个源（教材/视频 2026-10-16 起不进内容层）
   var PS = { 1:{l:'课件题目',c:'var(--accent)',b:'var(--accent-bg)'}, 2:{l:'课件考点',c:'#1971c2',b:'#e7f1fb'} };
-  var PSD = {l:'其他',c:'#868e96',b:'#f1f3f5'};
+  // 3 档＝课件未覆盖、教材补充（诚实标注，不把教材当题源）
+  var PSD = {l:'补充',c:'#868e96',b:'#f1f3f5'};
   var MAX_NONKEY = 0.25;
 
   /* ---------- 进度/错题本（localStorage） ---------- */
@@ -374,9 +376,15 @@
   function paneMind(root,ch,s){
     var wrap=el('div');
     var bar=el('div','row','');
-    bar.style.cssText='justify-content:flex-end;margin-bottom:10px';
+    bar.style.cssText='justify-content:space-between;margin-bottom:10px';
+    // 图片版：与折叠树同源生成的独立 SVG，点开看全图（知识库里是同一份文件）
+    var a=el('a','tbtn','图片版（看全图）↗');
+    a.href=MMBASE+encodeURIComponent(ch.id)+'.svg';
+    a.target='_blank'; a.rel='noopener';
+    bar.appendChild(a);
+    var rb=el('div','row','');
     var b1=el('button','tbtn','全部展开'), b2=el('button','tbtn','全部收起');
-    bar.appendChild(b1); bar.appendChild(b2); wrap.appendChild(bar);
+    rb.appendChild(b1); rb.appendChild(b2); bar.appendChild(rb); wrap.appendChild(bar);
     var card=el('div','card'); card.appendChild(el('div','small muted','点 ＋ / − 逐层展开（手机上比缩放巨图好用）'));
     var tree=el('div','tree'); tree.style.marginTop='8px';
     var openSet={}; // path -> true
@@ -417,6 +425,8 @@
   }
   // 图片基路径（构建时注入：PWA 版为 img/，单文件版为 ../docs/img/）
   var IMGBASE = '__IMGBASE__';
+  // 思维导图 SVG 基路径（构建时注入，与 IMGBASE 同理）
+  var MMBASE = '__MMBASE__';
   function imgURL(p){ return IMGBASE + String(p).replace(/^img\//, ''); }
   // 该章节有哪些图（值形如 {w:'...webp', j:'...jpg'}，兼容旧的纯字符串）
   function imgOf(ch){ return (ch&&ch.images)||{}; }

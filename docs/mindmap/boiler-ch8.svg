@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 888 806" width="888" height="806">
+<title>锅炉原理 · 第八章 锅炉热平衡计算 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#e8590c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#e8590c">锅炉原理 · 第八章 锅炉热平衡计算</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 18 个节点 · 与 App 内折叠树同源</text>
+<path d="M290.626,475.5375000000001 C317.626,475.5375000000001 317.626,298.95000000000005 344.626,298.95000000000005" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,475.5375000000001 C317.626,475.5375000000001 317.626,652.1250000000001 344.626,652.1250000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,87.045 623.0889999999999,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,134.135 623.0889999999999,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,181.22500000000002 623.0889999999999,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,228.315 623.0889999999999,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,275.40500000000003 623.0889999999999,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,322.495 623.0889999999999,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,369.58500000000004 623.0889999999999,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,416.675 623.0889999999999,416.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,463.76500000000004 623.0889999999999,463.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M537.469,298.95000000000005 C580.279,298.95000000000005 580.279,510.8550000000001 623.0889999999999,510.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M569.0889999999999,652.1250000000001 C596.0889999999999,652.1250000000001 596.0889999999999,557.9450000000002 623.0889999999999,557.9450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M569.0889999999999,652.1250000000001 C596.0889999999999,652.1250000000001 596.0889999999999,605.0350000000001 623.0889999999999,605.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M569.0889999999999,652.1250000000001 C596.0889999999999,652.1250000000001 596.0889999999999,652.1250000000001 623.0889999999999,652.1250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M569.0889999999999,652.1250000000001 C596.0889999999999,652.1250000000001 596.0889999999999,699.2150000000001 623.0889999999999,699.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M569.0889999999999,652.1250000000001 C596.0889999999999,652.1250000000001 596.0889999999999,746.3050000000002 623.0889999999999,746.3050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="451.5" width="250.6" height="48.1" rx="11" fill="#e8590c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="478.7" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第八章 锅炉热平衡计算</text>
+<rect x="344.6" y="278.6" width="192.8" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="301.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第一节 锅炉机组热平衡</text>
+<rect x="623.1" y="68.0" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热平衡定义与计算目的</text>
+<rect x="623.1" y="115.1" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热平衡方程式与各项热量含义</text>
+<rect x="623.1" y="162.2" width="205.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">锅炉效率（正平衡/反平衡）</text>
+<rect x="623.1" y="209.3" width="115.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">输入热量 Q_f</text>
+<rect x="623.1" y="256.4" width="200.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机械未完全燃烧热损失 Q_4</text>
+<rect x="623.1" y="303.4" width="200.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">化学未完全燃烧热损失 Q_3</text>
+<rect x="623.1" y="350.5" width="132.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">排烟热损失 Q_2</text>
+<rect x="623.1" y="397.6" width="205.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">散热损失 Q_5 与保热系数 φ</text>
+<rect x="623.1" y="444.7" width="132.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">其它热损失 Q_6</text>
+<rect x="623.1" y="491.8" width="224.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热效率和燃料消耗量 B、B_cal</text>
+<rect x="344.6" y="631.7" width="224.5" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="359.6" y="654.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第二节 锅炉机组热平衡测试</text>
+<rect x="623.1" y="538.9" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="560.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热平衡试验的目的</text>
+<rect x="623.1" y="586.0" width="85.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="607.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">正平衡法</text>
+<rect x="623.1" y="633.1" width="85.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="654.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">反平衡法</text>
+<rect x="623.1" y="680.2" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="701.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">两种方法的使用场合</text>
+<rect x="623.1" y="727.3" width="85.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="748.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测量参数</text>
+</g>
+</svg>
