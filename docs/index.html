@@ -41,9 +41,12 @@
   }
   .subj.on{color:#fff;border-color:transparent}
   /* ---------- tab ---------- */
-  .tabs{display:flex;background:#fff;border-bottom:1px solid #e8ebef;position:sticky;top:0;z-index:15}
-  .tab{flex:1;text-align:center;padding:12px 0;font-size:14px;font-weight:600;color:#6b7280;
-       background:none;border:0;position:relative;cursor:pointer}
+  /* tab 条：横向可滚动（章节详情有 6 个 tab，窄屏不再挤成两行/溢出） */
+  .tabs{display:flex;background:#fff;border-bottom:1px solid #e8ebef;position:sticky;top:0;z-index:15;
+        overflow-x:auto;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{flex:1 0 auto;text-align:center;padding:12px 8px;font-size:13.5px;font-weight:600;color:#6b7280;
+       background:none;border:0;position:relative;cursor:pointer;white-space:nowrap}
   .tab.on{font-weight:800}
   .tab.on::after{content:"";position:absolute;left:22%;right:22%;bottom:0;height:2.5px;border-radius:2px;background:currentColor}
   /* ---------- 通用 ---------- */
@@ -142,6 +145,16 @@
   .big{font-size:38px;font-weight:800;margin:8px 0}
   .tag{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:800}
   .empty{padding:28px;text-align:center;color:#9aa5b1;background:#fff;border:1px solid #e8ebef;border-radius:12px}
+  /* ---------- 题目（只读浏览） ---------- */
+  .tbtn.on{background:var(--accent);color:#fff}
+  .qbar{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin-bottom:10px;scrollbar-width:none}
+  .qbar::-webkit-scrollbar{display:none}
+  .qno{font-size:12px;font-weight:800;color:#9aa5b1}
+  .ansbox{margin-top:12px;padding-top:10px;border-top:1px dashed #dfe5ec}
+  .anshead{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:.06em;margin-bottom:6px}
+  .opt.ro{cursor:default}
+  .kfilter{display:inline-block;background:var(--accent-bg);color:var(--accent);border-radius:999px;
+           padding:4px 11px;font-size:11.5px;font-weight:800;margin-bottom:10px;cursor:pointer}
 </style>
 </head>
 <body>
@@ -306,7 +319,7 @@
       m.appendChild(btn);
     });
     m.appendChild(el('div','sub center','内容来源：雨课堂课件（唯一内容源）'));
-    m.appendChild(el('div','buildver','构建 9d44273163'));
+    m.appendChild(el('div','buildver','构建 6f0ca56b51'));
   }
 
   /* ---------- 渲染：章节列表 ---------- */
@@ -334,7 +347,7 @@
     m.innerHTML='';
     // tabs
     var tabs=el('div','tabs');
-    var tabDefs=[['mind','思维导图'],['points','重点'],['quiz','练习'],['kp','考点清单']];
+    var tabDefs=[['mind','思维导图'],['points','重点'],['bank','题目'],['quiz','练习'],['kp','考点清单']];
     tabDefs.forEach(function(t){
       var b=el('button','tab'+(R.tab===t[0]?' on':''), t[1]);
       if(R.tab===t[0]) b.style.color=s.color;
@@ -351,6 +364,7 @@
     var pane=el('div'); m.appendChild(pane);
     if(R.tab==='mind') paneMind(pane,c,s);
     else if(R.tab==='points') panePoints(pane,c,s);
+    else if(R.tab==='bank') paneBank(pane,c,s);
     else if(R.tab==='kp') paneKP(pane,c,s);
     else if(R.tab==='wrong') paneWrong(pane);
     else paneQuiz(pane,c,s);
@@ -475,6 +489,129 @@
         (v.wrong?'<span class="chip" style="background:#fff0f0;color:#e03131">错 '+v.wrong+'</span>':'')+'</div>'+
         '<div class="small muted" style="margin-top:6px">关联 '+v.n+' 题</div>'+
         '<div class="small muted" style="margin-top:4px">出处：'+esc(Object.keys(v.src).join(' · '))+'</div>';
+      var jb=el('button','tbtn','看这个考点的题');
+      jb.style.marginTop='10px';
+      jb.onclick=function(){ QA.kp=k; QA.kind=null; R.tab='bank'; render(); };
+      c.appendChild(jb);
+      root.appendChild(c);
+    });
+  }
+
+  /* --- 题目（只读浏览：本章题目 + 答案一次看全，不用一题一题答） --- */
+  var QA={ all:true, open:{}, kind:null, kp:null };
+  var KIND_ORDER=['单选','多选','判断','填空','简答','例题','计算'];
+  function bul(t){ return '<div class="bul"><div class="d">·</div><div class="t">'+rich(t)+'</div></div>'; }
+  // 答案解析块（只读，不依赖练习状态 Q）
+  function answerHTML(q){
+    var isEx=(q.kind==='例题'||q.kind==='计算'||q.kind==='简答');
+    var h='';
+    if(isEx){
+      if((q.steps||[]).length){
+        h+='<div class="exlabel">'+(q.kind==='简答'?'参考答案':'解答过程')+'</div>'+
+           '<div class="exbox steps">'+q.steps.map(function(x,i){
+             return '<div class="bul"><div class="d">'+(q.kind==='简答'?'·':(i+1))+'</div><div class="t">'+rich(x)+'</div></div>';
+           }).join('')+'</div>';
+      }
+      if(q.result) h+='<div class="exres">'+(q.kind==='简答'?'要点：':'结果：')+rich(q.result)+'</div>';
+    }
+    if(!h && q.answer) h+='<div class="basis">正确答案：<b>'+esc(q.answer)+'</b></div>';
+    (q.why||[]).forEach(function(w){ h+='<div class="bul"><div class="d">›</div><div class="t">'+rich(w)+'</div></div>'; });
+    if(q.basis) h+='<div class="basis">依据：'+esc(q.basis)+'</div>';
+    if(q.answerNote) h+='<div class="note">⚠️ '+esc(q.answerNote)+'</div>';
+    return h;
+  }
+  function paneBank(root,ch,s){
+    var qs=(ch.questions||[]);
+    if(!qs.length){ root.appendChild(el('div','empty','本章暂无题目。')); return; }
+
+    var cnt={}, kinds=[];
+    qs.forEach(function(q){
+      cnt[q.kind]=(cnt[q.kind]||0)+1;
+      if(kinds.indexOf(q.kind)<0) kinds.push(q.kind);
+    });
+    kinds.sort(function(a,b){
+      var ia=KIND_ORDER.indexOf(a), ib=KIND_ORDER.indexOf(b);
+      return (ia<0?99:ia)-(ib<0?99:ib);
+    });
+    var shown=qs.filter(function(q){
+      if(QA.kind && q.kind!==QA.kind) return false;
+      if(QA.kp && (q.keyPoints||[]).indexOf(QA.kp)<0) return false;
+      return true;
+    });
+
+    // 顶部：统计 + 展开/收起
+    var head=el('div','card');
+    head.innerHTML='<div class="between"><div style="font-size:17px;font-weight:800">本章题目</div>'+
+      '<span class="chip" style="background:var(--accent-bg);color:var(--accent)">'+qs.length+' 题</span></div>'+
+      '<div class="small muted" style="margin-top:6px">'+kinds.map(function(k){ return k+' '+cnt[k]; }).join(' · ')+'</div>'+
+      '<div class="small muted" style="margin-top:4px">题干、答案、解析、课件原图直接摊开；想自测请去「练习」</div>';
+    var bar=el('div','row'); bar.style.marginTop='10px';
+    var tb=el('button','tbtn', QA.all?'全部收起答案':'全部展开答案');
+    tb.onclick=function(){ QA.all=!QA.all; QA.open={}; render(); };
+    bar.appendChild(tb);
+    if(QA.kind||QA.kp){
+      var rb=el('button','tbtn on','清除筛选');
+      rb.onclick=function(){ QA.kind=null; QA.kp=null; render(); };
+      bar.appendChild(rb);
+    }
+    head.appendChild(bar); root.appendChild(head);
+
+    if(QA.kp){
+      var kf=el('div','kfilter','只看考点：'+esc(QA.kp)+'　✕');
+      kf.onclick=function(){ QA.kp=null; render(); };
+      root.appendChild(kf);
+    }
+
+    // 题型筛选
+    var fr=el('div','qbar');
+    function mkChip(label,on,fn){ var b=el('button','tbtn'+(on?' on':''),label); b.onclick=fn; fr.appendChild(b); }
+    mkChip('全部 '+qs.length, !QA.kind, function(){ QA.kind=null; render(); });
+    kinds.forEach(function(k){
+      mkChip(k+' '+cnt[k], QA.kind===k, function(){ QA.kind=(QA.kind===k?null:k); render(); });
+    });
+    root.appendChild(fr);
+
+    if(!shown.length){ root.appendChild(el('div','empty','当前筛选下没有题目。')); return; }
+
+    shown.forEach(function(q,i){
+      var ps=PS[q.priority]||PSD;
+      var open=(QA.open[q.id]===undefined)?QA.all:QA.open[q.id];
+      var c=el('div','card');
+      c.appendChild(el('div','row',
+        '<span class="qno">#'+(i+1)+'</span>'+
+        '<span class="tag" style="background:'+ps.b+';color:'+ps.c+'">'+ps.l+'</span>'+
+        '<span class="chip">'+esc(q.kind)+'</span>'+
+        (state.wrong[q.id]?'<span class="chip" style="background:#fff0f0;color:#e03131">错过 '+state.wrong[q.id]+' 次</span>':'')+
+        (q.sourceDetail?'<span class="small muted">'+esc(q.sourceDetail)+'</span>':'')));
+      if(isKey(q)){
+        var kp=el('div','kp'); kp.appendChild(el('span','lab','考点'));
+        (q.keyPoints||[]).forEach(function(k){ kp.appendChild(el('span','k',esc(k))); });
+        c.appendChild(kp);
+      }
+      c.appendChild(el('div','stem', rich(q.stem)));
+      if((q.given||[]).length){ c.appendChild(el('div','exlabel','已知')); c.appendChild(el('div','exbox', q.given.map(bul).join(''))); }
+      if((q.ask||[]).length){ c.appendChild(el('div','exlabel','求解')); c.appendChild(el('div','exbox', q.ask.map(bul).join(''))); }
+      (q.options||[]).forEach(function(op){
+        var isAns=String(q.answer||'').indexOf(op.k)>=0;
+        var d=el('div','opt ro'+(open&&isAns?' ok':''));
+        d.innerHTML='<div class="k">'+esc(op.k)+'</div><div class="t">'+rich(op.t)+'</div>'+
+          (open&&isAns?'<div class="m" style="color:#2f9e44">✓</div>':'');
+        c.appendChild(d);
+      });
+      if(open){
+        var ans=el('div','ansbox');
+        ans.innerHTML='<div class="anshead">答案与解析</div>'+answerHTML(q);
+        var th=thumbsHTML(ch, (q.sourceDetail||'')+' '+(q.basis||''));
+        if(th) ans.insertAdjacentHTML('beforeend', th);
+        c.appendChild(ans);
+        var tg2=el('button','tbtn','收起答案'); tg2.style.marginTop='10px';
+        tg2.onclick=function(){ QA.open[q.id]=false; render(); };
+        c.appendChild(tg2);
+      } else {
+        var tg=el('button','tbtn','看答案'); tg.style.marginTop='4px';
+        tg.onclick=function(){ QA.open[q.id]=true; render(); };
+        c.appendChild(tg);
+      }
       root.appendChild(c);
     });
   }
@@ -500,6 +637,9 @@
         wb.onclick=function(){ startWrongQuiz(wl.map(function(x){return x.q;})); };
         c.appendChild(wb);
       }
+      var vb=el('button','btn ghost','先看本章题目（不开始练习）');
+      vb.onclick=function(){ R.tab='bank'; render(); };
+      c.appendChild(vb);
       root.appendChild(c); return;
     }
     if(Q.i>=Q.list.length){ return quizDone(root,ch,s); }
@@ -556,7 +696,7 @@
       var inp=el('input','fill'); inp.placeholder='输入答案'; inp.value=Q.text||'';
       inp.disabled=!!Q.done;
       inp.oninput=function(){ Q.text=inp.value; var b=$('qsubmit'); if(b) b.disabled=!inp.value.trim(); };
-      if(Q.done) inp.style.background = Q.lastOk ? '#e8f6ec' : '#fff0f0';
+      if(Q.done) inp.style.background = (Q.lastOk===null) ? '#f1f3f5' : (Q.lastOk ? '#e8f6ec' : '#fff0f0');
       c.appendChild(inp);
     } else {
       (q.options||[]).forEach(function(op){
@@ -583,7 +723,13 @@
     if(Q.done){
       var ok=Q.lastOk;
       var rb=el('div','res');
-      rb.appendChild(el('h4',null,'<span style="color:'+(ok?'#2f9e44':'#e03131')+'">'+(ok?'✓ 回答正确':'✗ 回答错误　正确答案：'+esc(q.answer))+'</span>'));
+      if(isExample){
+        /* 例题 / 简答：不判对错，只给依据与解析 */
+      } else if(ok===null||ok===undefined){
+        rb.appendChild(el('div','small','<span style="color:#6b7280;font-weight:800">已看答案（本题未作答，不计入错题）</span>'));
+      } else {
+        rb.appendChild(el('h4',null,'<span style="color:'+(ok?'#2f9e44':'#e03131')+'">'+(ok?'✓ 回答正确':'✗ 回答错误　正确答案：'+esc(q.answer))+'</span>'));
+      }
       (q.why||[]).forEach(function(w){ rb.appendChild(el('div','bul','<div class="d">›</div><div class="t">'+rich(w)+'</div>')); });
       if(q.basis) rb.appendChild(el('div','basis','依据：'+esc(q.basis)));
       if(q.answerNote) rb.appendChild(el('div','note','⚠️ '+esc(q.answerNote)));
@@ -616,6 +762,10 @@
         Q.done=true; render();
       };
       act.appendChild(b);
+      /* 允许直接看答案：不判对错、不计入错题本 */
+      var pk=el('button','btn ghost','看答案（本题不计作答）');
+      pk.onclick=function(){ Q.lastOk=null; Q.solOpen=true; Q.done=true; render(); };
+      act.appendChild(pk);
     } else {
       var nb=el('button','btn', (Q.i+1>=Q.list.length?'看结果':'下一题')); nb.style.background=s.color;
       nb.onclick=function(){ Q.i++; Q.pick=''; Q.text=''; Q.done=false; render(); };
