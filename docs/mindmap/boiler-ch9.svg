@@ -92,8 +92,8 @@
 <rect x="747.1" y="1049.2" width="273.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="762.1" y="1070.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">理论燃烧温度 Tₜₕ：Qfᵉᶠ、Qₐ、烟气</text>
 <text x="762.1" y="1088.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">平均热容 VCₐᵥ</text>
-<rect x="747.1" y="1114.3" width="279.4" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.1" y="1135.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">吸收减弱系数与火焰黑度：kₐ=kg·r+k</text>
+<rect x="747.1" y="1114.3" width="281.0" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1135.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">吸收减弱系数与火焰黑度：kₐ=kg·ᵣ+k</text>
 <text x="762.1" y="1153.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">ₐₛₕ·μₐₛₕ+kcₒₖ·μcₒₖ，ε₁=1-e</text>
 <text x="762.1" y="1171.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">⁻ᵏₐ·S</text>
 <rect x="366.0" y="1256.9" width="303.5" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>

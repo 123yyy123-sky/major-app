@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 3207" width="1060" height="3207">
+<title>传热学 · 第四章 导热问题的数值解法 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1971c2" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#1971c2">传热学 · 第四章 导热问题的数值解法</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 71 个节点 · 与 App 内折叠树同源</text>
+<path d="M333.466,1617.4700000000005 C360.466,1617.4700000000005 360.466,440.2200000000001 387.466,440.2200000000001" fill="none" stroke="#1971c2" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1617.4700000000005 C360.466,1617.4700000000005 360.466,1099.4800000000002 387.466,1099.4800000000002" fill="none" stroke="#1971c2" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1617.4700000000005 C360.466,1617.4700000000005 360.466,1900.0099999999998 387.466,1900.0099999999998" fill="none" stroke="#1971c2" stroke-width="2" stroke-linecap="round"/>
+<path d="M333.466,1617.4700000000005 C360.466,1617.4700000000005 360.466,2794.7200000000007 387.466,2794.7200000000007" fill="none" stroke="#1971c2" stroke-width="2" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,87.045 760.6309,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,134.135 760.6309,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,181.22500000000002 760.6309,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,228.315 760.6309,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,275.40500000000003 760.6309,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,322.495 760.6309,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,369.58500000000004 760.6309,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,416.675 760.6309,416.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,463.76500000000004 760.6309,463.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,510.8550000000001 760.6309,510.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,557.9450000000002 760.6309,557.9450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,605.0350000000001 760.6309,605.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,652.1250000000001 760.6309,652.1250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,699.2150000000001 760.6309,699.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,746.3050000000002 760.6309,746.3050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M592.1665,440.2200000000001 C676.3987,440.2200000000001 676.3987,793.3950000000002 760.6309,793.3950000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,840.4850000000002 760.6309,840.4850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,887.5750000000003 760.6309,887.5750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,934.6650000000003 760.6309,934.6650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,981.7550000000003 760.6309,981.7550000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1028.8450000000003 760.6309,1028.8450000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1075.9350000000004 760.6309,1075.9350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1123.0250000000005 760.6309,1123.0250000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1170.1150000000005 760.6309,1170.1150000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1217.2050000000004 760.6309,1217.2050000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1264.2950000000003 760.6309,1264.2950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1311.3850000000002 760.6309,1311.3850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M627.5809,1099.4800000000002 C694.1059,1099.4800000000002 694.1059,1358.4750000000001 760.6309,1358.4750000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1405.565 760.6309,1405.565" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1452.655 760.6309,1452.655" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1499.745 760.6309,1499.745" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1546.8349999999998 760.6309,1546.8349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1593.9249999999997 760.6309,1593.9249999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1641.0149999999996 760.6309,1641.0149999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1688.1049999999996 760.6309,1688.1049999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1735.1949999999995 760.6309,1735.1949999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1782.2849999999994 760.6309,1782.2849999999994" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1829.3749999999993 760.6309,1829.3749999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1876.4649999999992 760.6309,1876.4649999999992" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1923.5549999999992 760.6309,1923.5549999999992" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,1970.644999999999 760.6309,1970.644999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2017.734999999999 760.6309,2017.734999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2064.824999999999 760.6309,2064.824999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2111.914999999999 760.6309,2111.914999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2159.0049999999987 760.6309,2159.0049999999987" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2206.094999999999 760.6309,2206.094999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2253.184999999999 760.6309,2253.184999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2300.274999999999 760.6309,2300.274999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2347.3649999999993 760.6309,2347.3649999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M706.6309,1900.0099999999998 C733.6309,1900.0099999999998 733.6309,2394.4549999999995 760.6309,2394.4549999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2441.5449999999996 760.6309,2441.5449999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2488.6349999999998 760.6309,2488.6349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2535.725 760.6309,2535.725" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2582.815 760.6309,2582.815" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2629.905 760.6309,2629.905" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2676.9950000000003 760.6309,2676.9950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2724.0850000000005 760.6309,2724.0850000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2771.1750000000006 760.6309,2771.1750000000006" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2818.265000000001 760.6309,2818.265000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2865.355000000001 760.6309,2865.355000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2912.445000000001 760.6309,2912.445000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,2959.535000000001 760.6309,2959.535000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,3006.6250000000014 760.6309,3006.6250000000014" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,3053.7150000000015 760.6309,3053.7150000000015" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,3100.8050000000017 760.6309,3100.8050000000017" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M643.3909,2794.7200000000007 C702.0109,2794.7200000000007 702.0109,3147.895000000002 760.6309,3147.895000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="1593.4" width="293.5" height="48.1" rx="11" fill="#1971c2" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="1620.6" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第四章 导热问题的数值解法</text>
+<rect x="387.5" y="419.8" width="204.7" height="40.8" rx="9" fill="#ffffff" stroke="#1971c2" stroke-width="1.6"/>
+<text x="402.5" y="442.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4-1 数值求解的基本思想</text>
+<rect x="760.6" y="68.0" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">分析解是对定解条件下的积分求解</text>
+<rect x="760.6" y="115.1" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数值解用离散点温度代替连续温度场</text>
+<rect x="760.6" y="162.2" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">用大量代数方程代替微分方程</text>
+<rect x="760.6" y="209.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">连续到离散、微分方程到代数方程</text>
+<rect x="760.6" y="256.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">分析解能得到精确解并作比较依据</text>
+<rect x="760.6" y="303.4" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">分析解局限大、对复杂问题无法求解</text>
+<rect x="760.6" y="350.5" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数值解是近似解而有很强适应性</text>
+<rect x="760.6" y="397.6" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">原则上可求解一切导热问题</text>
+<rect x="760.6" y="444.7" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数值解比实验法成本低</text>
+<rect x="760.6" y="491.8" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">物理问题取矩形域稳态无内热源</text>
+<rect x="760.6" y="538.9" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="560.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">控制方程为二维拉普拉斯方程</text>
+<rect x="760.6" y="586.0" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="607.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">左右边界与上下边界给出定解条件</text>
+<rect x="760.6" y="633.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="654.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">区域离散化得到控制容积与节点</text>
+<rect x="760.6" y="680.2" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="701.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">建立节点离散方程并联立成方程组</text>
+<rect x="760.6" y="727.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="748.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">方程组多用迭代法并设立迭代初场</text>
+<rect x="760.6" y="774.4" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="795.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">温度场用于算热流量与热应力</text>
+<rect x="387.5" y="1079.1" width="240.1" height="40.8" rx="9" fill="#ffffff" stroke="#1971c2" stroke-width="1.6"/>
+<text x="402.5" y="1101.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4-2 内节点离散方程建立方法</text>
+<rect x="760.6" y="821.4" width="244.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="842.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Taylor展开法推导内节点离散方程</text>
+<rect x="760.6" y="868.5" width="258.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="889.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">连续性条件下节点温度作Taylor展开</text>
+<rect x="760.6" y="915.6" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="936.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">两式相加得到二阶导数中心差分式</text>
+<rect x="760.6" y="962.7" width="208.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="983.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">截断误差为Δx的最低阶数为2</text>
+<rect x="760.6" y="1009.8" width="233.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1030.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Δx等于Δy时内节点取四邻点平均</text>
+<rect x="760.6" y="1056.9" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1078.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热平衡法对控制体列能量守恒式</text>
+<rect x="760.6" y="1104.0" width="239.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1125.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">依据能量守恒定律与Fourier定律</text>
+<rect x="760.6" y="1151.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1172.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">规定热量进入为正且分东西南北</text>
+<rect x="760.6" y="1198.2" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1219.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">四个界面热流量之和等于零</text>
+<rect x="760.6" y="1245.3" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1266.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">两种方法得到相同的差分方程</text>
+<rect x="760.6" y="1292.3" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1313.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数值解是一种近似解</text>
+<rect x="760.6" y="1339.4" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1360.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">差分式分子各项系数代数和为零</text>
+<rect x="387.5" y="1869.2" width="319.2" height="61.5" rx="9" fill="#ffffff" stroke="#1971c2" stroke-width="1.6"/>
+<text x="402.5" y="1891.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4-3 边界节点离散方程建立及代数方程求</text>
+<text x="402.5" y="1912.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">解</text>
+<rect x="760.6" y="1386.5" width="220.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1407.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">建立IIBC与IIIBC边界节点方程</text>
+<rect x="760.6" y="1433.6" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1454.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">假设物体内部有内热源</text>
+<rect x="760.6" y="1480.7" width="150.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1501.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Δx与Δy取均匀网格</text>
+<rect x="760.6" y="1527.8" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1548.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">平直边界节点能量平衡式的推导</text>
+<rect x="760.6" y="1574.9" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1595.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">边界节点控制容积不足半格</text>
+<rect x="760.6" y="1622.0" width="184.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1643.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">边界热流以qw代入平衡式</text>
+<rect x="760.6" y="1669.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1690.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">外角点控制容积只占四分之一格</text>
+<rect x="760.6" y="1716.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1737.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">外角点两条边界热流各按半格计</text>
+<rect x="760.6" y="1763.2" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1784.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">内角点控制容积占四分之三格</text>
+<rect x="760.6" y="1810.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1831.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">内角点两个边界方向各加一项热流</text>
+<rect x="760.6" y="1857.4" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1878.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">内角点内热源体积为四分之三格</text>
+<rect x="760.6" y="1904.5" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1925.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">不规则边界采用阶梯逼近法处理</text>
+<rect x="760.6" y="1951.6" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="1972.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">区域含圆形边界时按阶梯折线替代</text>
+<rect x="760.6" y="1998.7" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2019.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">写出全部内节点与边界节点方程</text>
+<rect x="760.6" y="2045.8" width="239.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2066.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">n个未知节点温度对应n个代数方程</text>
+<rect x="760.6" y="2092.9" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2113.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">迭代法假设初场不断更新至收敛</text>
+<rect x="760.6" y="2140.0" width="231.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2161.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Jacobi迭代只用上一轮得到的值</text>
+<rect x="760.6" y="2187.0" width="254.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2208.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Gauss-Seidel迭代代入本轮最新值</text>
+<rect x="760.6" y="2234.1" width="241.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2255.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Gauss-Seidel迭代占用内存更省</text>
+<rect x="760.6" y="2281.2" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2302.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">收敛判据取相邻两轮温度之差</text>
+<rect x="760.6" y="2328.3" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2349.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">分母可能为零时可加小量或取最大值</text>
+<rect x="760.6" y="2375.4" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2396.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">主对角占优时迭代法一定收敛</text>
+<rect x="387.5" y="2774.3" width="255.9" height="40.8" rx="9" fill="#ffffff" stroke="#1971c2" stroke-width="1.6"/>
+<text x="402.5" y="2797.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4-4 非稳态导热问题的数值解法</text>
+<rect x="760.6" y="2422.5" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2443.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">非稳态问题需对空间与时间均离散</text>
+<rect x="760.6" y="2469.6" width="227.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2490.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">以厚度2δ无限大平壁为分析对象</text>
+<rect x="760.6" y="2516.7" width="216.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2537.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">初始温度t₀突然置入t∞流体中</text>
+<rect x="760.6" y="2563.8" width="217.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2584.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">两侧表面与流体的传热系数为h</text>
+<rect x="760.6" y="2610.9" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2631.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数学描述含非稳态项与对流边界</text>
+<rect x="760.6" y="2658.0" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2679.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热平衡法对控制容积列能量平衡</text>
+<rect x="760.6" y="2705.0" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2726.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">左右两侧导入热量等于内能增量</text>
+<rect x="760.6" y="2752.1" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2773.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">内节点方程含时间与空间差分</text>
+<rect x="760.6" y="2799.2" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2820.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">右端边界节点控制容积取半格</text>
+<rect x="760.6" y="2846.3" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2867.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">右端边界方程含对流换热项</text>
+<rect x="760.6" y="2893.4" width="174.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2914.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">左端用对称性以t-1代换</text>
+<rect x="760.6" y="2940.5" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="2961.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">差分代替微分有向前向后中心</text>
+<rect x="760.6" y="2987.6" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="3008.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">显式格式求解方便但受步长限制</text>
+<rect x="760.6" y="3034.7" width="210.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="3055.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">显式格式稳定条件为Fo≤1/2</text>
+<rect x="760.6" y="3081.8" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="3102.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">边界节点稳定性要求更为苛刻</text>
+<rect x="760.6" y="3128.9" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="775.6" y="3149.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">隐式格式无条件稳定但需联立求解</text>
+</g>
+</svg>
