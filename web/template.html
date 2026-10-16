@@ -204,17 +204,26 @@
   var SUBCLS = '\\u2080-\\u2089';
   function toSup(t){ return t.replace(new RegExp('['+SUPCLS+']','g'), function(c){ return SUPMAP[c]||c; }); }
   function toSub(t){ return t.replace(new RegExp('['+SUBCLS+']','g'), function(c){ return String.fromCharCode(c.charCodeAt(0)-0x2080+48); }); }
-  // 一次扫描：^上标 | ^(上标) | _下标 | 上标字符 | 下标字符
+  // 一次扫描：^{上标} | ^(上标) | ^上标 | _{下标} | _(下标) | _下标 | 上标字符 | 下标字符
+  //   ★ 2026-10-16 补 {…} 花括号写法：子代理写公式时习惯用 `e^{-st}`、`x_o^{(n-1)}`，
+  //     老规则只认 `^(xx)` 和裸 `^xx`，于是花括号**原样显示**在页面上（384 处）。
+  //     现在四种写法都收，数据不用改。
   var FMT = new RegExp(
-    '\\^\\(([^)]+)\\)' +                                     // ^(xx) 括号上标
+    '\\^\\{([^{}]+)\\}' +                                    // ^{xx} 花括号上标
+    '|\\^\\(([^)]+)\\)' +                                    // ^(xx) 括号上标
     '|\\^([A-Za-z0-9\\.\\+\\-\\/\\u2212]+)' +                // ^xx
+    '|_\\{([^{}]+)\\}' +                                     // _{xx} 花括号下标
+    '|_\\(([^)]+)\\)' +                                      // _(xx) 括号下标
     '|_([A-Za-z0-9\\u0370-\\u03ff\\u2032-\\u2037,\\.\\u2212'+SUBCLS+']+)' +  // _xx（不含上标字符，避免 T_i⁴ 被并吞）
     '|(['+SUPCLS+']+)' +                                      // 连续上标
     '|(['+SUBCLS+']+)', 'g');                                 // 连续下标
   function fmtInline(t){
-    return t.replace(FMT, function(m, pcaret, careted, subed, sup, sub){
-      if(pcaret)  return '<sup>'+fmtInline(pcaret)+'</sup>';
+    return t.replace(FMT, function(m, bsup, psup, careted, bsub, psub, subed, sup, sub){
+      if(bsup)    return '<sup>'+fmtInline(bsup)+'</sup>';
+      if(psup)    return '<sup>'+fmtInline(psup)+'</sup>';
       if(careted) return '<sup>'+careted+'</sup>';
+      if(bsub)    return '<sub>'+fmtInline(bsub)+'</sub>';
+      if(psub)    return '<sub>'+fmtInline(psub)+'</sub>';
       if(subed)   return '<sub>'+toSub(toSup(subed))+'</sub>';
       if(sup)     return '<sup>'+toSup(sup)+'</sup>';
       if(sub)     return '<sub>'+toSub(sub)+'</sub>';
