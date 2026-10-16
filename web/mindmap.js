@@ -86,13 +86,21 @@ function groupFlat(nodes, label, chapterName, grandLabel, usePrefix) {
     g.children = sub;
   }
 
-  return prefix(groups.filter((g) => g.children && g.children.length), p);
+  // ⚠️ 保留「空组」：节标题本身就代表一个知识点。
+  //    早先这里用 filter(g => g.children.length) 过滤空组，导致
+  //    「有节标题、但没列子条目」的节整节消失（第11章丢了第一/三/五节）。
+  return prefix(groups, p);
 }
 
-// 给组名加前缀（用于「已分层章节的散落叶子」）
+// 给组名加前缀（仅用于「已分层章节的散落叶子」里的非节分组）
+//   ⚠️ 本身是「第X节」的分组不要加前缀，否则节名被污染
+//   （第9章曾出现「其他要点：第五节 …」，检查脚本因此误判为丢节）
 function prefix(groups, p) {
   if (!p) return groups;
-  return groups.map((g) => ({ label: p + '：' + g.label, children: g.children }));
+  return groups.map((g) => ({
+    label: SEC.test(norm(g.label)) ? g.label : p + '：' + g.label,
+    children: g.children,
+  }));
 }
 
 // 形态 A：只在节边界断开，组名＝节名
