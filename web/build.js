@@ -14,9 +14,9 @@ const WEB = path.join(ROOT, 'web');
 const DOCS = path.join(ROOT, 'docs');          // GitHub Pages 发布目录
 const OUT_SINGLE = path.join(WEB, '专业课.html');
 const OUT_INDEX = path.join(DOCS, 'index.html');
-// 思维导图 SVG：由 build-mindmap.js 生成，知识库留同一份（后者不存在则跳过）
+// 思维导图 SVG：由 build-mindmap.js 生成，知识库留同一份（按科目落到 <科目>/导图/）
 const MM_DIR = path.join(DOCS, 'mindmap');
-const KB_MM_DIR = 'F:\\知识库\\我的知识库\\07-复盘笔记\\专业课\\导图';
+const KB_MAJOR_DIR = 'F:\\知识库\\我的知识库\\07-复盘笔记\\专业课';
 
 function readText(f) { return fs.readFileSync(f, 'utf8').replace(/^\uFEFF/, ''); }
 
@@ -94,9 +94,8 @@ function build() {
   const { buildMindmaps } = require('./build-mindmap.js');
   let mmFiles = [];
   try {
-    const kbDir = fs.existsSync(path.dirname(path.dirname(KB_MM_DIR)))
-      && fs.existsSync(path.dirname(KB_MM_DIR)) ? KB_MM_DIR : null;
-    mmFiles = buildMindmaps({ outDir: MM_DIR, kbDir }).files;
+    const kbRoot = fs.existsSync(KB_MAJOR_DIR) ? KB_MAJOR_DIR : null;
+    mmFiles = buildMindmaps({ outDir: MM_DIR, kbRoot }).files;
   } catch (e) {
     console.log('导图    ⚠ 生成失败：' + e.message);
   }

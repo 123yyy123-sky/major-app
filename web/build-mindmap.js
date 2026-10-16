@@ -1,7 +1,9 @@
 // 思维导图 → 独立 SVG 文件
 //
 //   产出  docs/mindmap/<章节id>.svg     进仓库、App 内「图片版」点开看全图
-//   可选  投递到知识库同一批文件         --kb <目录>
+//   可选  投递到知识库，按科目归位        --kb <知识库「专业课」目录>
+//         实际落点：<专业课>/<科目名>/导图/<章节id>.svg
+//         （与各科已有的 课件/ 出题练习/ 每日复盘/ 同级）
 //
 // 为什么用 SVG 不用 PNG：
 //   · 矢量，双指放大不糊
@@ -249,7 +251,8 @@ function countNodes(n) {
 function buildMindmaps(opts) {
   opts = opts || {};
   const outDir = opts.outDir || OUT_DEFAULT;
-  const kbDir = opts.kbDir || null;
+  const kbRoot = opts.kbRoot || null;   // 知识库「专业课」目录：按科目落到 <科目>/导图/
+  const kbDir = opts.kbDir || null;     // 兼容旧参数：单一目标目录
   const quiet = !!opts.quiet;
 
   const data = JSON.parse(
@@ -261,7 +264,22 @@ function buildMindmaps(opts) {
 
   const files = [];
   const perSubject = {};
+  const kbTargets = {};   // 科目 → 实际投递目录（null = 未投递）
+  const kbMissing = [];
+
   for (const s of data.subjects) {
+    const hasMM = (s.chapters || []).some((c) => c.mindmap);
+    // 每科目一个知识库目标目录：<专业课>/<科目名>/导图/
+    // 科目文件夹不存在时不自动新建（不在知识库乱造目录），只在末尾提示；
+    // 目录也**延迟到真有图要写时才建**，免得给还没内容的科目留空文件夹
+    let dest = kbDir || null;
+    if (kbRoot) {
+      const subjDir = path.join(kbRoot, s.name);
+      dest = fs.existsSync(subjDir) ? path.join(subjDir, '导图') : null;
+      if (!dest && hasMM) kbMissing.push(s.name);
+    }
+    kbTargets[s.name] = dest;
+
     for (const c of s.chapters || []) {
       if (!c.mindmap) continue;
       const mm = normalizeMindmap(c.mindmap, c.name, '其他要点');
@@ -269,7 +287,10 @@ function buildMindmaps(opts) {
       const svg = renderChapter(c.name, s.name, mm, s.color || '#e8590c', n);
       const name = c.id + '.svg';
       fs.writeFileSync(path.join(outDir, name), svg, 'utf8');
-      if (kbDir) fs.writeFileSync(path.join(kbDir, name), svg, 'utf8');
+      if (dest) {
+        fs.mkdirSync(dest, { recursive: true });
+        fs.writeFileSync(path.join(dest, name), svg, 'utf8');
+      }
       files.push(name);
       perSubject[s.name] = (perSubject[s.name] || 0) + 1;
     }
@@ -283,14 +304,19 @@ function buildMindmaps(opts) {
     console.log('        合计 ' + (tot / 1024).toFixed(1) + ' KB → ' + outDir);
     if (files.length) console.log('        最大 ' + files.map((f) => [f, +kb(f)])
       .sort((a, b) => b[1] - a[1])[0].join(' '));
-    if (kbDir) console.log('        已投递知识库 → ' + kbDir);
+    for (const sb of Object.keys(kbTargets)) {
+      if (kbTargets[sb] && perSubject[sb]) console.log('        投递知识库 → ' + kbTargets[sb]);
+    }
+    for (const sb of kbMissing) {
+      console.log('        ⚠ 知识库缺科目文件夹，未投递：' + path.join(kbRoot, sb));
+    }
   }
-  return { files, outDir, kbDir };
+  return { files, outDir, kbDir, kbTargets, kbMissing };
 }
 
 module.exports = { buildMindmaps, renderChapter };
 
 if (require.main === module) {
   const i = process.argv.indexOf('--kb');
-  buildMindmaps(i >= 0 ? { kbDir: process.argv[i + 1] } : {});
+  buildMindmaps(i >= 0 ? { kbRoot: process.argv[i + 1] } : {});
 }
