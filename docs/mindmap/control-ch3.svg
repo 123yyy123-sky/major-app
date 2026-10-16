@@ -72,8 +72,8 @@
 <text x="706.8" y="374.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3.一阶系统单位斜坡响应</text>
 <rect x="691.8" y="400.3" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="706.8" y="421.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">4.时间常数对时间响应的影响</text>
-<rect x="691.8" y="447.4" width="260.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="706.8" y="468.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">5.一阶系统性能指标——调整时间t_s</text>
+<rect x="691.8" y="447.4" width="252.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="468.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">5.一阶系统性能指标——调整时间tₛ</text>
 <rect x="323.2" y="516.7" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
 <text x="338.2" y="539.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">四、二阶系统的时间响应</text>
 <rect x="691.8" y="494.5" width="191.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
@@ -82,12 +82,12 @@
 <text x="706.8" y="562.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2.二阶系统的单位阶跃响应</text>
 <rect x="323.2" y="634.4" width="203.9" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
 <text x="338.2" y="657.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">五、二阶系统的性能指标</text>
-<rect x="691.8" y="588.7" width="119.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="706.8" y="609.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1.上升时间t_r</text>
-<rect x="691.8" y="635.8" width="122.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="706.8" y="656.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2.峰值时间t_p</text>
-<rect x="691.8" y="682.9" width="141.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="706.8" y="703.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3.最大超调量M_p</text>
+<rect x="691.8" y="588.7" width="111.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="609.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1.上升时间tᵣ</text>
+<rect x="691.8" y="635.8" width="114.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="656.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2.峰值时间tₚ</text>
+<rect x="691.8" y="682.9" width="133.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="703.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3.最大超调量Mₚ</text>
 <rect x="323.2" y="846.3" width="235.5" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
 <text x="338.2" y="869.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">二阶系统瞬态性能指标与例题</text>
 <rect x="691.8" y="729.9" width="103.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>

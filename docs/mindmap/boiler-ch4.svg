@@ -107,8 +107,8 @@
 <text x="668.7" y="860.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">切圆燃烧对着火、燃烧、燃尽的影响</text>
 <rect x="653.7" y="886.6" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="668.7" y="907.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一次风煤粉气流的偏斜</text>
-<rect x="653.7" y="933.7" width="259.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="668.7" y="954.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">假想切圆直径 d_im（防结渣宜取小）</text>
+<rect x="653.7" y="933.7" width="256.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="668.7" y="954.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">假想切圆直径 dᵢₘ（防结渣宜取小）</text>
 <rect x="653.7" y="980.8" width="267.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="668.7" y="1001.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">内侧 α₁ / 外侧 α₂ 补气条件与静压差</text>
 <rect x="280.4" y="1218.1" width="319.3" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
@@ -183,22 +183,22 @@
 <text x="668.7" y="2220.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">固态排渣煤粉炉与液态排渣煤粉炉</text>
 <rect x="653.7" y="2423.3" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="668.7" y="2444.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二、炉膛的设计计算</text>
-<rect x="987.3" y="2246.8" width="224.4" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
-<text x="1002.3" y="2267.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">1、炉膛容积热强度 q_V = B_cal</text>
-<text x="1002.3" y="2283.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">Q_net,ar / V_f（kW/m³）</text>
-<rect x="987.3" y="2309.3" width="227.5" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
-<text x="1002.3" y="2329.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">2、炉膛断面热强度 q_A = B_cal</text>
-<text x="1002.3" y="2346.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">Q_net,ar / A（kW/m²）</text>
-<rect x="987.3" y="2371.8" width="245.7" height="70.3" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
-<text x="1002.3" y="2392.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">3、燃烧器区域壁面热强度 q_B =</text>
-<text x="1002.3" y="2408.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">B_cal Q_net,ar / A_B，A_B = 2</text>
-<text x="1002.3" y="2425.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">(W+D)(h₂+3)</text>
-<rect x="987.3" y="2451.0" width="251.1" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
-<text x="1002.3" y="2471.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">4、燃尽区容积热强度 q_bo = B_cal</text>
-<text x="1002.3" y="2488.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">Q_net,ar / V_bo，V_bo = W D h₁</text>
-<rect x="987.3" y="2513.5" width="240.4" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
-<text x="1002.3" y="2533.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">5、炉膛壁面热强度 q_f^w = B_cal</text>
-<text x="1002.3" y="2550.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">Q_f^re / F（kW/m²）</text>
+<rect x="987.3" y="2246.8" width="258.5" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1002.3" y="2267.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">1、炉膛容积热强度 qV = Bcₐₗ Qₙₑₜ,</text>
+<text x="1002.3" y="2283.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">ar / Vf（kW/m³）</text>
+<rect x="987.3" y="2309.3" width="261.5" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1002.3" y="2329.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">2、炉膛断面热强度 qA = Bcₐₗ Qₙₑₜ,</text>
+<text x="1002.3" y="2346.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">ar / A（kW/m²）</text>
+<rect x="987.3" y="2371.8" width="253.0" height="70.3" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1002.3" y="2392.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">3、燃烧器区域壁面热强度 qB = Bcₐₗ</text>
+<text x="1002.3" y="2408.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">Qₙₑₜ,ar / AB，AB = 2(W+D)</text>
+<text x="1002.3" y="2425.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">(h₂+3)</text>
+<rect x="987.3" y="2451.0" width="258.4" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1002.3" y="2471.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">4、燃尽区容积热强度 qbₒ = Bcₐₗ Qₙ</text>
+<text x="1002.3" y="2488.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">ₑₜ,ar / Vbₒ，Vbₒ = W D h₁</text>
+<rect x="987.3" y="2513.5" width="257.0" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="1002.3" y="2533.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">5、炉膛壁面热强度 qfʷ = Bcₐₗ Qfʳᵉ</text>
+<text x="1002.3" y="2550.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">/ F（kW/m²）</text>
 <rect x="987.3" y="2576.0" width="261.8" height="70.3" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
 <text x="1002.3" y="2596.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">旋流燃烧器布置方式：(a)前墙 (b)两面墙</text>
 <text x="1002.3" y="2613.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">(c)炉底 (d)炉顶 (e)两面墙交错 (f)两面墙</text>

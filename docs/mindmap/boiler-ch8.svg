@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 888 806" width="888" height="806">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 885 806" width="885" height="806">
 <title>锅炉原理 · 第八章 锅炉热平衡计算 · 思维导图</title>
 <defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#e8590c" flood-opacity="0.22"/></filter></defs>
 <rect width="100%" height="100%" fill="#ffffff"/>
@@ -32,20 +32,20 @@
 <text x="638.1" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热平衡方程式与各项热量含义</text>
 <rect x="623.1" y="162.2" width="205.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="638.1" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">锅炉效率（正平衡/反平衡）</text>
-<rect x="623.1" y="209.3" width="115.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="638.1" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">输入热量 Q_f</text>
-<rect x="623.1" y="256.4" width="200.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="638.1" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机械未完全燃烧热损失 Q_4</text>
-<rect x="623.1" y="303.4" width="200.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="638.1" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">化学未完全燃烧热损失 Q_3</text>
-<rect x="623.1" y="350.5" width="132.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="638.1" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">排烟热损失 Q_2</text>
-<rect x="623.1" y="397.6" width="205.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="638.1" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">散热损失 Q_5 与保热系数 φ</text>
-<rect x="623.1" y="444.7" width="132.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="638.1" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">其它热损失 Q_6</text>
-<rect x="623.1" y="491.8" width="224.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="638.1" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热效率和燃料消耗量 B、B_cal</text>
+<rect x="623.1" y="209.3" width="104.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">输入热量 Qf</text>
+<rect x="623.1" y="256.4" width="192.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机械未完全燃烧热损失 Q₄</text>
+<rect x="623.1" y="303.4" width="192.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">化学未完全燃烧热损失 Q₃</text>
+<rect x="623.1" y="350.5" width="123.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">排烟热损失 Q₂</text>
+<rect x="623.1" y="397.6" width="197.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">散热损失 Q₅ 与保热系数 φ</text>
+<rect x="623.1" y="444.7" width="123.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">其它热损失 Q₆</text>
+<rect x="623.1" y="491.8" width="221.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="638.1" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热效率和燃料消耗量 B、Bcₐₗ</text>
 <rect x="344.6" y="631.7" width="224.5" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
 <text x="359.6" y="654.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第二节 锅炉机组热平衡测试</text>
 <rect x="623.1" y="538.9" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>

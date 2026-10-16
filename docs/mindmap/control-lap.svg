@@ -68,8 +68,8 @@
 <text x="604.5" y="483.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">单位脉冲函数 δ(t) ↔ 1</text>
 <rect x="589.5" y="509.9" width="178.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="604.5" y="531.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">单位速度函数 t ↔ 1/s²</text>
-<rect x="589.5" y="557.0" width="228.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="604.5" y="578.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">指数函数 e^{-at} ↔ 1/(s+a)</text>
+<rect x="589.5" y="557.0" width="204.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="604.5" y="578.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">指数函数 e⁻ᵃᵗ ↔ 1/(s+a)</text>
 <rect x="589.5" y="604.1" width="230.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="604.5" y="625.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">正弦函数 sinωt ↔ ω/(s²+ω²)</text>
 <rect x="589.5" y="651.2" width="231.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>

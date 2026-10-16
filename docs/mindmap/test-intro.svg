@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1059 2591" width="1059" height="2591">
+<title>动力测试技术 · 绪论 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#c2255c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#c2255c">动力测试技术 · 绪论</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 61 个节点 · 与 App 内折叠树同源</text>
+<path d="M112.84,1367.9025 C139.84,1367.9025 139.84,228.31500000000003 166.84,228.31500000000003" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M112.84,1367.9025 C139.84,1367.9025 139.84,885.9000000000001 166.84,885.9000000000001" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M112.84,1367.9025 C139.84,1367.9025 139.84,1871.775 166.84,1871.775" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M112.84,1367.9025 C139.84,1367.9025 139.84,2435.515 166.84,2435.515" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M112.84,1367.9025 C139.84,1367.9025 139.84,2507.49 166.84,2507.49" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M260.08000000000004,228.31500000000003 C363.60040000000004,228.31500000000003 363.60040000000004,87.045 467.12080000000003,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M260.08000000000004,228.31500000000003 C363.60040000000004,228.31500000000003 363.60040000000004,134.135 467.12080000000003,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M260.08000000000004,228.31500000000003 C363.60040000000004,228.31500000000003 363.60040000000004,181.22500000000002 467.12080000000003,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M260.08000000000004,228.31500000000003 C363.60040000000004,228.31500000000003 363.60040000000004,228.315 467.12080000000003,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M260.08000000000004,228.31500000000003 C363.60040000000004,228.31500000000003 363.60040000000004,275.40500000000003 467.12080000000003,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M260.08000000000004,228.31500000000003 C363.60040000000004,228.31500000000003 363.60040000000004,322.495 467.12080000000003,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M260.08000000000004,228.31500000000003 C363.60040000000004,228.31500000000003 363.60040000000004,369.58500000000004 467.12080000000003,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,416.675 467.12080000000003,416.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,463.76500000000004 467.12080000000003,463.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,510.8550000000001 467.12080000000003,510.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,557.9450000000002 467.12080000000003,557.9450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,605.0350000000001 467.12080000000003,605.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,652.1250000000001 467.12080000000003,652.1250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,699.2150000000001 467.12080000000003,699.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,746.3050000000002 467.12080000000003,746.3050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,793.3950000000002 467.12080000000003,793.3950000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,840.4850000000002 467.12080000000003,840.4850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,887.5750000000003 467.12080000000003,887.5750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,934.6650000000003 467.12080000000003,934.6650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,981.7550000000003 467.12080000000003,981.7550000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,1028.8450000000003 467.12080000000003,1028.8450000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,1075.9350000000004 467.12080000000003,1075.9350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,1123.0250000000005 467.12080000000003,1123.0250000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,1170.1150000000005 467.12080000000003,1170.1150000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,1217.2050000000004 467.12080000000003,1217.2050000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M346.0864,885.9000000000001 C406.60360000000003,885.9000000000001 406.60360000000003,1355.1250000000002 467.12080000000003,1355.1250000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M648.5908000000001,1355.1250000000002 C710.0158000000001,1355.1250000000002 710.0158000000001,1263.6250000000002 771.4408000000001,1263.6250000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M648.5908000000001,1355.1250000000002 C710.0158000000001,1355.1250000000002 710.0158000000001,1309.3750000000002 771.4408000000001,1309.3750000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M648.5908000000001,1355.1250000000002 C710.0158000000001,1355.1250000000002 710.0158000000001,1355.1250000000002 771.4408000000001,1355.1250000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M648.5908000000001,1355.1250000000002 C710.0158000000001,1355.1250000000002 710.0158000000001,1400.8750000000002 771.4408000000001,1400.8750000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M648.5908000000001,1355.1250000000002 C710.0158000000001,1355.1250000000002 710.0158000000001,1446.6250000000002 771.4408000000001,1446.6250000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1493.0450000000003 467.12080000000003,1493.0450000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1540.1350000000002 467.12080000000003,1540.1350000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1587.2250000000001 467.12080000000003,1587.2250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1634.315 467.12080000000003,1634.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1681.405 467.12080000000003,1681.405" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1728.495 467.12080000000003,1728.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1775.5849999999998 467.12080000000003,1775.5849999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,1940.5674999999997 467.12080000000003,1940.5674999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M413.12080000000003,1871.775 C440.12080000000003,1871.775 440.12080000000003,2250.5049999999997 467.12080000000003,2250.5049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M703.6708000000001,1940.5674999999997 C737.5558000000001,1940.5674999999997 737.5558000000001,1822.0049999999997 771.4408000000001,1822.0049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M703.6708000000001,1940.5674999999997 C737.5558000000001,1940.5674999999997 737.5558000000001,1867.7549999999997 771.4408000000001,1867.7549999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M703.6708000000001,1940.5674999999997 C737.5558000000001,1940.5674999999997 737.5558000000001,1913.5049999999997 771.4408000000001,1913.5049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M703.6708000000001,1940.5674999999997 C737.5558000000001,1940.5674999999997 737.5558000000001,1959.2549999999997 771.4408000000001,1959.2549999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M703.6708000000001,1940.5674999999997 C737.5558000000001,1940.5674999999997 737.5558000000001,2005.0049999999997 771.4408000000001,2005.0049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M703.6708000000001,1940.5674999999997 C737.5558000000001,1940.5674999999997 737.5558000000001,2059.1299999999997 771.4408000000001,2059.1299999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M552.2008000000001,2250.5049999999997 C661.8208000000001,2250.5049999999997 661.8208000000001,2113.2549999999997 771.4408000000001,2113.2549999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M552.2008000000001,2250.5049999999997 C661.8208000000001,2250.5049999999997 661.8208000000001,2159.0049999999997 771.4408000000001,2159.0049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M552.2008000000001,2250.5049999999997 C661.8208000000001,2250.5049999999997 661.8208000000001,2204.7549999999997 771.4408000000001,2204.7549999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M552.2008000000001,2250.5049999999997 C661.8208000000001,2250.5049999999997 661.8208000000001,2250.5049999999997 771.4408000000001,2250.5049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M552.2008000000001,2250.5049999999997 C661.8208000000001,2250.5049999999997 661.8208000000001,2296.2549999999997 771.4408000000001,2296.2549999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M552.2008000000001,2250.5049999999997 C661.8208000000001,2250.5049999999997 661.8208000000001,2342.0049999999997 771.4408000000001,2342.0049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M552.2008000000001,2250.5049999999997 C661.8208000000001,2250.5049999999997 661.8208000000001,2387.7549999999997 771.4408000000001,2387.7549999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M307.51,2507.49 C387.3154,2507.49 387.3154,2483.9449999999997 467.12080000000003,2483.9449999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M307.51,2507.49 C387.3154,2507.49 387.3154,2531.035 467.12080000000003,2531.035" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="1343.8" width="72.8" height="48.1" rx="11" fill="#c2255c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="1371.1" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">绪论</text>
+<rect x="166.8" y="207.9" width="93.2" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="181.8" y="230.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">课程概况</text>
+<rect x="467.1" y="68.0" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">课程名称与任课教师信息</text>
+<rect x="467.1" y="115.1" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">课程用书：能源与动力工程测试技术</text>
+<rect x="467.1" y="162.2" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">课程在学科专业中的作用</text>
+<rect x="467.1" y="209.3" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">课程内容与主要学习内容</text>
+<rect x="467.1" y="256.4" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">学习方法与三元并重</text>
+<rect x="467.1" y="303.4" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">仿真设计实验任务</text>
+<rect x="467.1" y="350.5" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">答疑与考核安排</text>
+<rect x="166.8" y="865.5" width="179.2" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="181.8" y="888.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.1 课程的目的及意义</text>
+<rect x="467.1" y="397.6" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测量是确定被测物属性量值的操作</text>
+<rect x="467.1" y="444.7" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测量的三个要素</text>
+<rect x="467.1" y="491.8" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">计量以技术法制保量值统一</text>
+<rect x="467.1" y="538.9" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="560.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">现代十大基本计量量</text>
+<rect x="467.1" y="586.0" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="607.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">日常计量与强制检定</text>
+<rect x="467.1" y="633.1" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="654.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测试是测量和试验的综合</text>
+<rect x="467.1" y="680.2" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="701.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">实验与试验的区别</text>
+<rect x="467.1" y="727.3" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="748.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测试技术的含义</text>
+<rect x="467.1" y="774.4" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="795.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机械产品的灵魂是测试系统</text>
+<rect x="467.1" y="821.4" width="188.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="842.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一架飞机需3600只传感器</text>
+<rect x="467.1" y="868.5" width="203.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="889.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一辆汽车需30~150只传感器</text>
+<rect x="467.1" y="915.6" width="201.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="936.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">阿波罗10共有3295个检测点</text>
+<rect x="467.1" y="962.7" width="215.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="983.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">温度559个、信号传感器501个</text>
+<rect x="467.1" y="1009.8" width="239.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1030.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">流程工业建立24小时在线监测系统</text>
+<rect x="467.1" y="1056.9" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1078.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">石化管道与储油罐破损泄露检测</text>
+<rect x="467.1" y="1104.0" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1125.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">机械制造中的无损检测与控制</text>
+<rect x="467.1" y="1151.1" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1172.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">汽车零部件出厂性能质量测量</text>
+<rect x="467.1" y="1198.2" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1219.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">智能家居、智能农业与办公自动化</text>
+<rect x="467.1" y="1336.1" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1357.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">军事航天与动力机械测试</text>
+<rect x="771.4" y="1245.3" width="208.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1265.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">导弹拦截系统中的自动测试问题</text>
+<rect x="771.4" y="1291.0" width="213.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1311.3" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">天宫1号与神21对接中的自动测试</text>
+<rect x="771.4" y="1336.8" width="246.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1357.0" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">性能验证：输出功率、热效率、汽耗率</text>
+<rect x="771.4" y="1382.5" width="195.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1402.8" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">状态监控：振动、温度、压力</text>
+<rect x="771.4" y="1428.3" width="221.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1448.5" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">故障诊断：轴系不平衡、叶片损伤</text>
+<rect x="166.8" y="1851.4" width="246.3" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="181.8" y="1874.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.2 测试方法的分类与系统组成</text>
+<rect x="467.1" y="1474.0" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1495.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">非电量经传感器变换为电信号</text>
+<rect x="467.1" y="1521.1" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1542.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">非电量：位移、距离、胀差、转速</text>
+<rect x="467.1" y="1568.2" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1589.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">本课程主要以非电量测试技术为主</text>
+<rect x="467.1" y="1615.3" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1636.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按测量过程分直接与间接测量</text>
+<rect x="467.1" y="1662.4" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1683.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按是否接触分接触与非接触测量</text>
+<rect x="467.1" y="1709.4" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1730.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按是否随时间变化分静态与动态测量</text>
+<rect x="467.1" y="1756.5" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1777.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按测量条件分等精度与非等精度测量</text>
+<rect x="467.1" y="1921.5" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="1942.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、按照获得测量结果的过程分类</text>
+<rect x="771.4" y="1803.6" width="234.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1823.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">直接测量：仪器直接读出被测量量值</text>
+<rect x="771.4" y="1849.4" width="170.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1869.6" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">水银温度计测量机油温度</text>
+<rect x="771.4" y="1895.1" width="246.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1915.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">间接测量：由已知函数关系求得被测量</text>
+<rect x="771.4" y="1940.9" width="214.6" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="1961.1" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">间接测量算例 `P = Tn/9550`</text>
+<rect x="771.4" y="1986.6" width="246.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2006.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">组合测量：改变条件多次测量列方程组</text>
+<rect x="771.4" y="2032.4" width="175.0" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2052.6" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">组合测量算例 `RT = R₀</text>
+<text x="786.4" y="2069.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">(1 + aT + bT²)`</text>
+<rect x="467.1" y="2231.5" width="85.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="2252.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测试系统</text>
+<rect x="771.4" y="2094.9" width="221.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2115.1" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">测试系统是传感器仪器设备的总称</text>
+<rect x="771.4" y="2140.6" width="195.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2160.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">两类：状态检测中的测试系统</text>
+<rect x="771.4" y="2186.4" width="195.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2206.6" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">两类：自动控制中的测试系统</text>
+<rect x="771.4" y="2232.1" width="234.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2252.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">由试验装置和测量系统两大部分组成</text>
+<rect x="771.4" y="2277.9" width="221.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2298.1" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">试验装置是测试系统的信号发生器</text>
+<rect x="771.4" y="2323.6" width="234.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2343.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">测量系统含传感器、信号调理等单元</text>
+<rect x="771.4" y="2369.4" width="208.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="786.4" y="2389.6" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">信号流程含激励装置与反馈控制</text>
+<rect x="166.8" y="2415.1" width="246.3" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="181.8" y="2437.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.3 测试技术的发展现状及趋势</text>
+<rect x="166.8" y="2487.1" width="140.7" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="181.8" y="2509.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">本章重点与要求</text>
+<rect x="467.1" y="2464.9" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="2486.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">重点：掌握测试系统的组成</text>
+<rect x="467.1" y="2512.0" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="482.1" y="2533.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">了解测试技术的发展趋势</text>
+</g>
+</svg>

@@ -101,6 +101,29 @@ function wrap(text, fs, maxW) {
   return lines.length ? lines : [''];
 }
 
+/* ---- 上下标记法 → Unicode 上下标字符 ----
+   SVG 的 <text> 里没法用 <sup>/<sub>。浏览器认 baseline-shift，但导出/预览用的
+   渲染器不认（实测 resvg 会按正常基线画），两处就会不一致。
+   于是统一换成 Unicode 上下标字符：任何渲染器画出来都一样。
+   转不了的字符（最典型的是**大写下标**，Unicode 压根没有）只去掉 ^ _ {} 记号，
+   字符本身保留 —— 比让 `Q_c^tr` 原样显示干净，也不会把字吃掉。 */
+const SUPCH = { '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹',
+  '+':'⁺','-':'⁻','=':'⁼','(':'⁽',')':'⁾','n':'ⁿ','i':'ⁱ',
+  a:'ᵃ',b:'ᵇ',c:'ᶜ',d:'ᵈ',e:'ᵉ',f:'ᶠ',g:'ᵍ',h:'ʰ',j:'ʲ',k:'ᵏ',l:'ˡ',m:'ᵐ',
+  o:'ᵒ',p:'ᵖ',r:'ʳ',s:'ˢ',t:'ᵗ',u:'ᵘ',v:'ᵛ',w:'ʷ',x:'ˣ',y:'ʸ',z:'ᶻ' };
+const SUBCH = { '0':'₀','1':'₁','2':'₂','3':'₃','4':'₄','5':'₅','6':'₆','7':'₇','8':'₈','9':'₉',
+  '+':'₊','-':'₋','=':'₌','(':'₍',')':'₎',
+  a:'ₐ',e:'ₑ',h:'ₕ',i:'ᵢ',j:'ⱼ',k:'ₖ',l:'ₗ',m:'ₘ',n:'ₙ',o:'ₒ',p:'ₚ',r:'ᵣ',s:'ₛ',t:'ₜ',u:'ᵤ',v:'ᵥ',x:'ₓ' };
+// 先下标后上标：`e^{β(1/T−1/T_0)}` 这类「上标里套下标」才不会把内层记号吞掉
+const shiftCh = (s, tbl) => [...s].map((c) => tbl[c] || c).join('');
+const RE_SUB = /_\{([^{}]+)\}|_\(([^)]+)\)|_([A-Za-z0-9.\u0370-\u03ff\u2032-\u2037]+)/g;
+const RE_SUP = /\^\{([^{}]+)\}|\^\(([^)]+)\)|\^([A-Za-z0-9.\u0370-\u03ff\u2032-\u2037]+)/g;
+function plainify(t) {
+  return String(t == null ? '' : t)
+    .replace(RE_SUB, (m, a, b, c) => shiftCh(a || b || c, SUBCH))
+    .replace(RE_SUP, (m, a, b, c) => shiftCh(a || b || c, SUPCH));
+}
+
 /* ============================ 版式常量 ============================ */
 const FONTS = [21, 15.5, 13.5, 12.5];
 const MAXW = [300, 300, 252, 232];
@@ -108,7 +131,7 @@ const PADX = 15, PADY = 10, VGAP = 9, HGAP = 54;
 const MARGIN = 40, HEADER = 68;
 
 function cloneNode(n) {
-  return { label: String(n && n.label != null ? n.label : ''), children: (n && n.children || []).map(cloneNode) };
+  return { label: plainify(n && n.label != null ? n.label : ''), children: (n && n.children || []).map(cloneNode) };
 }
 
 /* ============================ 布局 ============================ */
@@ -218,7 +241,7 @@ function drawNode(n, accent, out, edges) {
 /* ============================ 单章渲染 ============================ */
 function renderChapter(chapterName, subjectName, mm, accent, nodeCount) {
   const root = cloneNode(mm);
-  root.label = String(mm.label || chapterName);
+  root.label = plainify(mm.label || chapterName);
   const size = layoutTree(root);
 
   const out = [], edges = [];

@@ -171,11 +171,11 @@
 <text x="1038.6" y="1824.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">号不变</text>
 <rect x="323.2" y="1965.1" width="314.6" height="40.8" rx="9" fill="#ffffff" stroke="#7048e8" stroke-width="1.6"/>
 <text x="338.2" y="1987.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">八、考虑扰动的反馈控制系统的传递函数</text>
-<rect x="691.8" y="1849.7" width="242.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="706.8" y="1870.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">只考虑给定输入：G_xB = G1G2/</text>
+<rect x="691.8" y="1849.7" width="233.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1870.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">只考虑给定输入：GₓB = G1G2/</text>
 <text x="706.8" y="1888.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(1+G1G2H)</text>
-<rect x="691.8" y="1914.8" width="228.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="706.8" y="1935.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">只考虑干扰输入：G_NB = G2/</text>
+<rect x="691.8" y="1914.8" width="218.4" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="1935.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">只考虑干扰输入：GNB = G2/</text>
 <text x="706.8" y="1954.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(1+G1G2H)</text>
 <rect x="691.8" y="1980.0" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="706.8" y="2001.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">线性系统总的输出量表达式</text>
@@ -191,8 +191,8 @@
 <text x="706.8" y="2189.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">状态方程的一阶导形式与矩阵形式</text>
 <rect x="691.8" y="2215.5" width="126.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="706.8" y="2236.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">状态空间的定义</text>
-<rect x="691.8" y="2262.6" width="163.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="706.8" y="2283.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">输出方程 Y = C^T X</text>
+<rect x="691.8" y="2262.6" width="152.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="706.8" y="2283.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">输出方程 Y = CT X</text>
 <rect x="691.8" y="2309.7" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
 <text x="706.8" y="2330.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统矩阵、控制矩阵、输出矩阵、传递矩</text>
 <text x="706.8" y="2348.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">阵</text>

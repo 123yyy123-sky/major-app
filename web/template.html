@@ -401,7 +401,7 @@
     var openSet={}; // path -> true
     function render(){
       tree.innerHTML='';
-      tree.appendChild(el('div','troot', esc(ch.mindmap.label)));
+      tree.appendChild(el('div','troot', rich(ch.mindmap.label)));
       (ch.mindmap.children||[]).forEach(function(n,i){ node(n,'0.'+i,1,tree); });
     }
     function node(n,path,depth,parent){
@@ -506,7 +506,7 @@
     keys.forEach(function(k){
       var v=map[k];
       var c=el('div','card');
-      c.innerHTML='<div class="between"><div style="font-size:16px;font-weight:800">'+esc(k)+'</div>'+
+      c.innerHTML='<div class="between"><div style="font-size:16px;font-weight:800">'+rich(k)+'</div>'+
         (v.wrong?'<span class="chip" style="background:#fff0f0;color:#e03131">错 '+v.wrong+'</span>':'')+'</div>'+
         '<div class="small muted" style="margin-top:6px">关联 '+v.n+' 题</div>'+
         '<div class="small muted" style="margin-top:4px">出处：'+esc(Object.keys(v.src).join(' · '))+'</div>';
@@ -578,7 +578,7 @@
     head.appendChild(bar); root.appendChild(head);
 
     if(QA.kp){
-      var kf=el('div','kfilter','只看考点：'+esc(QA.kp)+'　✕');
+      var kf=el('div','kfilter','只看考点：'+rich(QA.kp)+'　✕');
       kf.onclick=function(){ QA.kp=null; render(); };
       root.appendChild(kf);
     }
@@ -606,7 +606,7 @@
         (q.sourceDetail?'<span class="small muted">'+esc(q.sourceDetail)+'</span>':'')));
       if(isKey(q)){
         var kp=el('div','kp'); kp.appendChild(el('span','lab','考点'));
-        asList(q.keyPoints).forEach(function(k){ kp.appendChild(el('span','k',esc(k))); });
+        asList(q.keyPoints).forEach(function(k){ kp.appendChild(el('span','k',rich(k))); });
         c.appendChild(kp);
       }
       c.appendChild(el('div','stem', rich(q.stem)));
@@ -679,7 +679,7 @@
     if(isKey(q)){
       var kp=el('div','kp');
       kp.appendChild(el('span','lab','考点'));
-      q.keyPoints.forEach(function(k){ kp.appendChild(el('span','k',esc(k))); });
+      q.keyPoints.forEach(function(k){ kp.appendChild(el('span','k',rich(k))); });
       c.appendChild(kp);
     }
     c.appendChild(el('div','stem', rich(q.stem)));
@@ -851,7 +851,7 @@
     list.forEach(function(it){
       var q=it.q, ps=PS[q.priority]||PSD;
       var c=el('div','card');
-      var kp=asList(q.keyPoints).map(function(k){ return '<span class="k">'+esc(k)+'</span>'; }).join('');
+      var kp=asList(q.keyPoints).map(function(k){ return '<span class="k">'+rich(k)+'</span>'; }).join('');
       c.innerHTML='<div class="row"><span class="tag" style="background:'+ps.b+';color:'+ps.c+'">'+ps.l+'</span>'+
         '<span class="chip" style="background:#fff0f0;color:#e03131">错 '+(state.wrong[q.id]||0)+' 次</span>'+
         '<span class="small muted">'+esc(it.sub.name+' · '+it.ch.name)+'</span></div>'+

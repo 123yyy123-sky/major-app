@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 983 2595" width="983" height="2595">
+<title>动力测试技术 · 第一章 测量误差分析及数据处理 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#c2255c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#c2255c">动力测试技术 · 第一章 测量误差分析及数据处理</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 61 个节点 · 与 App 内折叠树同源</text>
+<path d="M354.886,1287.8399999999997 C381.886,1287.8399999999997 381.886,204.77 408.886,204.77" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,1287.8399999999997 C381.886,1287.8399999999997 381.886,581.4900000000001 408.886,581.4900000000001" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,1287.8399999999997 C381.886,1287.8399999999997 381.886,958.2100000000003 408.886,958.2100000000003" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,1287.8399999999997 C381.886,1287.8399999999997 381.886,1311.3850000000002 408.886,1311.3850000000002" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,1287.8399999999997 C381.886,1287.8399999999997 381.886,1688.1049999999996 408.886,1688.1049999999996" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,1287.8399999999997 C381.886,1287.8399999999997 381.886,2017.734999999999 408.886,2017.734999999999" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,1287.8399999999997 C381.886,1287.8399999999997 381.886,2370.9099999999994 408.886,2370.9099999999994" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M549.556,204.77 C605.6464000000001,204.77 605.6464000000001,87.045 661.7368,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M549.556,204.77 C605.6464000000001,204.77 605.6464000000001,134.135 661.7368,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M549.556,204.77 C605.6464000000001,204.77 605.6464000000001,181.22500000000002 661.7368,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M549.556,204.77 C605.6464000000001,204.77 605.6464000000001,228.315 661.7368,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M549.556,204.77 C605.6464000000001,204.77 605.6464000000001,275.40500000000003 661.7368,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M549.556,204.77 C605.6464000000001,204.77 605.6464000000001,322.495 661.7368,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,369.58500000000004 661.7368,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,416.675 661.7368,416.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,463.76500000000004 661.7368,463.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,510.8550000000001 661.7368,510.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,557.9450000000002 661.7368,557.9450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,605.0350000000001 661.7368,605.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,652.1250000000001 661.7368,652.1250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,699.2150000000001 661.7368,699.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,746.3050000000002 661.7368,746.3050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M603.9424,581.4900000000001 C632.8396,581.4900000000001 632.8396,793.3950000000002 661.7368,793.3950000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,958.2100000000003 C634.7368,958.2100000000003 634.7368,840.4850000000002 661.7368,840.4850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,958.2100000000003 C634.7368,958.2100000000003 634.7368,887.5750000000003 661.7368,887.5750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,958.2100000000003 C634.7368,958.2100000000003 634.7368,934.6650000000003 661.7368,934.6650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,958.2100000000003 C634.7368,958.2100000000003 634.7368,981.7550000000003 661.7368,981.7550000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,958.2100000000003 C634.7368,958.2100000000003 634.7368,1028.8450000000003 661.7368,1028.8450000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,958.2100000000003 C634.7368,958.2100000000003 634.7368,1075.9350000000004 661.7368,1075.9350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1123.0250000000005 661.7368,1123.0250000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1170.1150000000005 661.7368,1170.1150000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1217.2050000000004 661.7368,1217.2050000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1264.2950000000003 661.7368,1264.2950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1311.3850000000002 661.7368,1311.3850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1358.4750000000001 661.7368,1358.4750000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1405.565 661.7368,1405.565" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1452.655 661.7368,1452.655" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,1311.3850000000002 C634.7368,1311.3850000000002 634.7368,1499.745 661.7368,1499.745" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,1688.1049999999996 C618.9268,1688.1049999999996 618.9268,1546.8349999999998 661.7368,1546.8349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,1688.1049999999996 C618.9268,1688.1049999999996 618.9268,1593.9249999999997 661.7368,1593.9249999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,1688.1049999999996 C618.9268,1688.1049999999996 618.9268,1641.0149999999996 661.7368,1641.0149999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,1688.1049999999996 C618.9268,1688.1049999999996 618.9268,1688.1049999999996 661.7368,1688.1049999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,1688.1049999999996 C618.9268,1688.1049999999996 618.9268,1735.1949999999995 661.7368,1735.1949999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,1688.1049999999996 C618.9268,1688.1049999999996 618.9268,1782.2849999999994 661.7368,1782.2849999999994" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,1688.1049999999996 C618.9268,1688.1049999999996 618.9268,1829.3749999999993 661.7368,1829.3749999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,2017.734999999999 C618.9268,2017.734999999999 618.9268,1876.4649999999992 661.7368,1876.4649999999992" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,2017.734999999999 C618.9268,2017.734999999999 618.9268,1923.5549999999992 661.7368,1923.5549999999992" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,2017.734999999999 C618.9268,2017.734999999999 618.9268,1970.644999999999 661.7368,1970.644999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,2017.734999999999 C618.9268,2017.734999999999 618.9268,2017.734999999999 661.7368,2017.734999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,2017.734999999999 C618.9268,2017.734999999999 618.9268,2064.824999999999 661.7368,2064.824999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,2017.734999999999 C618.9268,2017.734999999999 618.9268,2111.914999999999 661.7368,2111.914999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576.1168,2017.734999999999 C618.9268,2017.734999999999 618.9268,2159.0049999999987 661.7368,2159.0049999999987" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2206.094999999999 661.7368,2206.094999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2253.184999999999 661.7368,2253.184999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2300.274999999999 661.7368,2300.274999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2347.3649999999993 661.7368,2347.3649999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2394.4549999999995 661.7368,2394.4549999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2441.5449999999996 661.7368,2441.5449999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2488.6349999999998 661.7368,2488.6349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M607.7368,2370.9099999999994 C634.7368,2370.9099999999994 634.7368,2535.725 661.7368,2535.725" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="1249.7" width="314.9" height="76.3" rx="11" fill="#c2255c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="1276.9" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第一章 测量误差分析及数据处</text>
+<text x="55.0" y="1305.1" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">理</text>
+<rect x="408.9" y="184.4" width="140.7" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="423.9" y="207.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">课程与本章导学</text>
+<rect x="661.7" y="68.0" width="203.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">考核：卷面 50%、平时 50%</text>
+<rect x="661.7" y="115.1" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">本课程是理论、仿真与工程实物的桥梁</text>
+<rect x="661.7" y="162.2" width="280.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测到了 ≠ 测准了，测准了 ≠ 理解正确了</text>
+<rect x="661.7" y="209.3" width="259.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">本章为第1章 测量误差分析及数据处理</text>
+<rect x="661.7" y="256.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">知识目标重在误差定义与统计分析</text>
+<rect x="661.7" y="303.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">难点含最小二乘法残差平方和最小</text>
+<rect x="408.9" y="561.1" width="195.1" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="423.9" y="583.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.1 测量误差的基本概念</text>
+<rect x="661.7" y="350.5" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">按规律与影响程度分三类误差</text>
+<rect x="661.7" y="397.6" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统误差具规律性且可消除或修正</text>
+<rect x="661.7" y="444.7" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">随机误差必然存在，均值趋于零</text>
+<rect x="661.7" y="491.8" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">等精度测量：同仪器同方法同观测者</text>
+<rect x="661.7" y="538.9" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="560.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">准确度反映系统误差大小</text>
+<rect x="661.7" y="586.0" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="607.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">精密度反映随机误差大小</text>
+<rect x="661.7" y="633.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="654.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">精确度是准确度与精密度的综合</text>
+<rect x="661.7" y="680.2" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="701.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">疏失误差无规则，只能舍弃不用</text>
+<rect x="661.7" y="727.3" width="167.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="748.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">绝对误差 Δ = x − xₒ</text>
+<rect x="661.7" y="774.4" width="220.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="795.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">相对误差 δ = Δ/m 含三种形式</text>
+<rect x="408.9" y="937.8" width="198.9" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="423.9" y="960.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.2 随机误差分析与表达</text>
+<rect x="661.7" y="821.4" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="842.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">随机误差服从正态分布规律</text>
+<rect x="661.7" y="868.5" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="889.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三大特性：单峰性、对称性、抵偿性</text>
+<rect x="661.7" y="915.6" width="224.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="936.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">有限次数用样本标准差 σ̂ 估算</text>
+<rect x="661.7" y="962.7" width="210.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="983.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">算术平均标准差 s = σ̂/√n</text>
+<rect x="661.7" y="1009.8" width="247.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1030.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">算术平均值极限误差 λₗᵢₘ = ±3S</text>
+<rect x="661.7" y="1056.9" width="251.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1078.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">结果写成 L ± λₗᵢₘ 或 L ± δₗᵢₘ</text>
+<rect x="408.9" y="1291.0" width="198.9" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="423.9" y="1313.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.3 系统误差分析与处理</text>
+<rect x="661.7" y="1104.0" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1125.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">恒值系统误差与变值系统误差</text>
+<rect x="661.7" y="1151.1" width="233.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1172.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">阿贝-赫梅特准则判断周期性误差</text>
+<rect x="661.7" y="1198.2" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1219.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">偏差核算法判断线性系统误差</text>
+<rect x="661.7" y="1245.3" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1266.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">算术平均值与标准差比较法</text>
+<rect x="661.7" y="1292.3" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1313.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">根源控制、预检法、交换法</text>
+<rect x="661.7" y="1339.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1360.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">代数、算术、几何三种综合法估算</text>
+<rect x="661.7" y="1386.5" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1407.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">多项系统误差按方和根综合</text>
+<rect x="661.7" y="1433.6" width="178.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1454.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">综合值换算相对误差 δₚ</text>
+<rect x="661.7" y="1480.7" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1501.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">项数不多时可用算术综合法</text>
+<rect x="408.9" y="1667.7" width="167.2" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="423.9" y="1690.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.4 疏失误差的消除</text>
+<rect x="661.7" y="1527.8" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1548.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">人为错读错记可直接剔除</text>
+<rect x="661.7" y="1574.9" width="191.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1595.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">莱依特准则用 3σ̂ 判坏值</text>
+<rect x="661.7" y="1622.0" width="210.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1643.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">剔除后重算 x̄ 与 σ̂ 再检验</text>
+<rect x="661.7" y="1669.1" width="220.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1690.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">格拉布斯准则算 Tₗᵢ 查表判别</text>
+<rect x="661.7" y="1716.1" width="186.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1737.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">t 检验准则剔除可疑值 xⱼ</text>
+<rect x="661.7" y="1763.2" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1784.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">狄克逊准则按极差比判别</text>
+<rect x="661.7" y="1810.3" width="194.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1831.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">n≤10 时莱依特准则不适用</text>
+<rect x="408.9" y="1997.3" width="167.2" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="423.9" y="2020.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.5 测量误差的计算</text>
+<rect x="661.7" y="1857.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1878.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">误差计算三步：剔除—修正—分析</text>
+<rect x="661.7" y="1904.5" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1925.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">单次测量最大相对误差估算</text>
+<rect x="661.7" y="1951.6" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="1972.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">等精度测量误差五步计算</text>
+<rect x="661.7" y="1998.7" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2019.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">非等精度测量引入“权”</text>
+<rect x="661.7" y="2045.8" width="164.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2066.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">加权算术平均值与 Sₘ</text>
+<rect x="661.7" y="2092.9" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2113.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">间接测量的误差传递式</text>
+<rect x="661.7" y="2140.0" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2161.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">间接测量标准误差与极限误差</text>
+<rect x="408.9" y="2350.5" width="198.9" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="423.9" y="2373.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">1.6 测量数据的处理方法</text>
+<rect x="661.7" y="2187.0" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2208.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">有效数字记录与舍入法则</text>
+<rect x="661.7" y="2234.1" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2255.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">加减乘除与乘方开方位数规则</text>
+<rect x="661.7" y="2281.2" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2302.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">图示法坐标尺选择要点</text>
+<rect x="661.7" y="2328.3" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2349.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">曲线极值处理与光顺</text>
+<rect x="661.7" y="2375.4" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2396.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一元多项式回归最小二乘</text>
+<rect x="661.7" y="2422.5" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2443.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">正态方程求解回归系数</text>
+<rect x="661.7" y="2469.6" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2490.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一元线性回归相关系数检验</text>
+<rect x="661.7" y="2516.7" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="676.7" y="2537.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">非线性方程的线性变换</text>
+</g>
+</svg>

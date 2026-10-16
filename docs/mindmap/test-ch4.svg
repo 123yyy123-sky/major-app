@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1270 5266" width="1270" height="5266">
+<title>动力测试技术 · 第四章 测试系统的特性 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#c2255c" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#c2255c">动力测试技术 · 第四章 测试系统的特性</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 122 个节点 · 与 App 内折叠树同源</text>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,260.90500000000003 344.626,260.90500000000003" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,552.4900000000001 344.626,552.4900000000001" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,858.5750000000003 344.626,858.5750000000003" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,1338.5200000000002 344.626,1338.5200000000002" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,2297.0699999999993 344.626,2297.0699999999993" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,3318.3824999999997 344.626,3318.3824999999997" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,3717.715 344.626,3717.715" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,4022.867500000001 344.626,4022.867500000001" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,4337.065000000001 344.626,4337.065000000001" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,4618.672500000002 344.626,4618.672500000002" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,4900.280000000003 344.626,4900.280000000003" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M290.626,2698.317500000002 C317.626,2698.317500000002 317.626,5135.730000000004 344.626,5135.730000000004" fill="none" stroke="#c2255c" stroke-width="2" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,87.045 634.156,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,143.18 634.156,143.18" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,199.315 634.156,199.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,246.40500000000003 634.156,246.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,293.495 634.156,293.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,340.58500000000004 634.156,340.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,387.675 634.156,387.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M469.486,260.90500000000003 C551.8209999999999,260.90500000000003 551.8209999999999,434.76500000000004 634.156,434.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,552.4900000000001 C567.631,552.4900000000001 567.631,481.8550000000001 634.156,481.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,552.4900000000001 C567.631,552.4900000000001 567.631,528.9450000000002 634.156,528.9450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,552.4900000000001 C567.631,552.4900000000001 567.631,576.0350000000001 634.156,576.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,552.4900000000001 C567.631,552.4900000000001 567.631,623.1250000000001 634.156,623.1250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,670.2150000000001 634.156,670.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,717.3050000000002 634.156,717.3050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,764.3950000000002 634.156,764.3950000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,811.4850000000002 634.156,811.4850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,858.5750000000003 634.156,858.5750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,905.6650000000003 634.156,905.6650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,952.7550000000003 634.156,952.7550000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,999.8450000000004 634.156,999.8450000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M559.2868,858.5750000000003 C596.7213999999999,858.5750000000003 596.7213999999999,1046.9350000000004 634.156,1046.9350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1094.0250000000005 634.156,1094.0250000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1141.1150000000005 634.156,1141.1150000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1188.2050000000004 634.156,1188.2050000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1235.2950000000003 634.156,1235.2950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1282.3850000000002 634.156,1282.3850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1329.4750000000001 634.156,1329.4750000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1376.565 634.156,1376.565" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1423.655 634.156,1423.655" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1470.745 634.156,1470.745" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1526.8799999999997 634.156,1526.8799999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,1338.5200000000002 C598.6186,1338.5200000000002 598.6186,1583.0149999999999 634.156,1583.0149999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1630.1049999999998 634.156,1630.1049999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1677.1949999999997 634.156,1677.1949999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1724.2849999999996 634.156,1724.2849999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1771.3749999999995 634.156,1771.3749999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1818.4649999999995 634.156,1818.4649999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1865.5549999999994 634.156,1865.5549999999994" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1912.6449999999993 634.156,1912.6449999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,1959.7349999999992 634.156,1959.7349999999992" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2006.8249999999991 634.156,2006.8249999999991" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2053.914999999999 634.156,2053.914999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2101.004999999999 634.156,2101.004999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2157.139999999999 634.156,2157.139999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2213.2749999999987 634.156,2213.2749999999987" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2260.364999999999 634.156,2260.364999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2471.097499999999 634.156,2471.097499999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2758.159999999999 634.156,2758.159999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M547.2711999999999,2297.0699999999993 C590.7135999999999,2297.0699999999993 590.7135999999999,2964.034999999999 634.156,2964.034999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2306.784999999999 969.8716,2306.784999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2352.534999999999 969.8716,2352.534999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2398.284999999999 969.8716,2398.284999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2444.034999999999 969.8716,2444.034999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2489.784999999999 969.8716,2489.784999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2535.534999999999 969.8716,2535.534999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2581.284999999999 969.8716,2581.284999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2471.097499999999 C864.6579999999999,2471.097499999999 864.6579999999999,2635.409999999999 969.8716,2635.409999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2758.159999999999 C864.6579999999999,2758.159999999999 864.6579999999999,2689.534999999999 969.8716,2689.534999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2758.159999999999 C864.6579999999999,2758.159999999999 864.6579999999999,2735.284999999999 969.8716,2735.284999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2758.159999999999 C864.6579999999999,2758.159999999999 864.6579999999999,2781.034999999999 969.8716,2781.034999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M759.4444,2758.159999999999 C864.6579999999999,2758.159999999999 864.6579999999999,2826.784999999999 969.8716,2826.784999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M786.9843999999999,2964.034999999999 C878.4279999999999,2964.034999999999 878.4279999999999,2872.534999999999 969.8716,2872.534999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M786.9843999999999,2964.034999999999 C878.4279999999999,2964.034999999999 878.4279999999999,2918.284999999999 969.8716,2918.284999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M786.9843999999999,2964.034999999999 C878.4279999999999,2964.034999999999 878.4279999999999,2964.034999999999 969.8716,2964.034999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M786.9843999999999,2964.034999999999 C878.4279999999999,2964.034999999999 878.4279999999999,3009.784999999999 969.8716,3009.784999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M786.9843999999999,2964.034999999999 C878.4279999999999,2964.034999999999 878.4279999999999,3055.534999999999 969.8716,3055.534999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3101.954999999999 634.156,3101.954999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3149.044999999999 634.156,3149.044999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3196.1349999999993 634.156,3196.1349999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3243.2249999999995 634.156,3243.2249999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3290.3149999999996 634.156,3290.3149999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3337.4049999999997 634.156,3337.4049999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3384.495 634.156,3384.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3431.585 634.156,3431.585" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3478.675 634.156,3478.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M563.0812,3318.3824999999997 C598.6186,3318.3824999999997 598.6186,3534.8100000000004 634.156,3534.8100000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M485.296,3717.715 C559.726,3717.715 559.726,3590.945 634.156,3590.945" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M485.296,3717.715 C559.726,3717.715 559.726,3647.0800000000004 634.156,3647.0800000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M485.296,3717.715 C559.726,3717.715 559.726,3703.215 634.156,3703.215" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M485.296,3717.715 C559.726,3717.715 559.726,3750.3050000000003 634.156,3750.3050000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M485.296,3717.715 C559.726,3717.715 559.726,3797.3950000000004 634.156,3797.3950000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M485.296,3717.715 C559.726,3717.715 559.726,3844.4850000000006 634.156,3844.4850000000006" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4022.867500000001 C607.156,4022.867500000001 607.156,3891.5750000000007 634.156,3891.5750000000007" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4022.867500000001 C607.156,4022.867500000001 607.156,3938.665000000001 634.156,3938.665000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4022.867500000001 C607.156,4022.867500000001 607.156,3985.755000000001 634.156,3985.755000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4022.867500000001 C607.156,4022.867500000001 607.156,4032.845000000001 634.156,4032.845000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4022.867500000001 C607.156,4022.867500000001 607.156,4088.9800000000014 634.156,4088.9800000000014" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4022.867500000001 C607.156,4022.867500000001 607.156,4154.160000000002 634.156,4154.160000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4337.065000000001 C607.156,4337.065000000001 607.156,4210.295000000001 634.156,4210.295000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4337.065000000001 C607.156,4337.065000000001 607.156,4257.385000000001 634.156,4257.385000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4337.065000000001 C607.156,4337.065000000001 607.156,4313.520000000001 634.156,4313.520000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4337.065000000001 C607.156,4337.065000000001 607.156,4369.655000000002 634.156,4369.655000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4337.065000000001 C607.156,4337.065000000001 607.156,4416.745000000002 634.156,4416.745000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580.156,4337.065000000001 C607.156,4337.065000000001 607.156,4463.835000000002 634.156,4463.835000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M437.866,4618.672500000002 C536.011,4618.672500000002 536.011,4510.925000000002 634.156,4510.925000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M437.866,4618.672500000002 C536.011,4618.672500000002 536.011,4558.015000000002 634.156,4558.015000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M437.866,4618.672500000002 C536.011,4618.672500000002 536.011,4605.105000000002 634.156,4605.105000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M437.866,4618.672500000002 C536.011,4618.672500000002 536.011,4661.2400000000025 634.156,4661.2400000000025" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M437.866,4618.672500000002 C536.011,4618.672500000002 536.011,4726.420000000003 634.156,4726.420000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,4900.280000000003 C567.631,4900.280000000003 567.631,4782.555000000003 634.156,4782.555000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,4900.280000000003 C567.631,4900.280000000003 567.631,4829.645000000003 634.156,4829.645000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,4900.280000000003 C567.631,4900.280000000003 567.631,4876.735000000003 634.156,4876.735000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,4900.280000000003 C567.631,4900.280000000003 567.631,4923.8250000000035 634.156,4923.8250000000035" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,4900.280000000003 C567.631,4900.280000000003 567.631,4970.915000000004 634.156,4970.915000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M501.106,4900.280000000003 C567.631,4900.280000000003 567.631,5018.005000000004 634.156,5018.005000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M453.676,5135.730000000004 C543.9159999999999,5135.730000000004 543.9159999999999,5065.095000000004 634.156,5065.095000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M453.676,5135.730000000004 C543.9159999999999,5135.730000000004 543.9159999999999,5112.185000000004 634.156,5112.185000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M453.676,5135.730000000004 C543.9159999999999,5135.730000000004 543.9159999999999,5159.275000000004 634.156,5159.275000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M453.676,5135.730000000004 C543.9159999999999,5135.730000000004 543.9159999999999,5206.365000000004 634.156,5206.365000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="2674.2" width="250.6" height="48.1" rx="11" fill="#c2255c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="2701.5" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第四章 测试系统的特性</text>
+<rect x="344.6" y="240.5" width="124.9" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="263.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">测试系统概论</text>
+<rect x="634.2" y="68.0" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测试系统是传感器、仪器和设备的总称</text>
+<rect x="634.2" y="115.1" width="281.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">问题简化为输入x(t)、h(t)、输出y(t)的关</text>
+<text x="649.2" y="154.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系</text>
+<rect x="634.2" y="180.3" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="201.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">复杂系统也可作为系统来看待</text>
+<rect x="634.2" y="227.4" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="248.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">简单测试系统示例：光电池</text>
+<rect x="634.2" y="274.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="295.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">复杂测试系统示例：轴承缺陷检测</text>
+<rect x="634.2" y="321.5" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="342.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三类问题之一：系统辨识</text>
+<rect x="634.2" y="368.6" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="389.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三类问题之二：反求输入量</text>
+<rect x="634.2" y="415.7" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="436.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三类问题之三：预测输出量</text>
+<rect x="344.6" y="532.1" width="156.5" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="554.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">测试系统基本要求</text>
+<rect x="634.2" y="462.8" width="246.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="483.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">应具有单值、确定的输入-输出关系</text>
+<rect x="634.2" y="509.9" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="531.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">每一输入量只有单一输出量与之对应</text>
+<rect x="634.2" y="557.0" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="578.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">知道其中一个量就可确定另一个量</text>
+<rect x="634.2" y="604.1" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="625.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">以输出和输入成线性关系最佳</text>
+<rect x="344.6" y="838.2" width="214.7" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="860.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4.1 线性系统及其主要性质</text>
+<rect x="634.2" y="651.2" width="259.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="672.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1 时不变（定常）线性系统的微分方程</text>
+<rect x="634.2" y="698.3" width="195.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="719.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系数aᵢ、bⱼ为常数且n≥m</text>
+<rect x="634.2" y="745.4" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="766.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">输出与输入加入的时间无关</text>
+<rect x="634.2" y="792.4" width="194.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="813.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2 线性系统性质之a)叠加性</text>
+<rect x="634.2" y="839.5" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="860.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">b)比例性：常数倍输入得常数倍输出</text>
+<rect x="634.2" y="886.6" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="907.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">c)微分性：输入微分对应输出微分</text>
+<rect x="634.2" y="933.7" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="954.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">d)积分性：零初始条件下积分对应积分</text>
+<rect x="634.2" y="980.8" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1001.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">e)频率保持性：稳态输出与输入同频率</text>
+<rect x="634.2" y="1027.9" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1049.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">叠加原理与频率保持性在测量中很重要</text>
+<rect x="344.6" y="1318.1" width="218.5" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="1340.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4.2 测试系统静态响应特性</text>
+<rect x="634.2" y="1075.0" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1096.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">输入输出不随时间变化即为静态测量</text>
+<rect x="634.2" y="1122.1" width="168.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1143.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">A 灵敏度：S=Δy/Δx</text>
+<rect x="634.2" y="1169.2" width="217.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1190.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">B 非线性度：Bₘₐₓ/A×100%</text>
+<rect x="634.2" y="1216.3" width="226.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1237.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">C 回程误差：(hₘₐₓ/A)×100%</text>
+<rect x="634.2" y="1263.3" width="168.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1284.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">D 其他描述共六个指标</text>
+<rect x="634.2" y="1310.4" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1331.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">精度：与测量误差大小有关</text>
+<rect x="634.2" y="1357.5" width="140.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1378.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">灵敏阀：又称死区</text>
+<rect x="634.2" y="1404.6" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1425.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">分辨力：引起输出变化的最小输入变化量</text>
+<rect x="634.2" y="1451.7" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1472.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测量范围：最小与最大输入量之间</text>
+<rect x="634.2" y="1498.8" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1519.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">稳定性：输入不变时输出随时间变化的程</text>
+<text x="649.2" y="1537.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">度</text>
+<rect x="634.2" y="1564.0" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1585.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">可靠性：与无故障工作时间长短有关</text>
+<rect x="344.6" y="2276.7" width="202.6" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="2299.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4.3 测试系统的动态特性</text>
+<rect x="634.2" y="1611.1" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1632.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">动态特性是输入随时间变化时的输出关系</text>
+<rect x="634.2" y="1658.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1679.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">测量范围内可认为系统是线性的</text>
+<rect x="634.2" y="1705.2" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1726.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">四个部分：传递特性描述、典型激励响应</text>
+<rect x="634.2" y="1752.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1773.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">任意输入响应、特性参数实验测定</text>
+<rect x="634.2" y="1799.4" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1820.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">传递函数用拉普拉斯变换</text>
+<rect x="634.2" y="1846.5" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1867.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">频率响应函数用傅里叶变换</text>
+<rect x="634.2" y="1893.6" width="260.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1914.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">拉氏变换：F(s)=∫₀⁺∞f(t)e⁻ˢᵗdt</text>
+<rect x="634.2" y="1940.7" width="217.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="1961.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">f(t)为像原函数，F(s)为像函数</text>
+<rect x="634.2" y="1987.8" width="142.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2008.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">δ函数拉氏变换为1</text>
+<rect x="634.2" y="2034.9" width="214.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2055.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">延时δ(t-t₀)的变换为e⁻ˢᵗ₀</text>
+<rect x="634.2" y="2082.0" width="236.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2103.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">微分性质：L[f′(t)]=sF(s)-f(0)</text>
+<rect x="634.2" y="2129.0" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2150.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">传递函数是零初始条件下输出与输入的拉</text>
+<text x="649.2" y="2168.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">氏变换之比</text>
+<rect x="634.2" y="2194.2" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2215.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">传递函数与输入及初始状态无关</text>
+<rect x="634.2" y="2241.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2262.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">只反映传输特性，与物理结构无关</text>
+<rect x="634.2" y="2452.1" width="125.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2473.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2 频率响应函数</text>
+<rect x="969.9" y="2288.4" width="225.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2308.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">用 s=jω 替换传递函数中的 s 得到</text>
+<rect x="969.9" y="2334.2" width="246.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2354.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">定义为稳态输出与输入傅里叶变换之比</text>
+<rect x="969.9" y="2379.9" width="221.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2400.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">反映各频率正弦激励下的稳态响应</text>
+<rect x="969.9" y="2425.7" width="234.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2445.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">H(ω)=P(ω)+jQ(ω)=A(ω)eʲφ⁽ω⁾</text>
+<rect x="969.9" y="2471.4" width="188.1" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2491.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">幅频特性为 H(ω) 的模 A(ω)</text>
+<rect x="969.9" y="2517.2" width="151.9" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2537.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">相频特性为幅角 φ(ω)</text>
+<rect x="969.9" y="2562.9" width="209.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2583.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">实频特性 P(ω)、虚频特性 Q(ω)</text>
+<rect x="969.9" y="2608.7" width="220.0" height="53.5" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2628.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">图像描述：幅相曲线、Bode 图、</text>
+<text x="984.9" y="2645.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">Nyquist 图</text>
+<rect x="634.2" y="2739.1" width="125.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2760.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3 脉冲响应函数</text>
+<rect x="969.9" y="2671.2" width="177.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2691.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">输入 x(t)=δ(t) 时 X(s)=1</text>
+<rect x="969.9" y="2716.9" width="186.6" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2737.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">输出 Y(s)=H(s)X(s)=H(s)</text>
+<rect x="969.9" y="2762.7" width="220.4" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2782.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">h(t)=L⁻¹[H(s)] 为脉冲响应函数</text>
+<rect x="969.9" y="2808.4" width="158.3" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2828.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">h(t) 又称系统的权函数</text>
+<rect x="634.2" y="2945.0" width="152.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="2966.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">4 环节的串联和并联</text>
+<rect x="969.9" y="2854.2" width="246.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2874.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">串联总传递函数为各环节传递函数之积</text>
+<rect x="969.9" y="2899.9" width="183.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2920.2" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">串联时幅频相乘、相频相加</text>
+<rect x="969.9" y="2945.7" width="246.8" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="2965.9" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">并联总传递函数为各环节传递函数之和</text>
+<rect x="969.9" y="2991.4" width="234.0" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="3011.7" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">高阶系统分母分解为一次和二次因式</text>
+<rect x="969.9" y="3037.2" width="259.5" height="36.8" rx="7" fill="#ffffff" stroke="#eef2f6" stroke-width="1.6"/>
+<text x="984.9" y="3057.4" font-size="12.5" font-weight="500" fill="#5a6878" xml:space="preserve">高阶系统可看成若干一、二阶系统串并联</text>
+<rect x="344.6" y="3298.0" width="218.5" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="3320.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">4.5 一阶和二阶系统的特性</text>
+<rect x="634.2" y="3082.9" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3104.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一阶系统微分方程与传递函数</text>
+<rect x="634.2" y="3130.0" width="212.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3151.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">K=b₀/a₀ 为系统静态灵敏度</text>
+<rect x="634.2" y="3177.1" width="199.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3198.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">τ=a₁/a₀ 为系统时间常数</text>
+<rect x="634.2" y="3224.2" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3245.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">液柱式温度计为一阶惯性系统</text>
+<rect x="634.2" y="3271.3" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3292.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一阶系统幅频与相频特性曲线</text>
+<rect x="634.2" y="3318.4" width="185.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3339.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二阶系统参数 K、ωₙ、ζ</text>
+<rect x="634.2" y="3365.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3386.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二阶系统频率响应与脉冲响应函数</text>
+<rect x="634.2" y="3412.5" width="233.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3433.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二阶系统 Nyquist 图与 Bode 图</text>
+<rect x="634.2" y="3459.6" width="220.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3480.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">ω=ωₙ 时共振且 A(ω)=1/(2ζ)</text>
+<rect x="634.2" y="3506.7" width="278.4" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3527.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Bode 图可用 0dB 线与 -40dB/dec 近</text>
+<text x="649.2" y="3545.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">似</text>
+<rect x="344.6" y="3697.3" width="140.7" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="3720.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">不失真测量条件</text>
+<rect x="634.2" y="3571.9" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3593.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二阶系统相频特性随频率变化规律</text>
+<rect x="634.2" y="3619.0" width="277.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3640.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一般取 ω ≤ (0.6~0.8)ωₙ、ξ = 0.65~</text>
+<text x="649.2" y="3658.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">0.7</text>
+<rect x="634.2" y="3684.2" width="277.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3705.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">不失真测量的时域条件 y(t)=A₀x(t-t₀)</text>
+<rect x="634.2" y="3731.3" width="280.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3752.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">频域条件 A(ω)=A₀=常数、φ(ω)=-t₀ω</text>
+<rect x="634.2" y="3778.4" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3799.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">幅频图为水平直线、相频图为过原点直线</text>
+<rect x="634.2" y="3825.4" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3846.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">频率响应法优点简单、缺点效率低</text>
+<rect x="344.6" y="4002.5" width="235.5" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="4025.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">测试系统的动态响应特性测试</text>
+<rect x="634.2" y="3872.5" width="232.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3893.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1 脉冲响应函数 y(t)=F⁻¹[H(S)]</text>
+<rect x="634.2" y="3919.6" width="253.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3940.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2 阶跃响应函数 y(t)=L⁻¹[H(s)/s]</text>
+<rect x="634.2" y="3966.7" width="186.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="3987.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">3. 一阶系统与时间常数 τ</text>
+<rect x="634.2" y="4013.8" width="258.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4034.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">4. 二阶系统与 ωₙ、ξ、M、M₁、M₂</text>
+<rect x="634.2" y="4060.9" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4082.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">时域波形参数识别、直观但只宜识别简单</text>
+<text x="649.2" y="4100.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">系统</text>
+<rect x="634.2" y="4126.1" width="277.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4147.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">脉冲响应函数测量案例：桥梁固有频率测</text>
+<text x="649.2" y="4165.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">量</text>
+<rect x="344.6" y="4316.7" width="235.5" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="4339.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">测试系统特性参数的实验测定</text>
+<rect x="634.2" y="4191.3" width="204.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4212.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1 一阶系统动态特性参数测定</text>
+<rect x="634.2" y="4238.3" width="213.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4259.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">静态灵敏度 K 由静态标定得到</text>
+<rect x="634.2" y="4285.4" width="272.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4306.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">达到最终稳定值 63.2% 的时间即时间常</text>
+<text x="649.2" y="4324.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数 τ</text>
+<rect x="634.2" y="4350.6" width="259.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4371.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">由 Z=ln[1-y(t)] 直线求 τ=-Δt/ΔZ</text>
+<rect x="634.2" y="4397.7" width="207.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4418.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">2 二阶系统动态特性参数测定</text>
+<rect x="634.2" y="4444.8" width="274.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4465.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">脉冲响应/阶跃响应函数法与传递函数法</text>
+<rect x="344.6" y="4598.3" width="93.2" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="4621.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">负载效应</text>
+<rect x="634.2" y="4491.9" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4513.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">接入的测量装置构成被测对象的负载</text>
+<rect x="634.2" y="4539.0" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4560.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">前后环节存在能量交换与相互影响</text>
+<rect x="634.2" y="4586.1" width="222.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4607.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">未接入时 U₀=ER₂/(R₂+R₁)</text>
+<rect x="634.2" y="4633.2" width="174.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4654.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">接入后 U₁=ER₂Rₘ/</text>
+<text x="649.2" y="4672.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">[R₁(Rₘ+R₂)+RₘR₂]</text>
+<rect x="634.2" y="4698.3" width="278.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4719.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">实例误差 28.6%，负载加大到 1M 后降为</text>
+<text x="649.2" y="4737.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">5.76%</text>
+<rect x="344.6" y="4879.9" width="156.5" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="4902.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">测量系统的抗干扰</text>
+<rect x="634.2" y="4763.5" width="167.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4784.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">一、测量装置的干扰源</text>
+<rect x="634.2" y="4810.6" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4831.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">电磁干扰、信道干扰、电源干扰</text>
+<rect x="634.2" y="4857.7" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4878.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">屏蔽与正确接地去除电磁波干扰</text>
+<rect x="634.2" y="4904.8" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4925.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">交流稳压器、隔离稳压器抑制电源干扰</text>
+<rect x="634.2" y="4951.9" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="4972.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">印刷电路板元件合理排放增强信道抗扰性</text>
+<rect x="634.2" y="4999.0" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="5020.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">案例：音响系统性能评定</text>
+<rect x="344.6" y="5115.3" width="109.0" height="40.8" rx="9" fill="#ffffff" stroke="#c2255c" stroke-width="1.6"/>
+<text x="359.6" y="5138.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">课堂讨论题</text>
+<rect x="634.2" y="5046.1" width="232.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="5067.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">发动机振动测试非线性误差 0.8%</text>
+<rect x="634.2" y="5093.1" width="247.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="5114.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">固有频率 500Hz 导致实测数据失真</text>
+<rect x="634.2" y="5140.2" width="264.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="5161.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">静态特性（非线性误差）对结果的影响</text>
+<rect x="634.2" y="5187.3" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="649.2" y="5208.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">动态特性（固有频率）对结果的影响</text>
+</g>
+</svg>

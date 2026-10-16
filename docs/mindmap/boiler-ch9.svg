@@ -1,135 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1079 1897" width="1079" height="1897">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1079 1879" width="1079" height="1879">
 <title>锅炉原理 · 第九章 炉内辐射传热计算 · 思维导图</title>
 <defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#e8590c" flood-opacity="0.22"/></filter></defs>
 <rect width="100%" height="100%" fill="#ffffff"/>
 <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
 <text x="40" y="34" font-size="21" font-weight="800" fill="#e8590c">锅炉原理 · 第九章 炉内辐射传热计算</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 30 个节点 · 与 App 内折叠树同源</text>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,249.0625 366.04600000000005,249.0625" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,573.0975000000001 366.04600000000005,573.0975000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,979.47 366.04600000000005,979.47" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,1295.3925 366.04600000000005,1295.3925" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,1423.91 366.04600000000005,1423.91" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,1494.45 366.04600000000005,1494.45" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,1564.99 366.04600000000005,1564.99" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M312.04600000000005,985.31875 C339.04600000000005,985.31875 339.04600000000005,1721.575 366.04600000000005,1721.575" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
-<path d="M622.129,249.0625 C684.7015000000001,249.0625 684.7015000000001,105.135 747.2740000000001,105.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M622.129,249.0625 C684.7015000000001,249.0625 684.7015000000001,188.40500000000003 747.2740000000001,188.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M622.129,249.0625 C684.7015000000001,249.0625 684.7015000000001,262.63 747.2740000000001,262.63" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M622.129,249.0625 C684.7015000000001,249.0625 684.7015000000001,327.81 747.2740000000001,327.81" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M622.129,249.0625 C684.7015000000001,249.0625 684.7015000000001,392.99 747.2740000000001,392.99" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M574.6990000000001,573.0975000000001 C660.9865000000001,573.0975000000001 660.9865000000001,467.21500000000003 747.2740000000001,467.21500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M574.6990000000001,573.0975000000001 C660.9865000000001,573.0975000000001 660.9865000000001,559.53 747.2740000000001,559.53" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M574.6990000000001,573.0975000000001 C660.9865000000001,573.0975000000001 660.9865000000001,678.98 747.2740000000001,678.98" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M637.9390000000001,979.47 C692.6065000000001,979.47 692.6065000000001,789.385 747.2740000000001,789.385" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M637.9390000000001,979.47 C692.6065000000001,979.47 692.6065000000001,872.655 747.2740000000001,872.655" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M637.9390000000001,979.47 C692.6065000000001,979.47 692.6065000000001,946.88 747.2740000000001,946.88" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M637.9390000000001,979.47 C692.6065000000001,979.47 692.6065000000001,1021.105 747.2740000000001,1021.105" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M637.9390000000001,979.47 C692.6065000000001,979.47 692.6065000000001,1095.33 747.2740000000001,1095.33" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M637.9390000000001,979.47 C692.6065000000001,979.47 692.6065000000001,1169.555 747.2740000000001,1169.555" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M669.559,1295.3925 C708.4165,1295.3925 708.4165,1234.7350000000001 747.2740000000001,1234.7350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M669.559,1295.3925 C708.4165,1295.3925 708.4165,1290.87 747.2740000000001,1290.87" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M669.559,1295.3925 C708.4165,1295.3925 708.4165,1356.05 747.2740000000001,1356.05" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M657.5434,1721.575 C702.4087000000001,1721.575 702.4087000000001,1623.805 747.2740000000001,1623.805" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M657.5434,1721.575 C702.4087000000001,1721.575 702.4087000000001,1679.9399999999998 747.2740000000001,1679.9399999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M657.5434,1721.575 C702.4087000000001,1721.575 702.4087000000001,1745.12 747.2740000000001,1745.12" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M657.5434,1721.575 C702.4087000000001,1721.575 702.4087000000001,1819.345 747.2740000000001,1819.345" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
-<rect x="40.0" y="961.2" width="272.0" height="48.1" rx="11" fill="#e8590c" stroke="none" filter="url(#sh)"/>
-<text x="55.0" y="988.5" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第九章 炉内辐射传热计算</text>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,249.0625 366.04600000000005,249.0625" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,573.0975000000001 366.04600000000005,573.0975000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,970.4250000000001 366.04600000000005,970.4250000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,1277.3025000000002 366.04600000000005,1277.3025000000002" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,1405.8200000000002 366.04600000000005,1405.8200000000002" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,1476.3600000000001 366.04600000000005,1476.3600000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,1546.9 366.04600000000005,1546.9" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,976.2737500000001 C339.04600000000005,976.2737500000001 339.04600000000005,1703.4850000000001 366.04600000000005,1703.4850000000001" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round"/>
+<path d="M622.129,249.0625 C684.6224500000001,249.0625 684.6224500000001,105.135 747.1159,105.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M622.129,249.0625 C684.6224500000001,249.0625 684.6224500000001,188.40500000000003 747.1159,188.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M622.129,249.0625 C684.6224500000001,249.0625 684.6224500000001,262.63 747.1159,262.63" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M622.129,249.0625 C684.6224500000001,249.0625 684.6224500000001,327.81 747.1159,327.81" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M622.129,249.0625 C684.6224500000001,249.0625 684.6224500000001,392.99 747.1159,392.99" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.6990000000001,573.0975000000001 C660.90745,573.0975000000001 660.90745,467.21500000000003 747.1159,467.21500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.6990000000001,573.0975000000001 C660.90745,573.0975000000001 660.90745,559.53 747.1159,559.53" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.6990000000001,573.0975000000001 C660.90745,573.0975000000001 660.90745,678.98 747.1159,678.98" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.9390000000001,970.4250000000001 C692.52745,970.4250000000001 692.52745,789.385 747.1159,789.385" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.9390000000001,970.4250000000001 C692.52745,970.4250000000001 692.52745,872.655 747.1159,872.655" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.9390000000001,970.4250000000001 C692.52745,970.4250000000001 692.52745,946.88 747.1159,946.88" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.9390000000001,970.4250000000001 C692.52745,970.4250000000001 692.52745,1012.0600000000001 747.1159,1012.0600000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.9390000000001,970.4250000000001 C692.52745,970.4250000000001 692.52745,1077.2400000000002 747.1159,1077.2400000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M637.9390000000001,970.4250000000001 C692.52745,970.4250000000001 692.52745,1151.4650000000001 747.1159,1151.4650000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M669.559,1277.3025000000002 C708.33745,1277.3025000000002 708.33745,1216.6450000000002 747.1159,1216.6450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M669.559,1277.3025000000002 C708.33745,1277.3025000000002 708.33745,1272.78 747.1159,1272.78" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M669.559,1277.3025000000002 C708.33745,1277.3025000000002 708.33745,1337.96 747.1159,1337.96" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M657.5434,1703.4850000000001 C702.32965,1703.4850000000001 702.32965,1605.7150000000001 747.1159,1605.7150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M657.5434,1703.4850000000001 C702.32965,1703.4850000000001 702.32965,1661.85 747.1159,1661.85" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M657.5434,1703.4850000000001 C702.32965,1703.4850000000001 702.32965,1727.03 747.1159,1727.03" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M657.5434,1703.4850000000001 C702.32965,1703.4850000000001 702.32965,1801.255 747.1159,1801.255" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="952.2" width="272.0" height="48.1" rx="11" fill="#e8590c" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="979.4" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第九章 炉内辐射传热计算</text>
 <rect x="366.0" y="228.7" width="256.1" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
 <text x="381.0" y="251.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第一节 炉内辐射传热的基本概念</text>
-<rect x="747.3" y="68.0" width="279.0" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">物体的辐射：E_b=σ₀T⁴、E=εσ₀T⁴</text>
-<text x="762.3" y="107.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">=εE_b，σ₀=5.67×10⁻¹¹ kW/</text>
-<text x="762.3" y="125.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(m²·K⁴)</text>
-<rect x="747.3" y="151.3" width="275.8" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="172.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">介质的吸收率和黑度：贝尔定律 I_λ,</text>
-<text x="762.3" y="190.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">s/I_λ,0=e^(-k_λ·S)，τ=k_λS，</text>
-<text x="762.3" y="208.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">a=1-e^(-k_a·S)，ε=a</text>
-<rect x="747.3" y="234.5" width="291.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="255.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内火焰黑度：由三原子气体、灰分颗粒、</text>
-<text x="762.3" y="273.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">焦炭颗粒三部分组成</text>
-<rect x="747.3" y="299.7" width="261.9" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="320.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">入射辐射和有效辐射：G、J=εE_b+</text>
-<text x="762.3" y="338.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(1-ε)G</text>
-<rect x="747.3" y="364.9" width="269.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="386.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">两平行平面之间的辐射传热：q_R=σ₀</text>
-<text x="762.3" y="404.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(T₁⁴-T₂⁴)/(1/ε₁+1/ε₂-1)</text>
+<rect x="747.1" y="68.0" width="279.0" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">物体的辐射：Eb=σ₀T⁴、E=εσ₀T⁴=</text>
+<text x="762.1" y="107.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">εEb，σ₀=5.67×10⁻¹¹ kW/</text>
+<text x="762.1" y="125.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(m²·K⁴)</text>
+<rect x="747.1" y="151.3" width="286.0" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="172.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">介质的吸收率和黑度：贝尔定律 Iλ,s/I</text>
+<text x="762.1" y="190.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">λ,0=e⁻ᵏλ·S，τ=kλS，a=1-e⁻ᵏₐ·</text>
+<text x="762.1" y="208.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">S，ε=a</text>
+<rect x="747.1" y="234.5" width="291.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="255.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内火焰黑度：由三原子气体、灰分颗粒、</text>
+<text x="762.1" y="273.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">焦炭颗粒三部分组成</text>
+<rect x="747.1" y="299.7" width="251.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="320.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">入射辐射和有效辐射：G、J=εEb+</text>
+<text x="762.1" y="338.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(1-ε)G</text>
+<rect x="747.1" y="364.9" width="258.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="386.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">两平行平面之间的辐射传热：qR=σ₀</text>
+<text x="762.1" y="404.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(T₁⁴-T₂⁴)/(1/ε₁+1/ε₂-1)</text>
 <rect x="366.0" y="552.7" width="208.7" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
 <text x="381.0" y="575.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第二节 炉内辐射传热特点</text>
-<rect x="747.3" y="430.1" width="277.9" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="451.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">基本任务：设计计算</text>
-<text x="762.3" y="469.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（定出口烟温求受热面）与校核计算（定</text>
-<text x="762.3" y="487.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">受热面核算出口烟温）</text>
-<rect x="747.3" y="513.4" width="277.9" height="92.4" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="534.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">复杂性：放热/吸热比例不同、烟气成分</text>
-<text x="762.3" y="552.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">与介质浓度不同、辐射能力不同、多物体</text>
-<text x="762.3" y="570.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">参与、燃烧与传热同时进行、并存对流传</text>
-<text x="762.3" y="588.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热</text>
-<rect x="747.3" y="614.7" width="277.9" height="128.5" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="635.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">简化与假设（8条）：火焰当灰体、燃烧</text>
-<text x="762.3" y="653.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">与辐射分开、平均温度替代真实温度、出</text>
-<text x="762.3" y="672.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">口烟温作定性温度、略去对流、炉墙影响</text>
-<text x="762.3" y="690.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">计入角系数、包围绕炉墙假想为等面积圆</text>
-<text x="762.3" y="708.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">柱面、与水冷壁相切的假想柱面为火焰辐</text>
-<text x="762.3" y="726.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">射面</text>
-<rect x="366.0" y="959.1" width="271.9" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
-<text x="381.0" y="981.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第四节 煤粉锅炉炉内传热计算方法</text>
-<rect x="747.3" y="752.3" width="274.3" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="773.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内辐射交换热流密度修正：分母加</text>
-<text x="762.3" y="791.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(1/4)kR，k=(1.25~1.30)k_a，煤粉炉</text>
-<text x="762.3" y="809.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">k≈1.28k_a</text>
-<rect x="747.3" y="835.5" width="271.8" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="856.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内辐射传热量：Q_R=q_R·</text>
-<text x="762.3" y="874.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">F/B_cal，Q̇_R=σ₀F(T₁⁴-T₂⁴)</text>
-<text x="762.3" y="892.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">/(1/ε_syn+1/ε₂-1)</text>
-<rect x="747.3" y="918.8" width="281.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="939.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">火焰综合黑度 ε_syn 与综合系数</text>
-<text x="762.3" y="958.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">C_syn：1/ε_syn=0.32k_a R+1/ε₁</text>
-<rect x="747.3" y="984.0" width="274.7" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1005.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">火焰平均温度 T₁：θ₁=T₁/T_th，伯</text>
-<text x="762.3" y="1023.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">劳赫理论近似公式，x_m≈x_B=</text>
-<text x="762.3" y="1041.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">h_B/h_f</text>
-<rect x="747.3" y="1067.2" width="271.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1088.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">理论燃烧温度 T_th：Q_f^ef、Q_a、</text>
-<text x="762.3" y="1106.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">烟气平均热容 VC_av</text>
-<rect x="747.3" y="1132.4" width="275.1" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1153.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">吸收减弱系数与火焰黑度：k_a=k_g·</text>
-<text x="762.3" y="1171.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">r+k_ash·μ_ash+k_cok·μ_cok，</text>
-<text x="762.3" y="1189.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">ε₁=1-e^(-k_a·S)</text>
-<rect x="366.0" y="1275.0" width="303.5" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
-<text x="381.0" y="1297.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第五节 炉内辐射传热计算的有效系数法</text>
-<rect x="747.3" y="1215.7" width="252.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1236.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热有效系数 ψ 与炉膛黑度 ε_f^syn</text>
-<rect x="747.3" y="1262.8" width="195.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1283.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内传热计算公式与热平衡</text>
-<text x="762.3" y="1301.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（Bo、θ₁、θ_f″）</text>
-<rect x="747.3" y="1328.0" width="290.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1349.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉膛出口烟气温度[方法一]：θ_f″=[Bo/</text>
-<text x="762.3" y="1367.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(3(1−x_m)ε_f^syn+Bo)]^(1/3)</text>
-<rect x="366.0" y="1393.1" width="319.3" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
-<text x="381.0" y="1415.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第六节 炉膛水冷壁结构特征（有效容积边</text>
-<text x="381.0" y="1436.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">界、F=ΣF_i、S=3.6V_f/F）</text>
-<rect x="366.0" y="1463.7" width="327.2" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
-<text x="381.0" y="1486.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第七节 水冷壁热有效系数（ψ_i=xψ、ψ_</text>
-<text x="381.0" y="1507.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">c=βψ、ψ_av=Σψ_iF_i/F）</text>
-<rect x="366.0" y="1534.2" width="313.2" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
-<text x="381.0" y="1556.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第八节 炉内热负荷的分布规律（q_av、</text>
-<text x="381.0" y="1577.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">q_i=η_i q_av、图9-8）</text>
-<rect x="366.0" y="1690.8" width="291.5" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
-<text x="381.0" y="1713.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第九节 苏联1973年炉膛传热计算框架</text>
-<text x="381.0" y="1734.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">（方法二、方法三）</text>
-<rect x="747.3" y="1604.8" width="182.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1625.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内介质温度分布系数 M</text>
-<rect x="747.3" y="1651.8" width="204.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1672.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">火焰综合黑度 ε_syn=ε₁/</text>
-<text x="762.3" y="1691.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(0.32k_aRε₁+1)</text>
-<rect x="747.3" y="1717.0" width="282.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1738.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉膛传热计算的基本步骤（13 步，迭代判</text>
-<text x="762.3" y="1756.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">据 100℃）</text>
-<rect x="747.3" y="1782.2" width="291.6" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
-<text x="762.3" y="1803.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">本章小结（自身辐射/有效辐射、传热公</text>
-<text x="762.3" y="1821.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">式、理论燃烧温度、减弱系数与火焰黑度、</text>
-<text x="762.3" y="1839.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉膛黑度、热有效系数、出口烟温三公式）</text>
+<rect x="747.1" y="430.1" width="277.9" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="451.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">基本任务：设计计算</text>
+<text x="762.1" y="469.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（定出口烟温求受热面）与校核计算（定</text>
+<text x="762.1" y="487.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">受热面核算出口烟温）</text>
+<rect x="747.1" y="513.4" width="277.9" height="92.4" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="534.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">复杂性：放热/吸热比例不同、烟气成分</text>
+<text x="762.1" y="552.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">与介质浓度不同、辐射能力不同、多物体</text>
+<text x="762.1" y="570.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">参与、燃烧与传热同时进行、并存对流传</text>
+<text x="762.1" y="588.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热</text>
+<rect x="747.1" y="614.7" width="277.9" height="128.5" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="635.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">简化与假设（8条）：火焰当灰体、燃烧</text>
+<text x="762.1" y="653.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">与辐射分开、平均温度替代真实温度、出</text>
+<text x="762.1" y="672.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">口烟温作定性温度、略去对流、炉墙影响</text>
+<text x="762.1" y="690.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">计入角系数、包围绕炉墙假想为等面积圆</text>
+<text x="762.1" y="708.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">柱面、与水冷壁相切的假想柱面为火焰辐</text>
+<text x="762.1" y="726.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">射面</text>
+<rect x="366.0" y="950.0" width="271.9" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="381.0" y="972.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第四节 煤粉锅炉炉内传热计算方法</text>
+<rect x="747.1" y="752.3" width="278.4" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="773.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内辐射交换热流密度修正：分母加</text>
+<text x="762.1" y="791.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(1/4)kR，k=(1.25~1.30)kₐ，煤粉炉 k</text>
+<text x="762.1" y="809.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">≈1.28kₐ</text>
+<rect x="747.1" y="835.5" width="273.6" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="856.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内辐射传热量：QR=qR·F/Bcₐₗ，</text>
+<text x="762.1" y="874.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">Q̇R=σ₀F(T₁⁴-T₂⁴)/</text>
+<text x="762.1" y="892.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(1/εₛyₙ+1/ε₂-1)</text>
+<rect x="747.1" y="918.8" width="286.5" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="939.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">火焰综合黑度 εₛyₙ 与综合系数 Cₛyₙ：</text>
+<text x="762.1" y="958.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">1/εₛyₙ=0.32kₐ R+1/ε₁</text>
+<rect x="747.1" y="984.0" width="271.3" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1005.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">火焰平均温度 T₁：θ₁=T₁/Tₜₕ，伯</text>
+<text x="762.1" y="1023.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">劳赫理论近似公式，xₘ≈xB=hB/hf</text>
+<rect x="747.1" y="1049.2" width="273.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1070.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">理论燃烧温度 Tₜₕ：Qfᵉᶠ、Qₐ、烟气</text>
+<text x="762.1" y="1088.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">平均热容 VCₐᵥ</text>
+<rect x="747.1" y="1114.3" width="279.4" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1135.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">吸收减弱系数与火焰黑度：kₐ=kg·r+k</text>
+<text x="762.1" y="1153.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">ₐₛₕ·μₐₛₕ+kcₒₖ·μcₒₖ，ε₁=1-e</text>
+<text x="762.1" y="1171.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">⁻ᵏₐ·S</text>
+<rect x="366.0" y="1256.9" width="303.5" height="40.8" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="381.0" y="1279.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第五节 炉内辐射传热计算的有效系数法</text>
+<rect x="747.1" y="1197.6" width="237.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1218.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">热有效系数 ψ 与炉膛黑度 εfˢʸⁿ</text>
+<rect x="747.1" y="1244.7" width="195.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1265.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内传热计算公式与热平衡</text>
+<text x="762.1" y="1283.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（Bo、θ₁、θf″）</text>
+<rect x="747.1" y="1309.9" width="279.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1330.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉膛出口烟气温度[方法一]：θf″=[Bo/</text>
+<text x="762.1" y="1349.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(3(1−xₘ)εfˢʸⁿ+Bo)]¹/³</text>
+<rect x="366.0" y="1375.1" width="319.3" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="381.0" y="1397.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第六节 炉膛水冷壁结构特征（有效容积边</text>
+<text x="381.0" y="1418.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">界、F=ΣFᵢ、S=3.6Vf/F）</text>
+<rect x="366.0" y="1445.6" width="319.2" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="381.0" y="1468.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第七节 水冷壁热有效系数（ψᵢ=xψ、ψc</text>
+<text x="381.0" y="1489.1" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">=βψ、ψₐᵥ=ΣψᵢFᵢ/F）</text>
+<rect x="366.0" y="1516.1" width="327.1" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="381.0" y="1538.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第八节 炉内热负荷的分布规律（qₐᵥ、qᵢ</text>
+<text x="381.0" y="1559.6" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">=ηᵢ qₐᵥ、图9-8）</text>
+<rect x="366.0" y="1672.7" width="291.5" height="61.5" rx="9" fill="#ffffff" stroke="#e8590c" stroke-width="1.6"/>
+<text x="381.0" y="1695.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">第九节 苏联1973年炉膛传热计算框架</text>
+<text x="381.0" y="1716.2" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">（方法二、方法三）</text>
+<rect x="747.1" y="1586.7" width="182.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1607.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉内介质温度分布系数 M</text>
+<rect x="747.1" y="1633.8" width="197.6" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1654.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">火焰综合黑度 εₛyₙ=ε₁/</text>
+<text x="762.1" y="1672.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">(0.32kₐRε₁+1)</text>
+<rect x="747.1" y="1698.9" width="282.0" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1720.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉膛传热计算的基本步骤（13 步，迭代判</text>
+<text x="762.1" y="1738.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">据 100℃）</text>
+<rect x="747.1" y="1764.1" width="291.6" height="74.3" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="762.1" y="1785.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">本章小结（自身辐射/有效辐射、传热公</text>
+<text x="762.1" y="1803.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">式、理论燃烧温度、减弱系数与火焰黑度、</text>
+<text x="762.1" y="1821.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">炉膛黑度、热有效系数、出口烟温三公式）</text>
 </g>
 </svg>
