@@ -1,5 +1,10 @@
-﻿node_modules/
+node_modules/
 .expo/
 .edgeprofile/
 *.log
 _*.png
+
+# 开发备份（不进公开仓库）
+*.backup*.json
+*.bak
+content/*.backup*
