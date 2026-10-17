@@ -4,7 +4,7 @@
    - index.html 每次启动后台更新，下次打开即最新（stale-while-revalidate）
    - 版本号变化时清掉旧缓存
 */
-const VERSION = '0b662639a7';
+const VERSION = '3759076517';
 const CACHE = 'majorapp-' + VERSION;
 
 const SHELL = [
@@ -18,7 +18,7 @@ const SHELL = [
   './icons/apple-touch-icon.png',
   './icons/favicon.png',
   // 思维导图 SVG 由 build.js 按实际产物注入（离线也能看全图）
-].concat(["./mindmap/boiler-intro.svg","./mindmap/boiler-ch1.svg","./mindmap/boiler-ch2.svg","./mindmap/boiler-ch4.svg","./mindmap/boiler-ch5.svg","./mindmap/boiler-ch6.svg","./mindmap/boiler-ch7.svg","./mindmap/boiler-ch8.svg","./mindmap/boiler-ch9.svg","./mindmap/boiler-ch10.svg","./mindmap/boiler-ch11.svg","./mindmap/heat-ch1.svg","./mindmap/heat-ch2.svg","./mindmap/heat-ch3.svg","./mindmap/heat-ch4.svg","./mindmap/heat-ch5.svg","./mindmap/control-lap.svg","./mindmap/control-ch1.svg","./mindmap/control-ch2.svg","./mindmap/control-ch3.svg","./mindmap/control-ch4.svg","./mindmap/test-intro.svg","./mindmap/test-ch1.svg","./mindmap/test-ch2.svg","./mindmap/test-ch3.svg","./mindmap/test-ch4.svg"]);
+].concat(["./mindmap/boiler-intro.svg","./mindmap/boiler-ch1.svg","./mindmap/boiler-ch2.svg","./mindmap/boiler-ch4.svg","./mindmap/boiler-ch5.svg","./mindmap/boiler-ch6.svg","./mindmap/boiler-ch7.svg","./mindmap/boiler-ch8.svg","./mindmap/boiler-ch9.svg","./mindmap/boiler-ch10.svg","./mindmap/boiler-ch11.svg","./mindmap/heat-ch1.svg","./mindmap/heat-ch2.svg","./mindmap/heat-ch3.svg","./mindmap/heat-ch4.svg","./mindmap/heat-ch5.svg","./mindmap/elec-ch14.svg","./mindmap/elec-ch15.svg","./mindmap/elec-ch16.svg","./mindmap/elec-ch18.svg","./mindmap/elec-ch20.svg","./mindmap/control-lap.svg","./mindmap/control-ch1.svg","./mindmap/control-ch2.svg","./mindmap/control-ch3.svg","./mindmap/control-ch4.svg","./mindmap/test-intro.svg","./mindmap/test-ch1.svg","./mindmap/test-ch2.svg","./mindmap/test-ch3.svg","./mindmap/test-ch4.svg"]);
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

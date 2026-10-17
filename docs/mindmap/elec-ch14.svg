@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1051 3026" width="1051" height="3026">
+<title>电工学 · 第十四章 常用半导体器件 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#2f9e44" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#2f9e44">电工学 · 第十四章 常用半导体器件</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 69 个节点 · 与 App 内折叠树同源</text>
+<path d="M312.04600000000005,1581.2200000000005 C339.04600000000005,1581.2200000000005 339.04600000000005,204.77 366.04600000000005,204.77" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,1581.2200000000005 C339.04600000000005,1581.2200000000005 339.04600000000005,675.6700000000002 366.04600000000005,675.6700000000002" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,1581.2200000000005 C339.04600000000005,1581.2200000000005 339.04600000000005,1339.4524999999999 366.04600000000005,1339.4524999999999" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,1581.2200000000005 C339.04600000000005,1581.2200000000005 339.04600000000005,1894.5549999999994 366.04600000000005,1894.5549999999994" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,1581.2200000000005 C339.04600000000005,1581.2200000000005 339.04600000000005,2318.3649999999993 366.04600000000005,2318.3649999999993" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,1581.2200000000005 C339.04600000000005,1581.2200000000005 339.04600000000005,2732.1975 366.04600000000005,2732.1975" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M312.04600000000005,1581.2200000000005 C339.04600000000005,1581.2200000000005 339.04600000000005,2957.670000000001 366.04600000000005,2957.670000000001" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M680.626,204.77 C707.626,204.77 707.626,87.045 734.626,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M680.626,204.77 C707.626,204.77 707.626,134.135 734.626,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M680.626,204.77 C707.626,204.77 707.626,181.22500000000002 734.626,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M680.626,204.77 C707.626,204.77 707.626,228.315 734.626,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M680.626,204.77 C707.626,204.77 707.626,275.40500000000003 734.626,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M680.626,204.77 C707.626,204.77 707.626,322.495 734.626,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,369.58500000000004 734.626,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,416.675 734.626,416.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,463.76500000000004 734.626,463.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,510.8550000000001 734.626,510.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,557.9450000000002 734.626,557.9450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,605.0350000000001 734.626,605.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,652.1250000000001 734.626,652.1250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,699.2150000000001 734.626,699.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,746.3050000000002 734.626,746.3050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,793.3950000000002 734.626,793.3950000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,840.4850000000002 734.626,840.4850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,887.5750000000003 734.626,887.5750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,934.6650000000003 734.626,934.6650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M610.1134000000001,675.6700000000002 C672.3697,675.6700000000002 672.3697,981.7550000000003 734.626,981.7550000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1028.8450000000003 734.626,1028.8450000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1075.9350000000004 734.626,1075.9350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1123.0250000000005 734.626,1123.0250000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1170.1150000000005 734.626,1170.1150000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1217.2050000000004 734.626,1217.2050000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1264.2950000000003 734.626,1264.2950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1311.3850000000002 734.626,1311.3850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1358.4750000000001 734.626,1358.4750000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1405.565 734.626,1405.565" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1452.655 734.626,1452.655" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1499.745 734.626,1499.745" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1546.8349999999998 734.626,1546.8349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1593.9249999999997 734.626,1593.9249999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,1339.4524999999999 C607.2325000000001,1339.4524999999999 607.2325000000001,1650.0599999999995 734.626,1650.0599999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,1706.1949999999997 734.626,1706.1949999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,1753.2849999999996 734.626,1753.2849999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,1800.3749999999995 734.626,1800.3749999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,1847.4649999999995 734.626,1847.4649999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,1894.5549999999994 734.626,1894.5549999999994" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,1941.6449999999993 734.626,1941.6449999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,1988.7349999999992 734.626,1988.7349999999992" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,2035.8249999999991 734.626,2035.8249999999991" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M511.45900000000006,1894.5549999999994 C623.0425,1894.5549999999994 623.0425,2082.914999999999 734.626,2082.914999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2130.0049999999987 734.626,2130.0049999999987" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2177.094999999999 734.626,2177.094999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2224.184999999999 734.626,2224.184999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2271.274999999999 734.626,2271.274999999999" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2318.3649999999993 734.626,2318.3649999999993" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2365.4549999999995 734.626,2365.4549999999995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2412.5449999999996 734.626,2412.5449999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2459.6349999999998 734.626,2459.6349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M574.3828000000001,2318.3649999999993 C654.5044,2318.3649999999993 654.5044,2506.725 734.626,2506.725" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2562.86 734.626,2562.86" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2618.995 734.626,2618.995" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2666.085 734.626,2666.085" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2713.175 734.626,2713.175" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2760.2650000000003 734.626,2760.2650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2807.3550000000005 734.626,2807.3550000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2854.4450000000006 734.626,2854.4450000000006" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M609.481,2732.1975 C672.0535,2732.1975 672.0535,2901.5350000000008 734.626,2901.5350000000008" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M479.83900000000006,2957.670000000001 C607.2325000000001,2957.670000000001 607.2325000000001,2957.670000000001 734.626,2957.670000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="1557.2" width="272.0" height="48.1" rx="11" fill="#2f9e44" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="1584.4" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第十四章 常用半导体器件</text>
+<rect x="366.0" y="174.0" width="314.6" height="61.5" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="381.0" y="196.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">补充：常见电路、电子、电工元器件示意</text>
+<text x="381.0" y="217.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">图</text>
+<rect x="734.6" y="68.0" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="115.1" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="162.2" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="209.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="256.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="303.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="366.0" y="655.3" width="244.1" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="381.0" y="678.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">14.1 半导体的导电特性及PN结</text>
+<rect x="734.6" y="350.5" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="397.6" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="444.7" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="491.8" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="538.9" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="560.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="586.0" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="607.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="633.1" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="654.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="680.2" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="701.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="727.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="748.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="774.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="795.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="821.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="842.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="868.5" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="889.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="915.6" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="936.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="962.7" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="983.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="366.0" y="1319.1" width="113.8" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="381.0" y="1341.8" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">14.2 二极管</text>
+<rect x="734.6" y="1009.8" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1030.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1056.9" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1078.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1104.0" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1125.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1151.1" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1172.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1198.2" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1219.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1245.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1266.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1292.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1313.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1339.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1360.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1386.5" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1407.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1433.6" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1454.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1480.7" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1501.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1527.8" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1548.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1574.9" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1595.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1622.0" width="229.7" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1643.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二极管-电阻-直流源组合电路图</text>
+<text x="749.6" y="1661.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">（无文字说明）</text>
+<rect x="366.0" y="1874.2" width="145.4" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="381.0" y="1896.9" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">14.3 特殊二极管</text>
+<rect x="734.6" y="1687.1" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1708.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1734.2" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1755.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1781.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1802.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1828.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1849.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1875.5" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1896.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1922.6" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1943.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="1969.7" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="1990.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="2016.8" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2037.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="734.6" y="2063.9" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2084.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="366.0" y="2298.0" width="208.3" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="381.0" y="2320.7" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">14.4 双极型(BJT)三极管</text>
+<rect x="734.6" y="2111.0" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2132.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">基本结构：平面型与合金型</text>
+<rect x="734.6" y="2158.0" width="268.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2179.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">NPN 与 PNP 的结构、符号与等效模型</text>
+<rect x="734.6" y="2205.1" width="222.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2226.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">引脚识别与类型判断（箭头法）</text>
+<rect x="734.6" y="2252.2" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2273.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三种工作状态：截止、放大、饱和</text>
+<rect x="734.6" y="2299.3" width="236.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2320.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">放大状态的载流子运动与电流控制</text>
+<rect x="734.6" y="2346.4" width="154.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2367.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">rbₑ 估算公式与 VT</text>
+<rect x="734.6" y="2393.5" width="153.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2414.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">放大信号的三种组态</text>
+<rect x="734.6" y="2440.6" width="270.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2461.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">共射接法的 I-V 特性曲线与三个工作区</text>
+<rect x="734.6" y="2487.7" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2508.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">三种典型连接形式的放大电路</text>
+<rect x="366.0" y="2711.8" width="243.4" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="381.0" y="2734.5" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">14.5 单极型(MOSFET)三极管</text>
+<rect x="734.6" y="2534.8" width="239.2" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2555.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">分类：MOSFET（增强/耗尽）与</text>
+<text x="749.6" y="2573.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">JFET</text>
+<rect x="734.6" y="2599.9" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2621.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">符号判别：箭头与虚实线</text>
+<rect x="734.6" y="2647.0" width="116.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2668.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">NMOS 的结构</text>
+<rect x="734.6" y="2694.1" width="226.4" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2715.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">NMOS 工作原理：从截止到夹断</text>
+<rect x="734.6" y="2741.2" width="225.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2762.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">I-V 特性曲线与大信号特性方程</text>
+<rect x="734.6" y="2788.3" width="195.2" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2809.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">双极型与单极型三极管对照</text>
+<rect x="734.6" y="2835.4" width="164.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2856.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">MOSFET 的主要参数</text>
+<rect x="734.6" y="2882.5" width="181.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2903.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">引脚识别与三种工作状态</text>
+<rect x="366.0" y="2937.3" width="113.8" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="381.0" y="2960.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">14.6 晶闸管</text>
+<rect x="734.6" y="2929.6" width="275.4" height="56.2" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="749.6" y="2950.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">课件仅列节名与 SCR 实物符号，未展开</text>
+<text x="749.6" y="2968.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">原理</text>
+</g>
+</svg>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1041 1748" width="1041" height="1748">
+<title>电工学 · 第二十章 门电路与组合逻辑电路 · 思维导图</title>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#2f9e44" flood-opacity="0.22"/></filter></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="40" y="34" font-size="21" font-weight="800" fill="#2f9e44">电工学 · 第二十章 门电路与组合逻辑电路</text><text x="40" y="54" font-size="12.5" fill="#8b98a8">思维导图 · 共 40 个节点 · 与 App 内折叠树同源</text>
+<path d="M354.886,934.665 C381.886,934.665 381.886,416.67500000000007 408.886,416.67500000000007" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,934.665 C381.886,934.665 381.886,864.0300000000002 408.886,864.0300000000002" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,934.665 C381.886,934.665 381.886,1075.9350000000004 408.886,1075.9350000000004" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M354.886,934.665 C381.886,934.665 381.886,1452.655 408.886,1452.655" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,87.045 722.7634,87.045" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,134.135 722.7634,134.135" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,181.22500000000002 722.7634,181.22500000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,228.315 722.7634,228.315" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,275.40500000000003 722.7634,275.40500000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,322.495 722.7634,322.495" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,369.58500000000004 722.7634,369.58500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,416.675 722.7634,416.675" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,463.76500000000004 722.7634,463.76500000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,510.8550000000001 722.7634,510.8550000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,557.9450000000002 722.7634,557.9450000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,605.0350000000001 722.7634,605.0350000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,652.1250000000001 722.7634,652.1250000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,699.2150000000001 722.7634,699.2150000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M617.539,416.67500000000007 C670.1512,416.67500000000007 670.1512,746.3050000000002 722.7634,746.3050000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.0934,864.0300000000002 C640.4284,864.0300000000002 640.4284,793.3950000000002 722.7634,793.3950000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.0934,864.0300000000002 C640.4284,864.0300000000002 640.4284,840.4850000000002 722.7634,840.4850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.0934,864.0300000000002 C640.4284,864.0300000000002 640.4284,887.5750000000003 722.7634,887.5750000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M558.0934,864.0300000000002 C640.4284,864.0300000000002 640.4284,934.6650000000003 722.7634,934.6650000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M668.7634,1075.9350000000004 C695.7634,1075.9350000000004 695.7634,981.7550000000003 722.7634,981.7550000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M668.7634,1075.9350000000004 C695.7634,1075.9350000000004 695.7634,1028.8450000000003 722.7634,1028.8450000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M668.7634,1075.9350000000004 C695.7634,1075.9350000000004 695.7634,1075.9350000000004 722.7634,1075.9350000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M668.7634,1075.9350000000004 C695.7634,1075.9350000000004 695.7634,1123.0250000000005 722.7634,1123.0250000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M668.7634,1075.9350000000004 C695.7634,1075.9350000000004 695.7634,1170.1150000000005 722.7634,1170.1150000000005" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1217.2050000000004 722.7634,1217.2050000000004" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1264.2950000000003 722.7634,1264.2950000000003" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1311.3850000000002 722.7634,1311.3850000000002" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1358.4750000000001 722.7634,1358.4750000000001" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1405.565 722.7634,1405.565" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1452.655 722.7634,1452.655" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1499.745 722.7634,1499.745" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1546.8349999999998 722.7634,1546.8349999999998" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1593.9249999999997 722.7634,1593.9249999999997" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1641.0149999999996 722.7634,1641.0149999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M565.366,1452.655 C644.0647,1452.655 644.0647,1688.1049999999996 722.7634,1688.1049999999996" fill="none" stroke="#cfd9e4" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40.0" y="896.5" width="314.9" height="76.3" rx="11" fill="#2f9e44" stroke="none" filter="url(#sh)"/>
+<text x="55.0" y="923.7" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">第二十章 门电路与组合逻辑电</text>
+<text x="55.0" y="951.9" font-size="21" font-weight="700" fill="#ffffff" xml:space="preserve">路</text>
+<rect x="408.9" y="396.3" width="208.7" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="423.9" y="419.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">20.1 逻辑代数与逻辑函数</text>
+<rect x="722.8" y="68.0" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="89.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="115.1" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="136.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="162.2" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="183.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="209.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="230.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="256.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="277.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="303.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="324.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="350.5" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="371.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="397.6" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="418.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="444.7" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="465.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="491.8" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="512.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="538.9" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="560.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="586.0" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="607.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="633.1" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="654.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="680.2" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="701.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="727.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="748.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="408.9" y="843.6" width="149.2" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="423.9" y="866.4" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">20.2 逻辑门电路</text>
+<rect x="722.8" y="774.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="795.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="821.4" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="842.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="868.5" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="889.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="915.6" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="936.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="408.9" y="1055.6" width="259.9" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="423.9" y="1078.3" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">20.3 组合逻辑电路的分析与设计</text>
+<rect x="722.8" y="962.7" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="983.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="1009.8" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1030.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="1056.9" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1078.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="1104.0" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1125.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="1151.1" width="277.9" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1172.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">组合逻辑电路分析练习图（待填真值表）</text>
+<rect x="408.9" y="1432.3" width="156.5" height="40.8" rx="9" fill="#ffffff" stroke="#2f9e44" stroke-width="1.6"/>
+<text x="423.9" y="1455.0" font-size="15.5" font-weight="700" fill="#1b2430" xml:space="preserve">常用组合逻辑器件</text>
+<rect x="722.8" y="1198.2" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1219.2" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="1245.3" width="30.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1266.3" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve"></text>
+<rect x="722.8" y="1292.3" width="275.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1313.4" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">10-4 线优先编码器 74147（输出反码）</text>
+<rect x="722.8" y="1339.4" width="265.1" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1360.5" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">8-3 线优先编码器 4532（输出原码）</text>
+<rect x="722.8" y="1386.5" width="193.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1407.6" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">BCD-十进制译码器 74141</text>
+<rect x="722.8" y="1433.6" width="166.5" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1454.7" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">译码器/分配器 74139</text>
+<rect x="722.8" y="1480.7" width="207.8" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1501.8" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">二进制译码器/分配器 74138</text>
+<rect x="722.8" y="1527.8" width="209.0" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1548.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">七段半导体发光二极管显示器</text>
+<rect x="722.8" y="1574.9" width="260.6" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1595.9" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">BCD-7 段显示译码器 7448 与 7447</text>
+<rect x="722.8" y="1622.0" width="229.7" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1643.0" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数据选择器（2选1/4选1/8选1）</text>
+<rect x="722.8" y="1669.1" width="250.3" height="38.1" rx="8" fill="#f7f9fc" stroke="#e3e9f0" stroke-width="1.6"/>
+<text x="737.8" y="1690.1" font-size="13.5" font-weight="600" fill="#33414f" xml:space="preserve">数据选择器与数据分配器的信息传输</text>
+</g>
+</svg>
